@@ -1,0 +1,59 @@
+<nav class="ty-nav">
+<div class="ty-nav-in">
+<a href="/"><img alt="Premier Mobile Detailing" src="/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp"/></a>
+<div class="ty-nav-links">
+<a href="/#services">Services</a>
+<a href="/gallery">Gallery</a>
+<a href="/about">About</a>
+<a href="/warranties">Warranties</a>
+</div>
+<a class="ty-cta" href="/">Home</a>
+</div>
+</nav><main class="ty-main">
+<div class="ty-wrap">
+<div class="ty-card">
+<img alt="Premier Mobile Detailing" class="ty-logo" src="/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp"/>
+<svg aria-hidden="true" class="ty-check" viewbox="0 0 100 100">
+<circle cx="50" cy="50" r="45"></circle>
+<path d="M30 51 L44 65 L71 36"></path>
+</svg>
+<p class="ty-eyebrow">Booking Request Received</p>
+<h1 class="ty-title">Thank you<span id="ty-name"></span> — you’re all set.</h1>
+<p class="ty-lead">Your booking request has come through. Daniel will personally reach out shortly to confirm your time and lock it in — keep an eye on your phone.</p>
+<span class="ty-svc" hidden="" id="ty-svc"></span>
+<div class="ty-steps">
+<div class="ty-step"><b>01</b><p>We review your details and check availability.</p></div>
+<div class="ty-step"><b>02</b><p>We call or text you to confirm your booking slot.</p></div>
+<div class="ty-step"><b>03</b><p>We arrive and make your car look its absolute best.</p></div>
+</div>
+<div class="ty-actions">
+<a class="ty-btn ty-btn-primary" href="tel:0411566186">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call 0411 566 186
+          </a>
+<a class="ty-btn ty-btn-ghost" href="mailto:info@premiermobiledetailing.com.au">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="m22 7-10 5L2 7"></path></svg>
+            Email us
+          </a>
+</div>
+<a class="ty-home" href="/">← Back to home</a>
+</div>
+</div>
+</main>
+<script>
+    (function () {
+      // Personalise from the booking form (sessionStorage set right before redirect)
+      try {
+        var n = sessionStorage.getItem('pmd_lead_name');
+        if (n) { var f = n.trim().split(/\s+/)[0]; if (f) document.getElementById('ty-name').textContent = ', ' + f; }
+        var s = sessionStorage.getItem('pmd_lead_service');
+        if (s) { var el = document.getElementById('ty-svc'); el.textContent = 'Requested: ' + s; el.hidden = false; }
+        sessionStorage.removeItem('pmd_lead_name');
+        sessionStorage.removeItem('pmd_lead_service');
+      } catch (e) {}
+      // Conversion tracking — fire only if a pixel/tag is already present (safe no-ops otherwise)
+      // Lead conversion is handled via Google Tag Manager (fired off the generate_lead dataLayer event).
+      try { if (window.gtag) gtag('event', 'conversion', { event_category: 'booking', event_label: 'booking_form' }); } catch (e) {}
+      try { if (window.dataLayer) window.dataLayer.push({ event: 'generate_lead' }); } catch (e) {}
+    })();
+  </script>

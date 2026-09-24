@@ -1,0 +1,88 @@
+ 23.1% diff  bake_h= 1975 dist_h= 1975  /gallery
+ 18.8% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/bayswater  <-- 404 https://premiermobiledetailing.com.au/mobile-detailing/marker-icon.png; 404 https://premiermobiledetailing.com.au/mobile-detailing/marker-shadow.png
+ 15.7% diff  bake_h= 8614 dist_h= 8614  /mobile-detailing/botanic-ridge
+ 15.5% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/boronia  <-- 404 https://premiermobiledetailing.com.au/mobile-detailing/marker-icon.png; 404 https://premiermobiledetailing.com.au/mobile-detailing/marker-shadow.png
+ 14.7% diff  bake_h= 8703 dist_h= 8703  /mobile-detailing/berwick
+ 14.5% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/dandenong-south
+ 13.2% diff  bake_h= 8712 dist_h= 8712  /mobile-detailing/beaconsfield
+ 12.7% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/keysborough
+ 12.2% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/rowville
+ 12.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/warragul
+ 10.9% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/clyde
+ 10.8% diff  bake_h= 8712 dist_h= 8712  /mobile-detailing/officer
+ 10.8% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/glen-waverley
+ 10.7% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/mount-eliza
+ 10.7% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/narre-warren-north
+ 10.7% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/frankston
+ 10.5% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/lynbrook
+ 10.3% diff  bake_h= 8544 dist_h= 8544  /mobile-detailing/emerald
+ 10.2% diff  bake_h= 8703 dist_h= 8703  /mobile-detailing/clyde-north
+ 10.1% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/cranbourne
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/springvale  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/skye
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/seaford
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/oakleigh
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/mulgrave  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/koo-wee-rup
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/hampton-park
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/dingley-village  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/noble-park
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/pearcedale
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/wheelers-hill
+ 10.1% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/patterson-lakes
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/mornington
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/somerville  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/devon-meadows
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/endeavour-hills
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/ferntree-gully
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/mount-waverley
+ 10.0% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/harkaway
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/clayton  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.0% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/narre-warren  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/lysterfield
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/dandenong  <-- https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp
+ 10.0% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/cardinia
+  9.9% diff  bake_h= 8614 dist_h= 8614  /mobile-detailing/knoxfield
+  9.9% diff  bake_h= 8614 dist_h= 8614  /mobile-detailing/tooradin
+  9.9% diff  bake_h= 8614 dist_h= 8614  /mobile-detailing/scoresby
+  9.9% diff  bake_h= 8614 dist_h= 8614  /mobile-detailing/sandhurst
+  9.9% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/drouin
+  8.9% diff  bake_h= 8703 dist_h= 8703  /mobile-detailing/lyndhurst
+  8.5% diff  bake_h= 4340 dist_h= 4340  /privacy-policy
+  7.8% diff  bake_h= 8679 dist_h= 8679  /mobile-detailing/narre-warren-south
+  7.7% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/hallam
+  7.7% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/langwarrin
+  7.7% diff  bake_h= 8647 dist_h= 8647  /mobile-detailing/carrum-downs
+  7.3% diff  bake_h=  970 dist_h=  970  /thank-you
+  5.8% diff  bake_h= 8712 dist_h= 8712  /mobile-detailing/pakenham
+  3.4% diff  bake_h= 6064 dist_h= 6064  /services/paint-enhancement
+  3.4% diff  bake_h= 6941 dist_h= 6941  /services/ceramic-coating
+  2.8% diff  bake_h= 6499 dist_h= 6499  /services/full-detail
+  2.4% diff  bake_h= 6762 dist_h= 6762  /services/paint-correction
+  0.6% diff  bake_h=10758 dist_h=10758  /
+  0.5% diff  bake_h= 5741 dist_h= 5741  /ceramic-coating-melbourne  <-- 404 https://premiermobiledetailing.com.au/coating/stage-1.jpg; 404 https://premiermobiledetailing.com.au/coating/stage-2.jpg; 404 https://premiermobiledetailing.com.au/coating/stage-3.jpg; 404 https://premiermobiledetailing.com.au/coating/stage-4.jpg; 404 https://premiermobiledetailing.com.au/coating/stage-1.mp4
+  0.4% diff  bake_h= 5066 dist_h= 5066  /ceramic-coating-tesla-melbourne
+  0.4% diff  bake_h= 4217 dist_h= 4217  /automotive-window-tinting-melbourne
+  0.3% diff  bake_h= 1738 dist_h= 1738  /about
+  0.3% diff  bake_h= 3512 dist_h= 3512  /commercial-tinting-questions
+  0.2% diff  bake_h= 3512 dist_h= 3512  /residential-tinting-questions
+  0.2% diff  bake_h= 3574 dist_h= 3574  /ceramic-vs-dealer-paint-protection-melbourne
+  0.2% diff  bake_h= 4991 dist_h= 4991  /warranties
+  0.2% diff  bake_h= 3630 dist_h= 3630  /automotive-tinting-questions
+  0.2% diff  bake_h= 4231 dist_h= 4231  /ceramic-coating-cost-melbourne
+  0.2% diff  bake_h= 4054 dist_h= 4054  /product-tds
+  0.1% diff  bake_h= 3959 dist_h= 3959  /sitemap
+  0.0% diff  bake_h= 1285 dist_h= 1285  /booking
+  0.0% diff  bake_h= 3636 dist_h= 3636  /ceramic-coating-wheels-melbourne
+  0.0% diff  bake_h= 3688 dist_h= 3688  /residential-window-tinting-melbourne
+  0.0% diff  bake_h= 3692 dist_h= 3692  /ceramic-glass-coating-melbourne
+  0.0% diff  bake_h= 3784 dist_h= 3784  /ceramic-coating-questions
+  0.0% diff  bake_h= 4015 dist_h= 4015  /ceramic-coating-maintenance-melbourne
+  0.0% diff  bake_h= 3712 dist_h= 3712  /ceramic-coating-new-car-melbourne
+  0.0% diff  bake_h= 3660 dist_h= 3660  /ceramic-coating-matte-paint-melbourne
+  0.0% diff  bake_h= 4071 dist_h= 4071  /ceramic-coating-longevity-melbourne
+  0.0% diff  bake_h= 3692 dist_h= 3692  /ceramic-coating-near-me-melbourne
+  0.0% diff  bake_h= 4117 dist_h= 4117  /ceramic-coating-paint-correction-melbourne
+  0.0% diff  bake_h= 3660 dist_h= 3660  /ceramic-coating-resale-melbourne
+  0.0% diff  bake_h= 3716 dist_h= 3716  /ceramic-coating-uv-melbourne
+  0.0% diff  bake_h= 3622 dist_h= 3622  /commercial-window-tinting-melbourne

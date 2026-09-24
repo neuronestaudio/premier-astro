@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/about.html?raw';
+const page = {
+  "title": "About Premier Mobile Detailing | Melbourne's Trusted Detailers",
+  "description": "Learn about Premier Mobile Detailing, South East Melbourne's trusted mobile car detailing and ceramic coating specialists.",
+  "canonical": "https://premiermobiledetailing.com.au/about",
+  "robots": null,
+  "og": {
+    "title": "About Premier Mobile Detailing | Melbourne's Trusted Detailers",
+    "description": "Learn about Premier Mobile Detailing, South East Melbourne's trusted mobile car detailing and ceramic coating specialists.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/4d675fa6-7fb4-4331-bae5-291ba87f1cde.jpg",
+    "url": "https://premiermobiledetailing.com.au/about"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "About Premier Mobile Detailing | Melbourne's Trusted Detailers",
+    "description": "Learn about Premier Mobile Detailing, South East Melbourne's trusted mobile car detailing and ceramic coating specialists.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/4d675fa6-7fb4-4331-bae5-291ba87f1cde.jpg"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About Premier Mobile Detailing"
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": "min-h-screen bg-background text-foreground selection:bg-primary/30 relative",
+  "header": "page",
+  "footer": "compact",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

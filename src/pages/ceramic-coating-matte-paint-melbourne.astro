@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-matte-paint-melbourne.html?raw';
+const page = {
+  "title": "Ceramic Coating for Matte Paint Melbourne | Premier Mobile Detailing",
+  "description": "Ceramic coating for matte and satin paint in Melbourne — protect and easy-clean your matte finish without adding gloss. Matte-safe coatings, applied correctly.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-matte-paint-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Ceramic Coating for Matte Paint Melbourne | Premier Mobile Detailing",
+    "description": "Ceramic coating for matte and satin paint in Melbourne — protect and easy-clean your matte finish without adding gloss. Matte-safe coatings, applied correctly.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-matte-paint-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Matte Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-matte-paint-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you ceramic coat matte paint?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — but only with a dedicated matte-safe coating. A standard gloss coating would add shine and ruin the matte look."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it make my matte car shiny?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A proper matte coating keeps the finish completely flat while adding protection and easy-clean properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is matte harder to look after?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — you can't polish out marks like you can on gloss, so protection and correct wash technique are essential. A coating helps a lot."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

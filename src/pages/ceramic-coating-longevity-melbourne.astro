@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-longevity-melbourne.html?raw';
+const page = {
+  "title": "How Long Does Ceramic Coating Last? Melbourne | Premier Mobile Detailing",
+  "description": "How long does ceramic coating last in Melbourne? From 12 months for a spray ceramic to 5+ years for a multi-layer GYEON or ONYX system — and what affects it.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-longevity-melbourne",
+  "robots": null,
+  "og": {
+    "title": "How Long Does Ceramic Coating Last? Melbourne | Premier Mobile Detailing",
+    "description": "How long does ceramic coating last in Melbourne? From 12 months for a spray ceramic to 5+ years for a multi-layer GYEON or ONYX system — and what affects it.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-longevity-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-longevity-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does ceramic coating last forever?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most coatings have a rated life (1–5+ years). ONYX offers a lifetime warranty program, but that requires ongoing annual maintenance to stay valid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What shortens a coating's life?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Automatic brush washes, harsh chemicals, poor wash technique and never topping it up. Correct maintenance is everything."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you top up an existing coating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — a ceramic booster refreshes hydrophobics and extends the life of your coating between full services."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

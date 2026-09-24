@@ -1,0 +1,3221 @@
+[
+  {
+    "slug": "bayswater",
+    "name": "Bayswater",
+    "intro": "Bayswater’s industrial pockets alongside residential streets mean some vehicles here pick up more airborne particulates than average, especially those parked or driven near the business areas. Our decontamination process handles that before any machine polishing begins.",
+    "focus": "Full decontamination and detail for vehicles near industrial areas.",
+    "nearby": [
+      [
+        "/mobile-detailing/bayswater-north",
+        "Bayswater North"
+      ],
+      [
+        "/mobile-detailing/boronia",
+        "Boronia"
+      ],
+      [
+        "/mobile-detailing/wantirna",
+        "Wantirna"
+      ],
+      [
+        "/mobile-detailing/croydon-south",
+        "Croydon South"
+      ],
+      [
+        "/mobile-detailing/heathmont",
+        "Heathmont"
+      ]
+    ],
+    "title": "Mobile Car Detailing Bayswater | Premier Mobile Detailing",
+    "description": "Mobile detailing in Bayswater — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Bayswater | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Bayswater — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/bayswater"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Bayswater | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Bayswater — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Bayswater",
+        "description": "Premium mobile car detailing and ceramic coating services in Bayswater. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/bayswater",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "beaconsfield",
+    "name": "Beaconsfield",
+    "intro": "Beaconsfield’s mix of established tree-lined streets and newer developments means we see everything from long-term oxidation on older paint to fresh estate cars needing first-time protection. Being close to the Beaconsfield Racecourse and surrounding parkland, tree sap and bird droppings are a common issue we deal with as part of our decontamination process before any polishing begins.",
+    "focus": "Paint correction for swirl marks built up on daily-driven family cars.",
+    "nearby": [
+      [
+        "/mobile-detailing/officer",
+        "Officer"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ],
+      [
+        "/mobile-detailing/harkaway",
+        "Harkaway"
+      ],
+      [
+        "/mobile-detailing/guys-hill",
+        "Guys Hill"
+      ],
+      [
+        "/mobile-detailing/pakenham",
+        "Pakenham"
+      ]
+    ],
+    "title": "Mobile Car Detailing Beaconsfield | Premier Mobile Detailing",
+    "description": "Mobile detailing in Beaconsfield — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Beaconsfield | Paint Correction & Ceramic Coating",
+      "description": "Mobile detailing in Beaconsfield — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/beaconsfield"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Beaconsfield | Paint Correction & Ceramic Coating",
+      "description": "Mobile detailing in Beaconsfield — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Beaconsfield",
+        "description": "Premium mobile car detailing and ceramic coating services in Beaconsfield. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/beaconsfield",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "berwick",
+    "name": "Berwick",
+    "intro": "Berwick’s older, tree-lined streets and established gardens mean plenty of sap, dust and leaf litter finding its way onto paintwork, especially around the Wilson Botanic Park area. We detail cars at homes and workplaces right across Berwick, from the Village through to the newer estates on its fringes, with no need to drop your car off anywhere.",
+    "focus": "Full interior/exterior details for family cars, and ceramic coating for buyers protecting a driveway investment.",
+    "nearby": [
+      [
+        "/mobile-detailing/beaconsfield",
+        "Beaconsfield"
+      ],
+      [
+        "/mobile-detailing/narre-warren",
+        "Narre Warren"
+      ],
+      [
+        "/mobile-detailing/harkaway",
+        "Harkaway"
+      ],
+      [
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
+      ],
+      [
+        "/mobile-detailing/officer",
+        "Officer"
+      ]
+    ],
+    "title": "Mobile Car Detailing Berwick | Premier Mobile Detailing",
+    "description": "Mobile detailing and ceramic coating in Berwick. We come to your home or workplace — no drop-off. From $385. Call 0411 566 186.",
+    "og": {
+      "title": "Mobile Car Detailing Berwick | Ceramic Coating at Your Door",
+      "description": "Mobile detailing and ceramic coating in Berwick. We come to your home or workplace — no drop-off. From $385. Call 0411 566 186.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/berwick"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Berwick | Ceramic Coating at Your Door",
+      "description": "Mobile detailing and ceramic coating in Berwick. We come to your home or workplace — no drop-off. From $385. Call 0411 566 186.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Berwick",
+        "description": "Premium mobile car detailing and ceramic coating services in Berwick. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/berwick",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "boronia",
+    "name": "Boronia",
+    "intro": "Boronia’s leafy streets near the foothills mean similar conditions to nearby Ferntree Gully — sap and organic debris build up quickly on cars left outdoors. We treat that properly as part of every detail here, not just a surface wipe-down.",
+    "focus": "Decontamination for sap and foliage debris on outdoor-parked vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/ferntree-gully",
+        "Ferntree Gully"
+      ],
+      [
+        "/mobile-detailing/bayswater",
+        "Bayswater"
+      ],
+      [
+        "/mobile-detailing/knoxfield",
+        "Knoxfield"
+      ],
+      [
+        "/mobile-detailing/the-basin",
+        "The Basin"
+      ],
+      [
+        "/mobile-detailing/wantirna-south",
+        "Wantirna South"
+      ]
+    ],
+    "title": "Mobile Car Detailing Boronia | Premier Mobile Detailing",
+    "description": "Mobile detailing in Boronia — ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Boronia | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Boronia — ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/boronia"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Boronia | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Boronia — ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Boronia",
+        "description": "Premium mobile car detailing and ceramic coating services in Boronia. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/boronia",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "botanic-ridge",
+    "name": "Botanic Ridge",
+    "intro": "Botanic Ridge is a newer estate area, so most of the vehicles we see here are relatively young — making it a good time to get ceramic coating done before daily driving and nearby construction dust take hold.",
+    "focus": "Ceramic coating on newer vehicles in a growing estate area.",
+    "nearby": [
+      [
+        "/mobile-detailing/cranbourne-south",
+        "Cranbourne South"
+      ],
+      [
+        "/mobile-detailing/junction-village",
+        "Junction Village"
+      ],
+      [
+        "/mobile-detailing/cranbourne",
+        "Cranbourne"
+      ],
+      [
+        "/mobile-detailing/devon-meadows",
+        "Devon Meadows"
+      ],
+      [
+        "/mobile-detailing/pearcedale",
+        "Pearcedale"
+      ]
+    ],
+    "title": "Mobile Car Detailing Botanic Ridge | Premier Mobile Detailing",
+    "description": "Mobile detailing in Botanic Ridge — full details, paint correction and ceramic coating done at your home. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Botanic Ridge | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Botanic Ridge — full details, paint correction and ceramic coating done at your home. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/botanic-ridge"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Botanic Ridge | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Botanic Ridge — full details, paint correction and ceramic coating done at your home. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Botanic Ridge",
+        "description": "Premium mobile car detailing and ceramic coating services in Botanic Ridge. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/botanic-ridge",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "cardinia",
+    "name": "Cardinia",
+    "intro": "Cardinia’s semi-rural setting means we regularly deal with dust, dirt and tree sap that’s had time to bond to paintwork — especially on vehicles that spend a lot of time parked outdoors rather than garaged. A thorough decontamination step is standard here before any machine work starts.",
+    "focus": "Paint correction for long-term dust and sap buildup on outdoor-parked vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/officer-south",
+        "Officer South"
+      ],
+      [
+        "/mobile-detailing/pakenham",
+        "Pakenham"
+      ],
+      [
+        "/mobile-detailing/koo-wee-rup",
+        "Koo Wee Rup"
+      ],
+      [
+        "/mobile-detailing/clyde",
+        "Clyde"
+      ],
+      [
+        "/mobile-detailing/rythdale",
+        "Rythdale"
+      ]
+    ],
+    "title": "Mobile Car Detailing Cardinia | Ceramic Coating & Full Detail",
+    "description": "Mobile detailing in Cardinia — ceramic coating, paint correction and full interior/exterior details at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Cardinia | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Cardinia — ceramic coating, paint correction and full interior/exterior details at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/cardinia"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Cardinia | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Cardinia — ceramic coating, paint correction and full interior/exterior details at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Cardinia",
+        "description": "Premium mobile car detailing and ceramic coating services in Cardinia. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/cardinia",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "carrum-downs",
+    "name": "Carrum Downs",
+    "intro": "Carrum Downs sits close enough to the coast that salt air is a real factor in paint condition here, alongside regular commuter road grime. We combine proper decontamination with ceramic coating for anyone wanting longer-term protection against both.",
+    "focus": "Ceramic coating for combined salt air and daily driving protection.",
+    "nearby": [
+      [
+        "/mobile-detailing/seaford",
+        "Seaford"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ],
+      [
+        "/mobile-detailing/frankston-north",
+        "Frankston North"
+      ],
+      [
+        "/mobile-detailing/patterson-lakes",
+        "Patterson Lakes"
+      ],
+      [
+        "/mobile-detailing/sandhurst",
+        "Sandhurst"
+      ]
+    ],
+    "title": "Mobile Car Detailing Carrum Downs | Premier Mobile Detailing",
+    "description": "Mobile detailing in Carrum Downs. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Carrum Downs | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Carrum Downs. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/carrum-downs"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Carrum Downs | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Carrum Downs. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Carrum Downs",
+        "description": "Premium mobile car detailing and ceramic coating services in Carrum Downs. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/carrum-downs",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "clayton",
+    "name": "Clayton",
+    "intro": "Clayton’s mix of family homes and proximity to Monash University means a real variety of vehicles — from daily student runabouts needing a budget-friendly clean to family cars overdue for a proper detail. We tailor the service level to what the car actually needs.",
+    "focus": "Full details and ceramic coating across a wide range of vehicle types.",
+    "nearby": [
+      [
+        "/mobile-detailing/clayton-south",
+        "Clayton South"
+      ],
+      [
+        "/mobile-detailing/notting-hill",
+        "Notting Hill"
+      ],
+      [
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
+      ],
+      [
+        "/mobile-detailing/oakleigh-south",
+        "Oakleigh South"
+      ],
+      [
+        "/mobile-detailing/springvale",
+        "Springvale"
+      ]
+    ],
+    "title": "Mobile Car Detailing Clayton | Ceramic Coating at Your Door",
+    "description": "Mobile detailing in Clayton — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Clayton | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Clayton — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/clayton"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Clayton | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Clayton — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Clayton",
+        "description": "Premium mobile car detailing and ceramic coating services in Clayton. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/clayton",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "clyde",
+    "name": "Clyde",
+    "intro": "Clyde is still developing fast, with new roads and estates going in regularly — which means plenty of construction dust and loose grit in the air that ends up on parked cars. We treat that as a standard part of the job here: a thorough decontamination wash before anything else, so polishing doesn’t drag debris across the clear coat.",
+    "focus": "Ceramic coating on newly delivered vehicles before daily estate-road driving begins.",
+    "nearby": [
+      [
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
+      ],
+      [
+        "/mobile-detailing/cranbourne",
+        "Cranbourne"
+      ],
+      [
+        "/mobile-detailing/cranbourne-east",
+        "Cranbourne East"
+      ],
+      [
+        "/mobile-detailing/officer-south",
+        "Officer South"
+      ],
+      [
+        "/mobile-detailing/devon-meadows",
+        "Devon Meadows"
+      ]
+    ],
+    "title": "Mobile Car Detailing Clyde | Premier Mobile Detailing",
+    "description": "Mobile detailing in Clyde — ceramic coating, paint correction and full details, done at home or work. From $385. Call 0411 566 186.",
+    "og": {
+      "title": "Mobile Car Detailing Clyde | Full Detail & Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Clyde — ceramic coating, paint correction and full details, done at home or work. From $385. Call 0411 566 186.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/clyde"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Clyde | Full Detail & Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Clyde — ceramic coating, paint correction and full details, done at home or work. From $385. Call 0411 566 186.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Clyde",
+        "description": "Premium mobile car detailing and ceramic coating services in Clyde. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/clyde",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "clyde-north",
+    "name": "Clyde North",
+    "intro": "Clyde North is one of the fastest-growing pockets of South East Melbourne, with a lot of driveways here still new — meaning fresh paint that’s well worth protecting before daily wear sets in. New estate roads mean construction dust and concrete overspray are common, one of the main issues we tackle with a full decontamination wash before polishing.",
+    "focus": "Ceramic coating straight after new car handover, paint correction for fine construction dust.",
+    "nearby": [
+      [
+        "/mobile-detailing/clyde",
+        "Clyde"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ],
+      [
+        "/mobile-detailing/cranbourne-north",
+        "Cranbourne North"
+      ],
+      [
+        "/mobile-detailing/officer",
+        "Officer"
+      ],
+      [
+        "/mobile-detailing/narre-warren-south",
+        "Narre Warren South"
+      ]
+    ],
+    "title": "Mobile Car Detailing Clyde North | Premier Mobile Detailing",
+    "description": "Mobile detailing in Clyde North — ceramic coating, paint correction, full details at your home or office. From $385. Book online or call.",
+    "og": {
+      "title": "Mobile Car Detailing Clyde North | Paint Protection & Ceramic Coating",
+      "description": "Mobile detailing in Clyde North — ceramic coating, paint correction, full details at your home or office. From $385. Book online or call.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/clyde-north"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Clyde North | Paint Protection & Ceramic Coating",
+      "description": "Mobile detailing in Clyde North — ceramic coating, paint correction, full details at your home or office. From $385. Book online or call.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Clyde North",
+        "description": "Premium mobile car detailing and ceramic coating services in Clyde North. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/clyde-north",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "cranbourne",
+    "name": "Cranbourne",
+    "intro": "Cranbourne covers a lot of ground — from established homes near the Botanic Gardens through to newer estates further out — so no two jobs here look the same. We adjust our approach depending on the car and the area: heavier decontamination for older paint that’s picked up years of grime, lighter prep for newer vehicles going straight to ceramic coating.",
+    "focus": "Full details for family vehicles, ceramic coating for tradies wanting easier weekly cleanups.",
+    "nearby": [
+      [
+        "/mobile-detailing/cranbourne-east",
+        "Cranbourne East"
+      ],
+      [
+        "/mobile-detailing/cranbourne-west",
+        "Cranbourne West"
+      ],
+      [
+        "/mobile-detailing/cranbourne-north",
+        "Cranbourne North"
+      ],
+      [
+        "/mobile-detailing/clyde",
+        "Clyde"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ]
+    ],
+    "title": "Mobile Car Detailing Cranbourne | Premier Mobile Detailing",
+    "description": "Mobile car detailing in Cranbourne. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Cranbourne | Ceramic Coating & Full Detail",
+      "description": "Mobile car detailing in Cranbourne. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/cranbourne"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Cranbourne | Ceramic Coating & Full Detail",
+      "description": "Mobile car detailing in Cranbourne. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Cranbourne",
+        "description": "Premium mobile car detailing and ceramic coating services in Cranbourne. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/cranbourne",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "dandenong",
+    "name": "Dandenong",
+    "intro": "Dandenong’s mix of residential streets and nearby industrial areas means road grime and airborne particulates build up faster on parked cars here than in quieter suburbs. We treat that as standard — a full decontamination wash before polishing, so we’re not just moving grit around the panel.",
+    "focus": "Full exterior details for commuter vehicles picking up daily road film.",
+    "nearby": [
+      [
+        "/mobile-detailing/dandenong-south",
+        "Dandenong South"
+      ],
+      [
+        "/mobile-detailing/dandenong-north",
+        "Dandenong North"
+      ],
+      [
+        "/mobile-detailing/keysborough",
+        "Keysborough"
+      ],
+      [
+        "/mobile-detailing/noble-park",
+        "Noble Park"
+      ],
+      [
+        "/mobile-detailing/doveton",
+        "Doveton"
+      ]
+    ],
+    "title": "Mobile Car Detailing Dandenong | Ceramic Coating & Full Detail",
+    "description": "Mobile detailing in Dandenong — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Dandenong | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Dandenong — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/dandenong"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Dandenong | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Dandenong — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Dandenong",
+        "description": "Premium mobile car detailing and ceramic coating services in Dandenong. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/dandenong",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "dandenong-south",
+    "name": "Dandenong South",
+    "intro": "Dandenong South’s industrial base means we do a lot of work vehicles here — utes, vans and fleet cars that pick up brake dust, industrial residue and heavy grime through daily use. We come to depots and workplaces directly, so vehicles don’t need to be taken off-site during work hours.",
+    "focus": "Fleet and work vehicle details, ceramic coating for easier ongoing maintenance.",
+    "nearby": [
+      [
+        "/mobile-detailing/dandenong",
+        "Dandenong"
+      ],
+      [
+        "/mobile-detailing/keysborough",
+        "Keysborough"
+      ],
+      [
+        "/mobile-detailing/lynbrook",
+        "Lynbrook"
+      ],
+      [
+        "/mobile-detailing/lyndhurst",
+        "Lyndhurst"
+      ],
+      [
+        "/mobile-detailing/bangholme",
+        "Bangholme"
+      ]
+    ],
+    "title": "Mobile Car Detailing Dandenong South | Truck & Fleet Detailing Available",
+    "description": "Mobile detailing in Dandenong South — cars, utes and fleet vehicles detailed at your workplace. Ceramic coating and full details from $385.",
+    "og": {
+      "title": "Mobile Car Detailing Dandenong South | Truck & Fleet Detailing Available",
+      "description": "Mobile detailing in Dandenong South — cars, utes and fleet vehicles detailed at your workplace. Ceramic coating and full details from $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/dandenong-south"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Dandenong South | Truck & Fleet Detailing Available",
+      "description": "Mobile detailing in Dandenong South — cars, utes and fleet vehicles detailed at your workplace. Ceramic coating and full details from $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Dandenong South",
+        "description": "Premium mobile car detailing and ceramic coating services in Dandenong South. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/dandenong-south",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "devon-meadows",
+    "name": "Devon Meadows",
+    "intro": "Devon Meadows’ rural and semi-rural properties mean longer driveways and more outdoor parking than tighter suburban streets, which shows up as extra dust and organic buildup on the cars we detail here. We come fully equipped, wherever your property is set up.",
+    "focus": "Full decontamination and detail for vehicles parked outdoors on larger blocks.",
+    "nearby": [
+      [
+        "/mobile-detailing/clyde",
+        "Clyde"
+      ],
+      [
+        "/mobile-detailing/cranbourne-south",
+        "Cranbourne South"
+      ],
+      [
+        "/mobile-detailing/pearcedale",
+        "Pearcedale"
+      ],
+      [
+        "/mobile-detailing/junction-village",
+        "Junction Village"
+      ],
+      [
+        "/mobile-detailing/blind-bight",
+        "Blind Bight"
+      ]
+    ],
+    "title": "Mobile Car Detailing Devon Meadows | Ceramic Coating & Full Detail",
+    "description": "Mobile detailing in Devon Meadows. Ceramic coating, paint correction and full details, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Devon Meadows | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Devon Meadows. Ceramic coating, paint correction and full details, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/devon-meadows"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Devon Meadows | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Devon Meadows. Ceramic coating, paint correction and full details, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Devon Meadows",
+        "description": "Premium mobile car detailing and ceramic coating services in Devon Meadows. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/devon-meadows",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "dingley-village",
+    "name": "Dingley Village",
+    "intro": "Dingley Village’s quieter, leafier streets mean most of the cars we see here are well cared for already — so a lot of our work is about maintaining and protecting rather than correcting years of neglect. Ceramic coating is a popular way to keep that upkeep simple.",
+    "focus": "Maintenance details and ceramic coating for well-kept daily drivers.",
+    "nearby": [
+      [
+        "/mobile-detailing/keysborough",
+        "Keysborough"
+      ],
+      [
+        "/mobile-detailing/springvale-south",
+        "Springvale South"
+      ],
+      [
+        "/mobile-detailing/braeside",
+        "Braeside"
+      ],
+      [
+        "/mobile-detailing/waterways",
+        "Waterways"
+      ],
+      [
+        "/mobile-detailing/moorabbin-airport",
+        "Moorabbin Airport"
+      ]
+    ],
+    "title": "Mobile Car Detailing Dingley Village | Full Detail & Ceramic Coating",
+    "description": "Mobile detailing in Dingley Village. Ceramic coating, paint correction and full details, done at your home. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Dingley Village | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Dingley Village. Ceramic coating, paint correction and full details, done at your home. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/dingley-village"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Dingley Village | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Dingley Village. Ceramic coating, paint correction and full details, done at your home. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Dingley Village",
+        "description": "Premium mobile car detailing and ceramic coating services in Dingley Village. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/dingley-village",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "drouin",
+    "name": "Drouin",
+    "intro": "Drouin’s semi-rural properties and larger blocks mean we regularly work on vehicles that spend more time outdoors than garaged — utes, 4WDs and family cars that pick up dust and organic debris from daily rural or semi-rural driving. We come fully equipped to your property, wherever it’s set up.",
+    "focus": "Full details and decontamination for vehicles regularly driven on rural roads.",
+    "nearby": [
+      [
+        "/mobile-detailing/warragul",
+        "Warragul"
+      ],
+      [
+        "/mobile-detailing/longwarry",
+        "Longwarry"
+      ],
+      [
+        "/mobile-detailing/ripplebrook",
+        "Ripplebrook"
+      ],
+      [
+        "/mobile-detailing/jindivick",
+        "Jindivick"
+      ],
+      [
+        "/mobile-detailing/neerim-south",
+        "Neerim South"
+      ]
+    ],
+    "title": "Mobile Car Detailing Drouin | Ceramic Coating at Your Door",
+    "description": "Mobile detailing in Drouin — full details, paint correction and ceramic coating, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Drouin | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Drouin — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/drouin"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Drouin | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Drouin — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Drouin",
+        "description": "Premium mobile car detailing and ceramic coating services in Drouin. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/drouin",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "emerald",
+    "name": "Emerald",
+    "intro": "Ceramic coating, paint enhancement and full detailing. We bring our premium mobile car detailing service directly to your door in Emerald.",
+    "focus": "Full details and ceramic coating for vehicles in the area.",
+    "nearby": [],
+    "title": "Mobile Car Detailing & Ceramic Coating in Emerald | Premier Detailing",
+    "description": "Looking for the best mobile car detailing in Emerald? We offer full details, paint correction, and ceramic coatings right at your door.",
+    "og": {
+      "title": "Mobile Car Detailing & Ceramic Coating in Emerald | Premier Detailing",
+      "description": "Looking for the best mobile car detailing in Emerald? We offer full details, paint correction, and ceramic coatings right at your door.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/emerald"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing & Ceramic Coating in Emerald | Premier Detailing",
+      "description": "Looking for the best mobile car detailing in Emerald? We offer full details, paint correction, and ceramic coatings right at your door.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Emerald",
+        "description": "Premium mobile car detailing and ceramic coating services in Emerald. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/emerald",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "endeavour-hills",
+    "name": "Endeavour Hills",
+    "intro": "Endeavour Hills is a well-established residential suburb where most of our work is on daily-driven family cars — interior detailing is just as commonly requested here as exterior paint work, especially for households with kids or pets.",
+    "focus": "Full interior and exterior details for family vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/lysterfield",
+        "Lysterfield"
+      ],
+      [
+        "/mobile-detailing/doveton",
+        "Doveton"
+      ],
+      [
+        "/mobile-detailing/hallam",
+        "Hallam"
+      ],
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
+      ],
+      [
+        "/mobile-detailing/narre-warren-north",
+        "Narre Warren North"
+      ]
+    ],
+    "title": "Mobile Car Detailing Endeavour Hills | Premier Mobile Detailing",
+    "description": "Mobile detailing in Endeavour Hills. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Endeavour Hills | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Endeavour Hills. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/endeavour-hills"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Endeavour Hills | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Endeavour Hills. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Endeavour Hills",
+        "description": "Premium mobile car detailing and ceramic coating services in Endeavour Hills. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/endeavour-hills",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "ferntree-gully",
+    "name": "Ferntree Gully",
+    "intro": "Ferntree Gully sits right up against the Dandenong Ranges, so tree sap, leaf litter and general foliage debris are some of the most common contaminants we deal with here. A thorough decontamination wash is essential before any polishing starts.",
+    "focus": "Decontamination and paint correction for foliage and sap buildup.",
+    "nearby": [
+      [
+        "/mobile-detailing/upper-ferntree-gully",
+        "Upper Ferntree Gully"
+      ],
+      [
+        "/mobile-detailing/boronia",
+        "Boronia"
+      ],
+      [
+        "/mobile-detailing/knoxfield",
+        "Knoxfield"
+      ],
+      [
+        "/mobile-detailing/lysterfield",
+        "Lysterfield"
+      ],
+      [
+        "/mobile-detailing/tremont",
+        "Tremont"
+      ]
+    ],
+    "title": "Mobile Car Detailing Ferntree Gully | Premier Mobile Detailing",
+    "description": "Mobile detailing in Ferntree Gully. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Ferntree Gully | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Ferntree Gully. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/ferntree-gully"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Ferntree Gully | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Ferntree Gully. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Ferntree Gully",
+        "description": "Premium mobile car detailing and ceramic coating services in Ferntree Gully. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/ferntree-gully",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "frankston",
+    "name": "Frankston",
+    "intro": "Being right on the coast, Frankston cars deal with salt air exposure that accelerates paint breakdown and clear coat oxidation faster than inland suburbs. Ceramic coating is especially valuable here — it’s one of the most effective ways to slow that damage down, and it’s the service we recommend most in this area.",
+    "focus": "Ceramic coating specifically for salt air and coastal paint protection.",
+    "nearby": [
+      [
+        "/mobile-detailing/frankston-south",
+        "Frankston South"
+      ],
+      [
+        "/mobile-detailing/frankston-north",
+        "Frankston North"
+      ],
+      [
+        "/mobile-detailing/seaford",
+        "Seaford"
+      ],
+      [
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
+      ],
+      [
+        "/mobile-detailing/mount-eliza",
+        "Mount Eliza"
+      ]
+    ],
+    "title": "Mobile Car Detailing Frankston | Ceramic Coating & Salt Air Protection",
+    "description": "Mobile detailing in Frankston — ceramic coating built for coastal conditions, paint correction and full details. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Frankston | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Frankston — ceramic coating built for coastal conditions, paint correction and full details. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/frankston"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Frankston | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Frankston — ceramic coating built for coastal conditions, paint correction and full details. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Frankston",
+        "description": "Premium mobile car detailing and ceramic coating services in Frankston. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/frankston",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "glen-waverley",
+    "name": "Glen Waverley",
+    "intro": "Glen Waverley’s busy shopping and commuter area means a lot of the cars we detail here are daily drivers picking up regular road grime and interior wear. We handle both sides properly — deep interior cleaning alongside exterior decontamination and polish.",
+    "focus": "Full interior and exterior details for daily commuter vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/mount-waverley",
+        "Mount Waverley"
+      ],
+      [
+        "/mobile-detailing/wheelers-hill",
+        "Wheelers Hill"
+      ],
+      [
+        "/mobile-detailing/burwood-east",
+        "Burwood East"
+      ],
+      [
+        "/mobile-detailing/notting-hill",
+        "Notting Hill"
+      ],
+      [
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
+      ]
+    ],
+    "title": "Mobile Car Detailing Glen Waverley | Premier Mobile Detailing",
+    "description": "Mobile detailing in Glen Waverley. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Glen Waverley | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Glen Waverley. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/glen-waverley"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Glen Waverley | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Glen Waverley. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Glen Waverley",
+        "description": "Premium mobile car detailing and ceramic coating services in Glen Waverley. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/glen-waverley",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hallam",
+    "name": "Hallam",
+    "intro": "Hallam sits close to major arterial roads, which means the cars we see here often carry more brake dust and road film than suburbs further from the highway. Our decontamination process is built to lift that kind of bonded contamination before any polishing starts.",
+    "focus": "Wheel and paint decontamination for vehicles on regular highway commutes.",
+    "nearby": [
+      [
+        "/mobile-detailing/narre-warren",
+        "Narre Warren"
+      ],
+      [
+        "/mobile-detailing/hampton-park",
+        "Hampton Park"
+      ],
+      [
+        "/mobile-detailing/doveton",
+        "Doveton"
+      ],
+      [
+        "/mobile-detailing/endeavour-hills",
+        "Endeavour Hills"
+      ],
+      [
+        "/mobile-detailing/dandenong-south",
+        "Dandenong South"
+      ]
+    ],
+    "title": "Mobile Car Detailing Hallam | Premier Mobile Detailing",
+    "description": "Mobile detailing in Hallam — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Hallam | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Hallam — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/hallam"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Hallam | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Hallam — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Hallam",
+        "description": "Premium mobile car detailing and ceramic coating services in Hallam. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/hallam",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hampton-park",
+    "name": "Hampton Park",
+    "intro": "Hampton Park is a well-established suburb with a lot of daily-driven family vehicles, and that usually means interior wear as much as exterior paint issues. We treat both properly in a full detail — deep interior cleaning alongside decontamination and polish on the outside.",
+    "focus": "Full interior and exterior details for daily family vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/narre-warren-south",
+        "Narre Warren South"
+      ],
+      [
+        "/mobile-detailing/hallam",
+        "Hallam"
+      ],
+      [
+        "/mobile-detailing/lynbrook",
+        "Lynbrook"
+      ],
+      [
+        "/mobile-detailing/dandenong-south",
+        "Dandenong South"
+      ],
+      [
+        "/mobile-detailing/cranbourne-north",
+        "Cranbourne North"
+      ]
+    ],
+    "title": "Mobile Car Detailing Hampton Park | Premier Mobile Detailing",
+    "description": "Mobile detailing in Hampton Park. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Hampton Park | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Hampton Park. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/hampton-park"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Hampton Park | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Hampton Park. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Hampton Park",
+        "description": "Premium mobile car detailing and ceramic coating services in Hampton Park. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/hampton-park",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "harkaway",
+    "name": "Harkaway",
+    "intro": "Harkaway’s rural and semi-rural properties mean longer driveways, more exposure to dust and tree debris, and often larger vehicles like utes and 4WDs. We bring everything needed to work at your property, whatever the setup — you don’t need to be near a tap or powered garage for us to get the job done properly.",
+    "focus": "Full details and ceramic coating on utes and 4WDs used for both work and family driving.",
+    "nearby": [
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ],
+      [
+        "/mobile-detailing/narre-warren-north",
+        "Narre Warren North"
+      ],
+      [
+        "/mobile-detailing/beaconsfield",
+        "Beaconsfield"
+      ],
+      [
+        "/mobile-detailing/lysterfield",
+        "Lysterfield"
+      ],
+      [
+        "/mobile-detailing/guys-hill",
+        "Guys Hill"
+      ]
+    ],
+    "title": "Mobile Car Detailing Harkaway | Ceramic Coating at Your Door",
+    "description": "Mobile detailing in Harkaway — ceramic coating, paint correction and full details, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Harkaway | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Harkaway — ceramic coating, paint correction and full details, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/harkaway"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Harkaway | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Harkaway — ceramic coating, paint correction and full details, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Harkaway",
+        "description": "Premium mobile car detailing and ceramic coating services in Harkaway. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/harkaway",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "keysborough",
+    "name": "Keysborough",
+    "intro": "Keysborough’s a well-established suburb with a good mix of daily drivers and weekend cars. For the weekend and enthusiast vehicles especially, we see a lot of interest in paint correction and ceramic coating to keep them looking sharp between shows or drives.",
+    "focus": "Paint correction and ceramic coating for enthusiast and weekend vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/springvale",
+        "Springvale"
+      ],
+      [
+        "/mobile-detailing/noble-park",
+        "Noble Park"
+      ],
+      [
+        "/mobile-detailing/dandenong",
+        "Dandenong"
+      ],
+      [
+        "/mobile-detailing/waterways",
+        "Waterways"
+      ],
+      [
+        "/mobile-detailing/dingley-village",
+        "Dingley Village"
+      ]
+    ],
+    "title": "Mobile Car Detailing Keysborough | Premier Mobile Detailing",
+    "description": "Mobile detailing in Keysborough — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Keysborough | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Keysborough — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/keysborough"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Keysborough | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Keysborough — full details, paint correction and ceramic coating at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Keysborough",
+        "description": "Premium mobile car detailing and ceramic coating services in Keysborough. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/keysborough",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "knoxfield",
+    "name": "Knoxfield",
+    "intro": "Knoxfield’s a mix of residential and light industrial areas, and we see a good number of work vehicles here alongside family cars. Whichever type you’ve got, we bring the same fully-equipped setup to your driveway or workplace.",
+    "focus": "Full details for both work vehicles and family cars.",
+    "nearby": [
+      [
+        "/mobile-detailing/scoresby",
+        "Scoresby"
+      ],
+      [
+        "/mobile-detailing/wantirna-south",
+        "Wantirna South"
+      ],
+      [
+        "/mobile-detailing/ferntree-gully",
+        "Ferntree Gully"
+      ],
+      [
+        "/mobile-detailing/boronia",
+        "Boronia"
+      ],
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
+      ]
+    ],
+    "title": "Mobile Car Detailing Knoxfield | Premier Mobile Detailing",
+    "description": "Mobile detailing in Knoxfield. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Knoxfield | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Knoxfield. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/knoxfield"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Knoxfield | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Knoxfield. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Knoxfield",
+        "description": "Premium mobile car detailing and ceramic coating services in Knoxfield. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/knoxfield",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "koo-wee-rup",
+    "name": "Koo Wee Rup",
+    "intro": "Koo Wee Rup is a bit further from our base than most areas we service, so we typically arrange visits here alongside other jobs in the region. Rural driving conditions mean dust and organic buildup are the main things we address before polishing.",
+    "focus": "Full details for vehicles on regular rural and farm-adjacent driving.",
+    "nearby": [
+      [
+        "/mobile-detailing/tooradin",
+        "Tooradin"
+      ],
+      [
+        "/mobile-detailing/cardinia",
+        "Cardinia"
+      ],
+      [
+        "/mobile-detailing/pakenham",
+        "Pakenham"
+      ],
+      [
+        "/mobile-detailing/bayles",
+        "Bayles"
+      ],
+      [
+        "/mobile-detailing/lang-lang",
+        "Lang Lang"
+      ]
+    ],
+    "title": "Mobile Car Detailing Koo Wee Rup | Ceramic Coating at Your Door",
+    "description": "Mobile detailing in Koo Wee Rup — full details, paint correction and ceramic coating, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Koo Wee Rup | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Koo Wee Rup — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/koo-wee-rup"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Koo Wee Rup | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Koo Wee Rup — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Koo Wee Rup",
+        "description": "Premium mobile car detailing and ceramic coating services in Koo Wee Rup. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/koo-wee-rup",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "langwarrin",
+    "name": "Langwarrin",
+    "intro": "Langwarrin sits a little further inland than Frankston and Seaford, so while salt air still plays a role, we see a more even mix of coastal and general driving wear on the cars here. Full details and ceramic coating both get regular use.",
+    "focus": "Full details combined with ceramic coating for mixed coastal/inland driving.",
+    "nearby": [
+      [
+        "/mobile-detailing/frankston",
+        "Frankston"
+      ],
+      [
+        "/mobile-detailing/somerville",
+        "Somerville"
+      ],
+      [
+        "/mobile-detailing/pearcedale",
+        "Pearcedale"
+      ],
+      [
+        "/mobile-detailing/cranbourne-south",
+        "Cranbourne South"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ]
+    ],
+    "title": "Mobile Car Detailing Langwarrin | Full Detail & Ceramic Coating",
+    "description": "Mobile detailing in Langwarrin. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Langwarrin | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Langwarrin. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/langwarrin"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Langwarrin | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Langwarrin. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Langwarrin",
+        "description": "Premium mobile car detailing and ceramic coating services in Langwarrin. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/langwarrin",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "lynbrook",
+    "name": "Lynbrook",
+    "intro": "Lynbrook’s residential streets are mostly newer builds, so we’re often working on relatively young paint that’s still worth protecting before years of daily driving take hold. Ceramic coating tends to be the most requested service here for exactly that reason.",
+    "focus": "Ceramic coating on newer vehicles to lock in protection early.",
+    "nearby": [
+      [
+        "/mobile-detailing/lyndhurst",
+        "Lyndhurst"
+      ],
+      [
+        "/mobile-detailing/hampton-park",
+        "Hampton Park"
+      ],
+      [
+        "/mobile-detailing/cranbourne-north",
+        "Cranbourne North"
+      ],
+      [
+        "/mobile-detailing/dandenong-south",
+        "Dandenong South"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ]
+    ],
+    "title": "Mobile Car Detailing Lynbrook | Ceramic Coating at Your Door",
+    "description": "Mobile detailing in Lynbrook — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Lynbrook | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Lynbrook — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/lynbrook"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Lynbrook | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Lynbrook — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Lynbrook",
+        "description": "Premium mobile car detailing and ceramic coating services in Lynbrook. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/lynbrook",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "lyndhurst",
+    "name": "Lyndhurst",
+    "intro": "Lyndhurst continues to grow with new estates going in, similar to neighbouring Clyde and Cranbourne — which means construction dust is a common contaminant we deal with here. We always start with a full decontamination wash to make sure polishing doesn’t just drag grit across the surface.",
+    "focus": "Decontamination and ceramic coating for vehicles parked near ongoing estate construction.",
+    "nearby": [
+      [
+        "/mobile-detailing/lynbrook",
+        "Lynbrook"
+      ],
+      [
+        "/mobile-detailing/cranbourne-west",
+        "Cranbourne West"
+      ],
+      [
+        "/mobile-detailing/dandenong-south",
+        "Dandenong South"
+      ],
+      [
+        "/mobile-detailing/carrum-downs",
+        "Carrum Downs"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ]
+    ],
+    "title": "Mobile Car Detailing Lyndhurst | Full Detail & Paint Correction",
+    "description": "Mobile detailing in Lyndhurst. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Lyndhurst | Full Detail & Paint Correction",
+      "description": "Mobile detailing in Lyndhurst. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/lyndhurst"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Lyndhurst | Full Detail & Paint Correction",
+      "description": "Mobile detailing in Lyndhurst. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Lyndhurst",
+        "description": "Premium mobile car detailing and ceramic coating services in Lyndhurst. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/lyndhurst",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "lysterfield",
+    "name": "Lysterfield",
+    "intro": "Lysterfield’s semi-rural setting near the lake and park reserve means dust and organic debris build up faster than in tighter suburban streets. We come fully equipped to your property, whatever the access, and start every job with a proper decontamination wash.",
+    "focus": "Full details for vehicles regularly exposed to park and reserve dust.",
+    "nearby": [
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
+      ],
+      [
+        "/mobile-detailing/ferntree-gully",
+        "Ferntree Gully"
+      ],
+      [
+        "/mobile-detailing/narre-warren-north",
+        "Narre Warren North"
+      ],
+      [
+        "/mobile-detailing/endeavour-hills",
+        "Endeavour Hills"
+      ],
+      [
+        "/mobile-detailing/upwey",
+        "Upwey"
+      ]
+    ],
+    "title": "Mobile Car Detailing Lysterfield | Premier Mobile Detailing",
+    "description": "Mobile detailing in Lysterfield — full details, paint correction and ceramic coating, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Lysterfield | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Lysterfield — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/lysterfield"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Lysterfield | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Lysterfield — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Lysterfield",
+        "description": "Premium mobile car detailing and ceramic coating services in Lysterfield. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/lysterfield",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mornington",
+    "name": "Mornington",
+    "intro": "Mornington’s peninsula location means salt air and UV are the two biggest factors affecting paint condition here. We regularly combine paint correction with ceramic coating for cars that already show early signs of oxidation, restoring the finish before locking in longer-term protection.",
+    "focus": "Paint correction plus ceramic coating for early-stage coastal oxidation.",
+    "nearby": [
+      [
+        "/mobile-detailing/mount-eliza",
+        "Mount Eliza"
+      ],
+      [
+        "/mobile-detailing/mount-martha",
+        "Mount Martha"
+      ],
+      [
+        "/mobile-detailing/moorooduc",
+        "Moorooduc"
+      ],
+      [
+        "/mobile-detailing/tuerong",
+        "Tuerong"
+      ],
+      [
+        "/mobile-detailing/frankston-south",
+        "Frankston South"
+      ]
+    ],
+    "title": "Mobile Car Detailing Mornington | Ceramic Coating & Paint Correction",
+    "description": "Mobile detailing in Mornington — ceramic coating for coastal protection, paint correction and full details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Mornington | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Mornington — ceramic coating for coastal protection, paint correction and full details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/mornington"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Mornington | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Mornington — ceramic coating for coastal protection, paint correction and full details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Mornington",
+        "description": "Premium mobile car detailing and ceramic coating services in Mornington. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/mornington",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mount-eliza",
+    "name": "Mount Eliza",
+    "intro": "Mount Eliza’s coastal position and larger properties mean we regularly work on prestige and family vehicles that need real protection against salt air and UV. Ceramic coating is consistently the most requested service in this area for that reason.",
+    "focus": "Ceramic coating for prestige and family vehicles exposed to salt air.",
+    "nearby": [
+      [
+        "/mobile-detailing/mornington",
+        "Mornington"
+      ],
+      [
+        "/mobile-detailing/frankston-south",
+        "Frankston South"
+      ],
+      [
+        "/mobile-detailing/frankston",
+        "Frankston"
+      ],
+      [
+        "/mobile-detailing/moorooduc",
+        "Moorooduc"
+      ],
+      [
+        "/mobile-detailing/mount-martha",
+        "Mount Martha"
+      ]
+    ],
+    "title": "Mobile Car Detailing Mount Eliza | Premier Mobile Detailing",
+    "description": "Mobile detailing in Mount Eliza — ceramic coating for coastal conditions, paint correction and premium detailing. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Mount Eliza | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Mount Eliza — ceramic coating for coastal conditions, paint correction and premium detailing. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/mount-eliza"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Mount Eliza | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Mount Eliza — ceramic coating for coastal conditions, paint correction and premium detailing. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Mount Eliza",
+        "description": "Premium mobile car detailing and ceramic coating services in Mount Eliza. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/mount-eliza",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mount-waverley",
+    "name": "Mount Waverley",
+    "intro": "Mount Waverley’s established, tree-lined streets mean sap and bird droppings are a regular issue we deal with before polishing. It’s the kind of bonded contamination that needs proper decontamination first, not just a quick wash.",
+    "focus": "Decontamination and paint correction for tree-lined street parking.",
+    "nearby": [
+      [
+        "/mobile-detailing/glen-waverley",
+        "Glen Waverley"
+      ],
+      [
+        "/mobile-detailing/ashwood",
+        "Ashwood"
+      ],
+      [
+        "/mobile-detailing/chadstone",
+        "Chadstone"
+      ],
+      [
+        "/mobile-detailing/oakleigh",
+        "Oakleigh"
+      ],
+      [
+        "/mobile-detailing/burwood",
+        "Burwood"
+      ]
+    ],
+    "title": "Mobile Car Detailing Mount Waverley | Premier Mobile Detailing",
+    "description": "Mobile detailing in Mount Waverley — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Mount Waverley | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Mount Waverley — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/mount-waverley"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Mount Waverley | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Mount Waverley — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Mount Waverley",
+        "description": "Premium mobile car detailing and ceramic coating services in Mount Waverley. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/mount-waverley",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "mulgrave",
+    "name": "Mulgrave",
+    "intro": "Mulgrave’s proximity to the Monash Freeway means the cars we see here often carry more brake dust and road film from regular highway driving. Our decontamination process is built to properly lift that kind of bonded grime before polishing.",
+    "focus": "Wheel and paint decontamination for regular freeway commuters.",
+    "nearby": [
+      [
+        "/mobile-detailing/wheelers-hill",
+        "Wheelers Hill"
+      ],
+      [
+        "/mobile-detailing/springvale",
+        "Springvale"
+      ],
+      [
+        "/mobile-detailing/glen-waverley",
+        "Glen Waverley"
+      ],
+      [
+        "/mobile-detailing/notting-hill",
+        "Notting Hill"
+      ],
+      [
+        "/mobile-detailing/noble-park-north",
+        "Noble Park North"
+      ]
+    ],
+    "title": "Mobile Car Detailing Mulgrave | Premier Mobile Detailing",
+    "description": "Mobile detailing in Mulgrave — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Mulgrave | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Mulgrave — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/mulgrave"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Mulgrave | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Mulgrave — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Mulgrave",
+        "description": "Premium mobile car detailing and ceramic coating services in Mulgrave. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/mulgrave",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "narre-warren",
+    "name": "Narre Warren",
+    "intro": "Narre Warren’s a well-established suburb with plenty of daily commuter traffic through it, and that shows up as fine swirl marks and road grime on the cars we see most. We bring the full setup to your driveway or workplace car park, so there’s no need to build a trip to a detailing shop into your week.",
+    "focus": "Paint correction to remove years of accumulated swirl marks from regular car washes.",
+    "nearby": [
+      [
+        "/mobile-detailing/narre-warren-south",
+        "Narre Warren South"
+      ],
+      [
+        "/mobile-detailing/narre-warren-north",
+        "Narre Warren North"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ],
+      [
+        "/mobile-detailing/hallam",
+        "Hallam"
+      ],
+      [
+        "/mobile-detailing/hampton-park",
+        "Hampton Park"
+      ]
+    ],
+    "title": "Mobile Car Detailing Narre Warren | Premier Mobile Detailing",
+    "description": "Mobile detailing in Narre Warren — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Narre Warren | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Narre Warren — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/narre-warren"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Narre Warren | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Narre Warren — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Narre Warren",
+        "description": "Premium mobile car detailing and ceramic coating services in Narre Warren. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/narre-warren",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "narre-warren-north",
+    "name": "Narre Warren North",
+    "intro": "Narre Warren North’s larger blocks and semi-rural fringes mean more dust and gravel exposure than tighter suburban streets — often from driveways or nearby unsealed roads. We factor that into the wash and decontamination process so it doesn’t drag grit across the paint during polishing.",
+    "focus": "Full decontamination and detail for vehicles regularly driven on dustier roads.",
+    "nearby": [
+      [
+        "/mobile-detailing/narre-warren",
+        "Narre Warren"
+      ],
+      [
+        "/mobile-detailing/harkaway",
+        "Harkaway"
+      ],
+      [
+        "/mobile-detailing/endeavour-hills",
+        "Endeavour Hills"
+      ],
+      [
+        "/mobile-detailing/lysterfield",
+        "Lysterfield"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ]
+    ],
+    "title": "Mobile Car Detailing Narre Warren North | Premier Mobile Detailing",
+    "description": "Mobile detailing in Narre Warren North — ceramic coating, paint correction and full details, done at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Narre Warren North | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Narre Warren North — ceramic coating, paint correction and full details, done at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/narre-warren-north"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Narre Warren North | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Narre Warren North — ceramic coating, paint correction and full details, done at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Narre Warren North",
+        "description": "Premium mobile car detailing and ceramic coating services in Narre Warren North. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/narre-warren-north",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "narre-warren-south",
+    "name": "Narre Warren South",
+    "intro": "Narre Warren South’s newer estates sit alongside older established streets, so we see a real mix of vehicle conditions here — from cars that just need a regular maintenance detail to others overdue for a proper decontamination and correction. We come fully equipped, so whichever category your car falls into, it’s sorted in one visit.",
+    "focus": "Regular maintenance details for busy households, ceramic coating for newer builds.",
+    "nearby": [
+      [
+        "/mobile-detailing/narre-warren",
+        "Narre Warren"
+      ],
+      [
+        "/mobile-detailing/cranbourne-north",
+        "Cranbourne North"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ],
+      [
+        "/mobile-detailing/hampton-park",
+        "Hampton Park"
+      ],
+      [
+        "/mobile-detailing/lynbrook",
+        "Lynbrook"
+      ]
+    ],
+    "title": "Mobile Car Detailing Narre Warren South | Full Detail & Ceramic Coating",
+    "description": "Mobile detailing in Narre Warren South. Ceramic coating, paint correction and full details at your home or office. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Narre Warren South | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Narre Warren South. Ceramic coating, paint correction and full details at your home or office. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/narre-warren-south"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Narre Warren South | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Narre Warren South. Ceramic coating, paint correction and full details at your home or office. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Narre Warren South",
+        "description": "Premium mobile car detailing and ceramic coating services in Narre Warren South. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/narre-warren-south",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "noble-park",
+    "name": "Noble Park",
+    "intro": "Noble Park’s older housing stock often comes with established trees lining the streets, which means sap and bird droppings are one of the more common issues we treat before polishing. It’s exactly the kind of bonded contamination a proper decontamination wash is designed to lift.",
+    "focus": "Decontamination and paint correction for cars parked under established street trees.",
+    "nearby": [
+      [
+        "/mobile-detailing/noble-park-north",
+        "Noble Park North"
+      ],
+      [
+        "/mobile-detailing/springvale",
+        "Springvale"
+      ],
+      [
+        "/mobile-detailing/keysborough",
+        "Keysborough"
+      ],
+      [
+        "/mobile-detailing/dandenong",
+        "Dandenong"
+      ],
+      [
+        "/mobile-detailing/yarraman",
+        "Yarraman"
+      ]
+    ],
+    "title": "Mobile Car Detailing Noble Park | Ceramic Coating at Your Door",
+    "description": "Mobile detailing in Noble Park — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Noble Park | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Noble Park — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/noble-park"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Noble Park | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Noble Park — full details, paint correction and ceramic coating done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Noble Park",
+        "description": "Premium mobile car detailing and ceramic coating services in Noble Park. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/noble-park",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "oakleigh",
+    "name": "Oakleigh",
+    "intro": "Oakleigh’s tighter streets and higher density mean kerbside parking is common, which exposes cars to more airborne grime than garaged vehicles. We build extra decontamination time into jobs in areas like this to make sure the surface is properly clean before polishing.",
+    "focus": "Full details with extended decontamination for kerbside-parked vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/oakleigh-south",
+        "Oakleigh South"
+      ],
+      [
+        "/mobile-detailing/oakleigh-east",
+        "Oakleigh East"
+      ],
+      [
+        "/mobile-detailing/huntingdale",
+        "Huntingdale"
+      ],
+      [
+        "/mobile-detailing/chadstone",
+        "Chadstone"
+      ],
+      [
+        "/mobile-detailing/hughesdale",
+        "Hughesdale"
+      ]
+    ],
+    "title": "Mobile Car Detailing Oakleigh | Premier Mobile Detailing",
+    "description": "Mobile detailing in Oakleigh. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Oakleigh | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Oakleigh. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/oakleigh"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Oakleigh | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Oakleigh. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Oakleigh",
+        "description": "Premium mobile car detailing and ceramic coating services in Oakleigh. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/oakleigh",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "officer",
+    "name": "Officer",
+    "intro": "As our home base, Officer is where we know the roads, the estates and the conditions best. Being one of Melbourne’s fastest-growing suburbs, most of the cars we see here are newer — which makes it the ideal time to lock in ceramic coating before daily driving and construction dust take their toll. We work driveway to driveway across Officer’s newer estates as well as the older pockets near the town centre.",
+    "focus": "Ceramic coating on new-build handover vehicles, protecting paint before the first wash.",
+    "nearby": [
+      [
+        "/mobile-detailing/beaconsfield",
+        "Beaconsfield"
+      ],
+      [
+        "/mobile-detailing/pakenham",
+        "Pakenham"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ],
+      [
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
+      ],
+      [
+        "/mobile-detailing/cardinia",
+        "Cardinia"
+      ]
+    ],
+    "title": "Mobile Car Detailing Officer | Ceramic Coating at Your Door",
+    "description": "Premier Mobile Detailing is based in Officer, offering mobile detailing and ceramic coating across South East Melbourne. From $385. Call 0411 566 186.",
+    "og": {
+      "title": "Mobile Car Detailing Officer | Ceramic Coating at Your Door",
+      "description": "Premier Mobile Detailing is based in Officer, offering mobile detailing and ceramic coating across South East Melbourne. From $385. Call 0411 566 186.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/officer"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Officer | Ceramic Coating at Your Door",
+      "description": "Premier Mobile Detailing is based in Officer, offering mobile detailing and ceramic coating across South East Melbourne. From $385. Call 0411 566 186.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Officer",
+        "description": "Premium mobile car detailing and ceramic coating services in Officer. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/officer",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "pakenham",
+    "name": "Pakenham",
+    "intro": "Pakenham’s mix of established streets and newer estates near Cardinia Road means we see everything from long-term paint oxidation to fresh cars needing first-time protection. Being further from the coast, Pakenham cars tend to show more dust and tree sap buildup than salt damage, so decontamination focuses heavily on bonded surface contaminants before machine polishing.",
+    "focus": "Full details ahead of family road trips, multi-stage correction on older daily drivers.",
+    "nearby": [
+      [
+        "/mobile-detailing/officer",
+        "Officer"
+      ],
+      [
+        "/mobile-detailing/cardinia",
+        "Cardinia"
+      ],
+      [
+        "/mobile-detailing/nar-nar-goon",
+        "Nar Nar Goon"
+      ],
+      [
+        "/mobile-detailing/beaconsfield",
+        "Beaconsfield"
+      ],
+      [
+        "/mobile-detailing/koo-wee-rup",
+        "Koo Wee Rup"
+      ]
+    ],
+    "title": "Mobile Car Detailing Pakenham | Premier Mobile Detailing",
+    "description": "Professional mobile detailing in Pakenham. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Pakenham | Ceramic Coating & Paint Correction",
+      "description": "Professional mobile detailing in Pakenham. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/pakenham"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Pakenham | Ceramic Coating & Paint Correction",
+      "description": "Professional mobile detailing in Pakenham. Ceramic coating, paint correction and full details, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Pakenham",
+        "description": "Premium mobile car detailing and ceramic coating services in Pakenham. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/pakenham",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "patterson-lakes",
+    "name": "Patterson Lakes",
+    "intro": "Patterson Lakes’ waterway-side location means humidity and salt air both play a role in paint condition here, similar to nearby coastal suburbs. Ceramic coating holds up well against that combination, which is why it’s a regular request in this area.",
+    "focus": "Ceramic coating for humidity and salt air protection near the waterways.",
+    "nearby": [
+      [
+        "/mobile-detailing/carrum",
+        "Carrum"
+      ],
+      [
+        "/mobile-detailing/seaford",
+        "Seaford"
+      ],
+      [
+        "/mobile-detailing/sandhurst",
+        "Sandhurst"
+      ],
+      [
+        "/mobile-detailing/chelsea-heights",
+        "Chelsea Heights"
+      ],
+      [
+        "/mobile-detailing/bonbeach",
+        "Bonbeach"
+      ]
+    ],
+    "title": "Mobile Car Detailing Patterson Lakes | Premier Mobile Detailing",
+    "description": "Mobile detailing in Patterson Lakes — ceramic coating for coastal/waterway conditions, paint correction and full details. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Patterson Lakes | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Patterson Lakes — ceramic coating for coastal/waterway conditions, paint correction and full details. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/patterson-lakes"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Patterson Lakes | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Patterson Lakes — ceramic coating for coastal/waterway conditions, paint correction and full details. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Patterson Lakes",
+        "description": "Premium mobile car detailing and ceramic coating services in Patterson Lakes. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/patterson-lakes",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "pearcedale",
+    "name": "Pearcedale",
+    "intro": "Pearcedale’s rural properties and larger blocks mean we’re often working on vehicles that spend a lot of time outdoors, picking up dust and organic debris. We bring everything needed to your property directly, whatever the access.",
+    "focus": "Full details and decontamination for vehicles regularly parked outdoors.",
+    "nearby": [
+      [
+        "/mobile-detailing/somerville",
+        "Somerville"
+      ],
+      [
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
+      ],
+      [
+        "/mobile-detailing/cranbourne-south",
+        "Cranbourne South"
+      ],
+      [
+        "/mobile-detailing/tooradin",
+        "Tooradin"
+      ],
+      [
+        "/mobile-detailing/cannons-creek",
+        "Cannons Creek"
+      ]
+    ],
+    "title": "Mobile Car Detailing Pearcedale | Premier Mobile Detailing",
+    "description": "Mobile detailing in Pearcedale — full details, paint correction and ceramic coating, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Pearcedale | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Pearcedale — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/pearcedale"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Pearcedale | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Pearcedale — full details, paint correction and ceramic coating, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Pearcedale",
+        "description": "Premium mobile car detailing and ceramic coating services in Pearcedale. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/pearcedale",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "rowville",
+    "name": "Rowville",
+    "intro": "Rowville’s established, leafy streets mean tree sap and bird droppings are common on cars parked outdoors here, especially near the Lysterfield Lake and Wheelers Hill area. We treat that as a standard part of the decontamination process before any polishing begins.",
+    "focus": "Decontamination and paint correction for cars parked under trees.",
+    "nearby": [
+      [
+        "/mobile-detailing/lysterfield",
+        "Lysterfield"
+      ],
+      [
+        "/mobile-detailing/scoresby",
+        "Scoresby"
+      ],
+      [
+        "/mobile-detailing/wheelers-hill",
+        "Wheelers Hill"
+      ],
+      [
+        "/mobile-detailing/knoxfield",
+        "Knoxfield"
+      ],
+      [
+        "/mobile-detailing/endeavour-hills",
+        "Endeavour Hills"
+      ]
+    ],
+    "title": "Mobile Car Detailing Rowville | Premier Mobile Detailing",
+    "description": "Mobile detailing in Rowville. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Rowville | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Rowville. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/rowville"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Rowville | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Rowville. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Rowville",
+        "description": "Premium mobile car detailing and ceramic coating services in Rowville. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/rowville",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "sandhurst",
+    "name": "Sandhurst",
+    "intro": "Sandhurst’s established streets and well-kept properties mean most of the cars we detail here are already in decent condition, so ongoing protection is usually the focus rather than heavy correction work.",
+    "focus": "Ceramic coating for ongoing protection on well-maintained vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/carrum-downs",
+        "Carrum Downs"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ],
+      [
+        "/mobile-detailing/patterson-lakes",
+        "Patterson Lakes"
+      ],
+      [
+        "/mobile-detailing/seaford",
+        "Seaford"
+      ],
+      [
+        "/mobile-detailing/lyndhurst",
+        "Lyndhurst"
+      ]
+    ],
+    "title": "Mobile Car Detailing Sandhurst | Premier Mobile Detailing",
+    "description": "Mobile detailing in Sandhurst. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Sandhurst | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Sandhurst. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/sandhurst"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Sandhurst | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Sandhurst. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Sandhurst",
+        "description": "Premium mobile car detailing and ceramic coating services in Sandhurst. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/sandhurst",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "scoresby",
+    "name": "Scoresby",
+    "intro": "Scoresby’s proximity to the Eastlink corridor means a lot of the cars we detail here are regular commuters, carrying road film and brake dust that need proper decontamination before polishing can do its job.",
+    "focus": "Wheel and paint decontamination for regular Eastlink commuters.",
+    "nearby": [
+      [
+        "/mobile-detailing/knoxfield",
+        "Knoxfield"
+      ],
+      [
+        "/mobile-detailing/wantirna-south",
+        "Wantirna South"
+      ],
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
+      ],
+      [
+        "/mobile-detailing/wheelers-hill",
+        "Wheelers Hill"
+      ],
+      [
+        "/mobile-detailing/glen-waverley",
+        "Glen Waverley"
+      ]
+    ],
+    "title": "Mobile Car Detailing Scoresby | Ceramic Coating & Paint Correction",
+    "description": "Mobile detailing in Scoresby — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Scoresby | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Scoresby — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/scoresby"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Scoresby | Ceramic Coating & Paint Correction",
+      "description": "Mobile detailing in Scoresby — ceramic coating, paint correction and full details at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Scoresby",
+        "description": "Premium mobile car detailing and ceramic coating services in Scoresby. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/scoresby",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "seaford",
+    "name": "Seaford",
+    "intro": "Seaford’s beachside location means salt air and UV exposure are constant factors in paint condition. We see a lot of interest in ceramic coating here specifically because it holds up better against oxidation than a standard wax or sealant.",
+    "focus": "Ceramic coating for long-term protection against salt air and UV.",
+    "nearby": [
+      [
+        "/mobile-detailing/frankston",
+        "Frankston"
+      ],
+      [
+        "/mobile-detailing/carrum-downs",
+        "Carrum Downs"
+      ],
+      [
+        "/mobile-detailing/patterson-lakes",
+        "Patterson Lakes"
+      ],
+      [
+        "/mobile-detailing/frankston-north",
+        "Frankston North"
+      ],
+      [
+        "/mobile-detailing/kananook",
+        "Kananook"
+      ]
+    ],
+    "title": "Mobile Car Detailing Seaford | Premier Mobile Detailing",
+    "description": "Mobile detailing in Seaford — ceramic coating for coastal conditions, paint correction and full details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Seaford | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Seaford — ceramic coating for coastal conditions, paint correction and full details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/seaford"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Seaford | Ceramic Coating & Salt Air Protection",
+      "description": "Mobile detailing in Seaford — ceramic coating for coastal conditions, paint correction and full details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Seaford",
+        "description": "Premium mobile car detailing and ceramic coating services in Seaford. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/seaford",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "skye",
+    "name": "Skye",
+    "intro": "Skye sits close to Cranbourne and shares similar growing-suburb conditions — a mix of established and newer streets, with construction dust common near the newer developments. We adjust decontamination accordingly depending on which part of Skye you’re in.",
+    "focus": "Full details and ceramic coating across both established and new estate areas.",
+    "nearby": [
+      [
+        "/mobile-detailing/carrum-downs",
+        "Carrum Downs"
+      ],
+      [
+        "/mobile-detailing/cranbourne-west",
+        "Cranbourne West"
+      ],
+      [
+        "/mobile-detailing/sandhurst",
+        "Sandhurst"
+      ],
+      [
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
+      ],
+      [
+        "/mobile-detailing/frankston-north",
+        "Frankston North"
+      ]
+    ],
+    "title": "Mobile Car Detailing Skye | Premier Mobile Detailing",
+    "description": "Mobile detailing in Skye — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Skye | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Skye — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/skye"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Skye | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Skye — full details, paint correction and ceramic coating, done at your home or workplace. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Skye",
+        "description": "Premium mobile car detailing and ceramic coating services in Skye. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/skye",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "somerville",
+    "name": "Somerville",
+    "intro": "Somerville’s mix of rural surrounds and peninsula proximity means both dust and salt air play a part in what we deal with on cars here. A proper decontamination wash before polishing handles both, and ceramic coating helps keep it that way longer.",
+    "focus": "Full decontamination and ceramic coating for mixed rural/coastal exposure.",
+    "nearby": [
+      [
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
+      ],
+      [
+        "/mobile-detailing/tyabb",
+        "Tyabb"
+      ],
+      [
+        "/mobile-detailing/pearcedale",
+        "Pearcedale"
+      ],
+      [
+        "/mobile-detailing/moorooduc",
+        "Moorooduc"
+      ],
+      [
+        "/mobile-detailing/baxter",
+        "Baxter"
+      ]
+    ],
+    "title": "Mobile Car Detailing Somerville | Premier Mobile Detailing",
+    "description": "Mobile detailing in Somerville. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Somerville | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Somerville. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/somerville"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Somerville | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Somerville. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Somerville",
+        "description": "Premium mobile car detailing and ceramic coating services in Somerville. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/somerville",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "springvale",
+    "name": "Springvale",
+    "intro": "Springvale’s busy streets and dense residential areas mean parking is often kerbside rather than garaged, so cars here pick up more airborne grime and bird droppings than average. We factor extra decontamination time into jobs in areas like this as standard.",
+    "focus": "Full details with extended decontamination for kerbside-parked vehicles.",
+    "nearby": [
+      [
+        "/mobile-detailing/springvale-south",
+        "Springvale South"
+      ],
+      [
+        "/mobile-detailing/noble-park",
+        "Noble Park"
+      ],
+      [
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
+      ],
+      [
+        "/mobile-detailing/clayton",
+        "Clayton"
+      ],
+      [
+        "/mobile-detailing/keysborough",
+        "Keysborough"
+      ]
+    ],
+    "title": "Mobile Car Detailing Springvale | Premier Mobile Detailing",
+    "description": "Mobile detailing in Springvale. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Springvale | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Springvale. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/springvale"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Springvale | Full Detail & Ceramic Coating",
+      "description": "Mobile detailing in Springvale. Ceramic coating, paint correction and full interior/exterior details at your door. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Springvale",
+        "description": "Premium mobile car detailing and ceramic coating services in Springvale. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/springvale",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "tooradin",
+    "name": "Tooradin",
+    "intro": "Tooradin’s coastal-adjacent, semi-rural setting means a mix of salt air and dust exposure on the vehicles we see here. We tailor the decontamination process to whichever is more relevant for your car’s usual conditions.",
+    "focus": "Ceramic coating for combined salt air and rural dust protection.",
+    "nearby": [
+      [
+        "/mobile-detailing/pearcedale",
+        "Pearcedale"
+      ],
+      [
+        "/mobile-detailing/koo-wee-rup",
+        "Koo Wee Rup"
+      ],
+      [
+        "/mobile-detailing/blind-bight",
+        "Blind Bight"
+      ],
+      [
+        "/mobile-detailing/warneet",
+        "Warneet"
+      ],
+      [
+        "/mobile-detailing/cannons-creek",
+        "Cannons Creek"
+      ]
+    ],
+    "title": "Mobile Car Detailing Tooradin | Premier Mobile Detailing",
+    "description": "Mobile detailing in Tooradin. Ceramic coating, paint correction and full details, done at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Tooradin | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Tooradin. Ceramic coating, paint correction and full details, done at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/tooradin"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Tooradin | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Tooradin. Ceramic coating, paint correction and full details, done at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Tooradin",
+        "description": "Premium mobile car detailing and ceramic coating services in Tooradin. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/tooradin",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "warragul",
+    "name": "Warragul",
+    "intro": "Warragul is a bit further out than most of the areas we service, so we typically batch jobs here or arrange visits around larger detailing or ceramic coating work. Rural driving conditions mean dust and organic buildup are the main things we deal with before polishing.",
+    "focus": "Ceramic coating and paint correction for vehicles on regular rural commutes.",
+    "nearby": [
+      [
+        "/mobile-detailing/drouin",
+        "Drouin"
+      ],
+      [
+        "/mobile-detailing/nilma",
+        "Nilma"
+      ],
+      [
+        "/mobile-detailing/bona-vista",
+        "Bona Vista"
+      ],
+      [
+        "/mobile-detailing/buln-buln",
+        "Buln Buln"
+      ],
+      [
+        "/mobile-detailing/ellinbank",
+        "Ellinbank"
+      ]
+    ],
+    "title": "Mobile Car Detailing Warragul | Premier Mobile Detailing",
+    "description": "Mobile detailing in Warragul. Ceramic coating, paint correction and full interior/exterior details at your property. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Warragul | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Warragul. Ceramic coating, paint correction and full interior/exterior details at your property. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/warragul"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Warragul | Ceramic Coating & Full Detail",
+      "description": "Mobile detailing in Warragul. Ceramic coating, paint correction and full interior/exterior details at your property. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Warragul",
+        "description": "Premium mobile car detailing and ceramic coating services in Warragul. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/warragul",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "wheelers-hill",
+    "name": "Wheelers Hill",
+    "intro": "Wheelers Hill’s established homes and larger driveways make it easy for us to get set up and work efficiently. A lot of the vehicles we see here are well maintained already, so ceramic coating for ongoing protection is one of the more popular requests.",
+    "focus": "Ceramic coating for well-maintained daily drivers and family SUVs.",
+    "nearby": [
+      [
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
+      ],
+      [
+        "/mobile-detailing/glen-waverley",
+        "Glen Waverley"
+      ],
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
+      ],
+      [
+        "/mobile-detailing/scoresby",
+        "Scoresby"
+      ],
+      [
+        "/mobile-detailing/notting-hill",
+        "Notting Hill"
+      ]
+    ],
+    "title": "Mobile Car Detailing Wheelers Hill | Premier Mobile Detailing",
+    "description": "Mobile detailing in Wheelers Hill — full details, paint correction and ceramic coating, done at your home. From $385.",
+    "og": {
+      "title": "Mobile Car Detailing Wheelers Hill | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Wheelers Hill — full details, paint correction and ceramic coating, done at your home. From $385.",
+      "type": "website",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "url": "https://premiermobiledetailing.com.au/mobile-detailing/wheelers-hill"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Mobile Car Detailing Wheelers Hill | Ceramic Coating at Your Door",
+      "description": "Mobile detailing in Wheelers Hill — full details, paint correction and ceramic coating, done at your home. From $385.",
+      "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+    },
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "areaServed": "Wheelers Hill",
+        "description": "Premium mobile car detailing and ceramic coating services in Wheelers Hill. We come to your home or workplace.",
+        "url": "https://premiermobiledetailing.com.au/mobile-detailing/wheelers-hill",
+        "telephone": "0411566186",
+        "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "55"
+        }
+      }
+    ]
+  }
+]

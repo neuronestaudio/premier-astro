@@ -1,0 +1,326 @@
+<section class="relative overflow-hidden" style="padding-top: 130px; padding-bottom: 90px; min-height: 100vh;">
+
+<div class="absolute inset-0 -z-10" style="background: #080B16;"></div>
+<div aria-hidden="true" class="absolute inset-0 -z-10" style="background: linear-gradient(rgba(8,11,22,.62), rgba(11,16,32,.72)), url('/assets/images/carbon-bg.jpg'); background-size: cover; background-position: center;"></div>
+<div aria-hidden="true" class="absolute inset-0 -z-10" style="background: radial-gradient(1200px 700px at 50% -8%, rgba(37,99,235,.20), transparent 60%);"></div>
+<div aria-hidden="true" class="absolute inset-0 -z-10" style="background: linear-gradient(180deg, rgba(8,11,22,.25), rgba(8,11,22,.55) 72%, #080B16 96%);"></div>
+<div class="pmd-book-wrap">
+<div style="text-align: center; margin-bottom: 26px; position: relative; z-index: 2;">
+<p class="mb-3" style="font-size: 15px; font-weight: 800; letter-spacing: .26em; text-transform: uppercase; text-shadow: 0 2px 14px rgba(0,0,0,.85); background: linear-gradient(100deg,#eaf1ff 0%,#a9c6ff 38%,#5f92ff 70%,#2f6bff 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;">Premium Mobile Detailing</p>
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight drop-shadow-xl" style="margin: 0; line-height: 1.06;">
+<span class="pmd-book-metal">The Best Your Car<br/>Has Ever Looked.</span><br/>
+<span class="pmd-book-blue">Detailed at Your Door.</span>
+</h1>
+<p class="text-muted-foreground" style="margin-top: 14px;">Book below — takes under a minute, and we'll call or text back to confirm a time.</p>
+</div>
+<div class="pmd-book-card">
+
+<div class="pmd-steps" id="pmdSteps">
+<div class="pmd-stp active" data-s="1"><div class="pmd-stp-dot">1</div><div class="pmd-stp-lbl">Service</div></div>
+<div class="pmd-stp" data-s="2"><div class="pmd-stp-dot">2</div><div class="pmd-stp-lbl">Location</div></div>
+<div class="pmd-stp" data-s="3"><div class="pmd-stp-dot">3</div><div class="pmd-stp-lbl">Vehicle</div></div>
+<div class="pmd-stp" data-s="4"><div class="pmd-stp-dot">4</div><div class="pmd-stp-lbl">Budget</div></div>
+<div class="pmd-stp" data-s="5"><div class="pmd-stp-dot">5</div><div class="pmd-stp-lbl">Details</div></div>
+</div>
+<h2 class="pmd-h" id="stepTitle">Choose your service</h2>
+<p class="pmd-sub" id="stepSub">Pick what you’re after — not sure? Choose “Not sure yet”.</p>
+<form id="pmdEnquiry">
+
+<div class="pmd-step" data-step="1">
+<div class="pmd-grid2">
+<button class="pmd-card pmd-pkg" data-val="Express Detail" type="button"><span class="pmd-card-t">Express Detail</span><span class="pmd-card-d">Wash, vac &amp; quick interior/exterior clean</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-pkg" data-val="Deluxe Detail" type="button"><span class="pmd-card-t">Deluxe Detail</span><span class="pmd-card-d">Complete interior &amp; exterior detail</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-pkg" data-val="Full Detail" type="button"><span class="pmd-card-t">Full Detail</span><span class="pmd-card-d">Full detail + machine polish</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-pkg" data-val="Paint Enhancement" type="button"><span class="pmd-card-t">Paint Enhancement</span><span class="pmd-card-d">One-step gloss &amp; shine boost</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-pkg" data-val="Paint Correction" type="button"><span class="pmd-card-t">Paint Correction</span><span class="pmd-card-d">Multi-step swirl &amp; scratch removal</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-pkg" data-val="Ceramic Coating" type="button"><span class="pmd-card-t">Ceramic Coating</span><span class="pmd-card-d">Long-lasting paint protection</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-pkg" data-val="Not sure — need advice" type="button"><span class="pmd-card-t">Not sure yet</span><span class="pmd-card-d">Help me pick the right service</span><span class="pmd-card-tick">✓</span></button>
+</div>
+</div>
+
+<div class="pmd-step" data-step="2" hidden="">
+<div class="pmd-grid2">
+<button class="pmd-card pmd-loc" data-val="Studio — Vehicle Drop Off" type="button"><span class="pmd-card-ic">🏢</span><span class="pmd-card-t">Studio — Vehicle Drop Off</span><span class="pmd-card-d">Drop your car to our studio</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-loc" data-val="Mobile Service — At Your Door" type="button"><span class="pmd-card-ic">🚐</span><span class="pmd-card-t">Mobile Service — At Your Door</span><span class="pmd-card-d">We come to you</span><span class="pmd-card-tick">✓</span></button>
+</div>
+<div hidden="" id="postcodeWrap" style="margin-top: 18px;">
+<label class="enq-label" for="postcode">Postcode <span style="color: #f87171;">*</span></label>
+<input class="enq-field" id="postcode" inputmode="numeric" maxlength="4" name="postcode" placeholder="e.g. 3809" type="text"/>
+<p class="pmd-loc-hint">We come to you across Officer &amp; South-East Melbourne (Victoria-wide for larger jobs). Your postcode lets us confirm we can reach you.</p>
+</div>
+</div>
+
+<div class="pmd-step" data-step="3" hidden="">
+<div style="margin-bottom: 18px;"><label class="enq-label" for="vehicle">Vehicle <span style="color: #f87171;">*</span></label><input class="enq-field" id="vehicle" name="vehicle" placeholder="e.g. 2022 Audi RS5 (make, model, year)" type="text"/></div>
+<div id="condWrap">
+<label class="enq-label" id="condLabel">Paint condition <span style="color: #f87171;">*</span></label>
+
+<div class="pmd-grid2" id="condPaint" style="margin-bottom: 18px;">
+<button class="pmd-card pmd-cond" data-cond="paint" data-val="New / Excellent" type="button"><span class="pmd-card-t">New / Excellent</span><span class="pmd-card-d">Near-new, minimal marks</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-cond" data-cond="paint" data-val="Good" type="button"><span class="pmd-card-t">Good</span><span class="pmd-card-d">Light swirls, minor marks</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-cond" data-cond="paint" data-val="Fair" type="button"><span class="pmd-card-t">Fair</span><span class="pmd-card-d">Noticeable swirls &amp; scratches</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-cond" data-cond="paint" data-val="Poor" type="button"><span class="pmd-card-t">Poor</span><span class="pmd-card-d">Heavy scratches / oxidation</span><span class="pmd-card-tick">✓</span></button>
+</div>
+
+<div class="pmd-grid2" hidden="" id="condInterior" style="margin-bottom: 18px;">
+<button class="pmd-card pmd-cond" data-cond="interior" data-val="Clean / Tidy" type="button"><span class="pmd-card-t">Clean / Tidy</span><span class="pmd-card-d">Well-kept, just needs a refresh</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-cond" data-cond="interior" data-val="Lightly Messy" type="button"><span class="pmd-card-t">Lightly Messy</span><span class="pmd-card-d">Everyday use, crumbs &amp; dust</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-cond" data-cond="interior" data-val="Dirty" type="button"><span class="pmd-card-t">Dirty</span><span class="pmd-card-d">Stains, spills &amp; built-up grime</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-cond" data-cond="interior" data-val="Full Reset" type="button"><span class="pmd-card-t">Full Reset</span><span class="pmd-card-d">Heavily soiled — needs a deep clean</span><span class="pmd-card-tick">✓</span></button>
+</div>
+</div>
+<div><label class="enq-label" for="message">Any other comments / special requests? <span style="color: #8b95a7; font-weight: 400; text-transform: none; letter-spacing: 0;">(optional)</span></label><textarea class="enq-field" id="message" name="message" placeholder="Access notes, specific concerns — anything else we should know..."></textarea></div>
+</div>
+
+<div class="pmd-step" data-step="4" hidden="">
+<div class="pmd-grid2">
+<button class="pmd-card pmd-budget" data-val="Entry Level (Under $1000)" type="button"><span class="pmd-card-t">Entry Level</span><span class="pmd-card-d">Under $1000</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-budget" data-val="Standard Range ($1000 – $2500)" type="button"><span class="pmd-card-t">Standard Range</span><span class="pmd-card-d">$1000 – $2500</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-budget" data-val="Elite Protection ($2,500+)" type="button"><span class="pmd-card-t">Elite Protection</span><span class="pmd-card-d">$2,500+</span><span class="pmd-card-tick">✓</span></button>
+<button class="pmd-card pmd-budget" data-val="Not sure yet" type="button"><span class="pmd-card-t">Not Sure Yet</span><span class="pmd-card-d">We'll talk it through</span><span class="pmd-card-tick">✓</span></button>
+</div>
+</div>
+
+<div class="pmd-step" data-step="5" hidden="">
+<div class="enq-row">
+<div><label class="enq-label" for="name">Name *</label><input class="enq-field" id="name" name="name" placeholder="Your name" type="text"/></div>
+<div><label class="enq-label" for="mobile">Mobile *</label><input class="enq-field" id="mobile" name="mobile" placeholder="04__ ___ ___" type="tel"/></div>
+</div>
+<div style="margin-top: 16px;"><label class="enq-label" for="email">Email</label><input class="enq-field" id="email" name="email" placeholder="you@email.com" type="email"/></div>
+<div id="enqReview" style="margin-top: 18px; font-size: 13.5px; color: #c3cad7; background: rgba(9,13,24,.5); border: 1px solid rgba(255,255,255,.12); border-radius: 10px; padding: 12px 14px;"></div>
+</div>
+<input id="service" name="service" type="hidden"/>
+<input id="service_location" name="service_location" type="hidden"/>
+<input id="condition" name="condition" type="hidden"/>
+<input id="condition_type" name="condition_type" type="hidden"/>
+<input id="budget" name="budget" type="hidden"/>
+<input autocomplete="off" name="botcheck" style="display: none;" tabindex="-1" type="checkbox"/>
+<div class="pmd-inline-err" hidden="" id="stepErr"></div>
+<div class="pmd-nav">
+<button class="enq-btn ghost" hidden="" id="btnBack" type="button">← Back</button>
+<button class="enq-btn" hidden="" id="btnNext" type="button">Continue →</button>
+<button class="enq-btn" hidden="" id="enqBtn" type="submit">Request My Booking</button>
+</div>
+<div class="enq-note" id="enqOk">✅ Thanks — your booking request is in. We'll call or text shortly to confirm your time. For anything urgent, call <a href="tel:0411566186" style="color: #bbf7d0; text-decoration: underline;">0411 566 186</a>.</div>
+<div class="enq-note" id="enqErr">Something went wrong sending that. Please call or text us on <a href="tel:0411566186" style="color: #fecaca; text-decoration: underline;">0411 566 186</a>.</div>
+</form>
+</div>
+
+<div class="pmd-contact">
+<a class="pmd-cc" href="tel:0411566186"><span class="pmd-cc-ic">📞</span><span class="pmd-cc-l">Prefer to call?</span><span class="pmd-cc-v">0411 566 186</span></a>
+<a class="pmd-cc" href="mailto:info@premiermobiledetailing.com.au"><span class="pmd-cc-ic">✉️</span><span class="pmd-cc-l">Email us</span><span class="pmd-cc-v">info@premiermobiledetailing.com.au</span></a>
+<div class="pmd-cc"><span class="pmd-cc-ic">📍</span><span class="pmd-cc-l">Studio</span><span class="pmd-cc-v">Officer, South-East Melbourne VIC</span></div>
+<div class="pmd-cc"><span class="pmd-cc-ic">🕒</span><span class="pmd-cc-l">Opening hours</span><span class="pmd-cc-v">Mon–Sat: 8am – 6pm · Sun: by appointment</span></div>
+</div>
+</div>
+</section>
+<script>
+    // Stepped booking form -> GoHighLevel / LeadConnector inbound webhook.
+    var LEAD_WEBHOOK = "https://services.leadconnectorhq.com/hooks/0G5r7THzw7gjg3OextOo/webhook-trigger/dOltIjaGRmcprw0mI8y6";
+    (function () {
+      var form = document.getElementById('pmdEnquiry');
+      var steps = [].slice.call(form.querySelectorAll('.pmd-step'));
+      var TOTAL = steps.length;
+      var cur = 1;
+      var dots = [].slice.call(document.querySelectorAll('.pmd-stp'));
+      var stepTitle = document.getElementById('stepTitle');
+      var stepSub = document.getElementById('stepSub');
+      var btnBack = document.getElementById('btnBack');
+      var btnNext = document.getElementById('btnNext');
+      var btnSubmit = document.getElementById('enqBtn');
+      var serviceInput = document.getElementById('service');
+      var locInput = document.getElementById('service_location');
+      var condInput = document.getElementById('condition');
+      var condTypeInput = document.getElementById('condition_type');
+      var budgetInput = document.getElementById('budget');
+      var condWrap = document.getElementById('condWrap');
+      var condLabel = document.getElementById('condLabel');
+      var condPaint = document.getElementById('condPaint');
+      var condInterior = document.getElementById('condInterior');
+      var PAINT_SVCS = ['Paint Enhancement', 'Paint Correction', 'Ceramic Coating'];
+      var DETAIL_SVCS = ['Express Detail', 'Deluxe Detail', 'Full Detail'];
+      var condRequired = true;
+      function clearCond() {
+        [].forEach.call(form.querySelectorAll('.pmd-cond'), function (x) { x.classList.remove('sel'); });
+        condInput.value = ''; condTypeInput.value = '';
+      }
+      // Step 3 asks about PAINT for paint services, INTERIOR for detail services,
+      // and nothing at all for "Not sure" (less friction to enquire).
+      function configureStep3(service) {
+        var isDetail = DETAIL_SVCS.indexOf(service) > -1;
+        var isPaint = PAINT_SVCS.indexOf(service) > -1;
+        clearCond();
+        if (!isDetail && !isPaint) { condRequired = false; if (condWrap) condWrap.hidden = true; return; }
+        condRequired = true; if (condWrap) condWrap.hidden = false;
+        if (isDetail) {
+          condLabel.innerHTML = 'Interior condition <span style="color:#f87171">*</span>';
+          condInterior.hidden = false; condPaint.hidden = true;
+        } else {
+          condLabel.innerHTML = 'Paint condition <span style="color:#f87171">*</span>';
+          condPaint.hidden = false; condInterior.hidden = true;
+        }
+      }
+      var postcodeWrap = document.getElementById('postcodeWrap');
+      var postcode = document.getElementById('postcode');
+      var stepErr = document.getElementById('stepErr');
+      var ok = document.getElementById('enqOk'), err = document.getElementById('enqErr');
+      var review = document.getElementById('enqReview');
+      var TITLES = {
+        1: ['Choose your service', 'Pick what you’re after — not sure? Choose “Not sure yet”.'],
+        2: ['How would you like it done?', 'Drop your car to our studio, or we come to you.'],
+        3: ['Your vehicle', 'What are we detailing? Add anything we should know.'],
+        4: ['What’s your budget?', 'Just helps us tailor the right package — you can skip it.'],
+        5: ['Your details', 'Last step — how do we reach you to confirm?']
+      };
+      function val(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; }
+      var isMobile = function () { return /mobile/i.test(locInput.value); };
+      function show(n) {
+        cur = n;
+        stepErr.hidden = true;
+        steps.forEach(function (s) { s.hidden = (+s.getAttribute('data-step') !== n); });
+        var st = steps[n - 1];
+        st.style.animation = 'none'; void st.offsetWidth; st.style.animation = '';
+        dots.forEach(function (d) {
+          var s = +d.getAttribute('data-s');
+          d.classList.toggle('done', s < n);
+          d.classList.toggle('active', s === n);
+        });
+        stepTitle.textContent = TITLES[n][0]; stepSub.textContent = TITLES[n][1];
+        btnBack.hidden = (n === 1);                 // Back on every step after the first
+        btnNext.hidden = (n === 1 || n === TOTAL);  // Continue on steps 2-3 (step 1 cards auto-advance)
+        btnSubmit.hidden = (n !== TOTAL);           // Submit on the last step
+        if (n === TOTAL) {
+          review.innerHTML = '<strong style="color:#dfe5f0">Your booking:</strong> ' +
+            (serviceInput.value || '—') +
+            (locInput.value ? ' &middot; ' + locInput.value : '') +
+            (isMobile() && val('postcode') ? ' (' + val('postcode') + ')' : '') +
+            (val('vehicle') ? ' &middot; ' + val('vehicle') : '') +
+            (condInput.value ? ' &middot; ' + condInput.value + ' condition' : '') +
+            (budgetInput.value ? ' &middot; ' + budgetInput.value : '');
+        }
+      }
+      // package select -> highlight + auto-advance (Back stays available to edit)
+      [].forEach.call(form.querySelectorAll('.pmd-pkg'), function (b) {
+        b.addEventListener('click', function () {
+          [].forEach.call(form.querySelectorAll('.pmd-pkg'), function (x) { x.classList.remove('sel'); });
+          b.classList.add('sel'); serviceInput.value = b.getAttribute('data-val'); stepErr.hidden = true;
+          configureStep3(serviceInput.value);
+          setTimeout(function () { if (cur === 1) show(2); }, 260);
+        });
+      });
+      // location select -> Studio auto-advances; Mobile reveals the required postcode
+      [].forEach.call(form.querySelectorAll('.pmd-loc'), function (b) {
+        b.addEventListener('click', function () {
+          [].forEach.call(form.querySelectorAll('.pmd-loc'), function (x) { x.classList.remove('sel'); });
+          b.classList.add('sel'); locInput.value = b.getAttribute('data-val'); stepErr.hidden = true;
+          if (isMobile()) {
+            postcodeWrap.hidden = false; setTimeout(function () { postcode.focus(); }, 60);
+          } else {
+            postcodeWrap.hidden = true; postcode.value = '';
+            setTimeout(function () { if (cur === 2) show(3); }, 260);
+          }
+        });
+      });
+      // postcode filled (4 digits) -> auto-advance too, keeping the flow moving
+      postcode.addEventListener('input', function () {
+        if (postcode.value.replace(/\D/g, '').length === 4) { setTimeout(function () { if (cur === 2 && isMobile()) show(3); }, 320); }
+      });
+      // paint condition select -> highlight + set value (both vehicle & condition required for step 4)
+      [].forEach.call(form.querySelectorAll('.pmd-cond'), function (b) {
+        b.addEventListener('click', function () {
+          [].forEach.call(form.querySelectorAll('.pmd-cond'), function (x) { x.classList.remove('sel'); });
+          b.classList.add('sel'); condInput.value = b.getAttribute('data-val');
+          condTypeInput.value = (b.getAttribute('data-cond') === 'interior') ? 'Interior' : 'Paint';
+          stepErr.hidden = true;
+        });
+      });
+      // budget select -> highlight + auto-advance (optional step)
+      [].forEach.call(form.querySelectorAll('.pmd-budget'), function (b) {
+        b.addEventListener('click', function () {
+          [].forEach.call(form.querySelectorAll('.pmd-budget'), function (x) { x.classList.remove('sel'); });
+          b.classList.add('sel'); budgetInput.value = b.getAttribute('data-val'); stepErr.hidden = true;
+          setTimeout(function () { if (cur === 4) show(5); }, 260);
+        });
+      });
+      var budgetSkip = document.getElementById('budgetSkip');
+      if (budgetSkip) budgetSkip.addEventListener('click', function () { budgetInput.value = ''; if (cur === 4) show(5); });
+      function canAdvance(n) {
+        if (n === 1 && !serviceInput.value) { stepErr.textContent = 'Please choose a service to continue.'; stepErr.hidden = false; return false; }
+        if (n === 2) {
+          if (!locInput.value) { stepErr.textContent = 'Please choose how you’d like it done.'; stepErr.hidden = false; return false; }
+          if (isMobile() && !val('postcode')) { stepErr.textContent = 'Please enter your postcode so we can confirm we service your area.'; stepErr.hidden = false; postcode.focus(); return false; }
+        }
+        if (n === 3) {
+          if (!val('vehicle')) { stepErr.textContent = 'Please enter your vehicle — it’s required to continue.'; stepErr.hidden = false; return false; }
+          if (condRequired && !condInput.value) {
+            var kind = (condInterior && !condInterior.hidden) ? 'interior' : 'paint';
+            stepErr.textContent = 'Please select the ' + kind + ' condition — it’s required to continue.'; stepErr.hidden = false; return false;
+          }
+        }
+        return true;
+      }
+      btnNext.addEventListener('click', function () { if (canAdvance(cur) && cur < TOTAL) show(cur + 1); });
+      btnBack.addEventListener('click', function () { if (cur > 1) show(cur - 1); });
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        ok.classList.remove('enq-ok'); err.classList.remove('enq-err');
+        if (!val('name') || !val('mobile')) {
+          err.textContent = 'Please add your name and mobile so we can get back to you.';
+          err.classList.add('enq-err'); return;
+        }
+        var data = Object.fromEntries(new FormData(form).entries());
+        if (data.botcheck) return;
+        delete data.botcheck;
+        var parts = (data.name || '').trim().split(/\s+/);
+        data.first_name = parts.shift() || '';
+        data.last_name = parts.join(' ');
+        data.full_name = data.name || '';
+        data.phone = data.mobile || '';
+        data.lead_source = 'Website — Booking Form';
+        data.page = location.href;
+        data.submitted_at = new Date().toISOString();
+        // First-touch ad attribution (captured by enhance.js on the landing page)
+        var ATTR_FIELDS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid','fbclid','msclkid','first_landing_page'];
+        var attr = {};
+        try { attr = JSON.parse(window.localStorage.getItem('premier_attribution') || '{}') || {}; } catch (eA) { attr = {}; }
+        for (var ai = 0; ai < ATTR_FIELDS.length; ai++) {
+          data[ATTR_FIELDS[ai]] = (attr && typeof attr[ATTR_FIELDS[ai]] === 'string') ? attr[ATTR_FIELDS[ai]] : '';
+        }
+        try { data.submission_id = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : ('sub-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10)); } catch (eS) { data.submission_id = 'sub-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10); }
+        data.notes =
+          'New booking request\n' +
+          'Name: ' + (data.name || '-') + '\n' +
+          'Mobile: ' + (data.mobile || '-') + '\n' +
+          'Email: ' + (data.email || '-') + '\n' +
+          'Service: ' + (data.service || '-') + '\n' +
+          'Location: ' + (data.service_location || '-') +
+          (data.postcode ? '\nPostcode: ' + data.postcode : '') +
+          '\nVehicle: ' + (data.vehicle || '-') +
+          (data.condition ? '\n' + (data.condition_type || 'Vehicle') + ' condition: ' + data.condition : '\nCondition: not specified (needs advice)') +
+          (data.budget ? '\nBudget: ' + data.budget : '') +
+          ((data.utm_source || data.gclid) ? '\nSource: ' + (data.utm_source || (data.gclid ? 'google' : '')) + (data.utm_medium ? ' / ' + data.utm_medium : '') + (data.utm_campaign ? ' / ' + data.utm_campaign : '') : '') +
+          (data.message ? '\n\nComments / requests:\n' + data.message : '') +
+          '\n\nSubmitted: ' + data.submitted_at + '\nPage: ' + data.page;
+        btnSubmit.disabled = true; btnSubmit.textContent = 'Sending...';
+        // application/json (GHL's webhook allows CORS) so the workflow actually triggers.
+        fetch(LEAD_WEBHOOK, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        }).then(function (res) {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          // hand name + service to the thank-you page, then redirect (clean conversion URL)
+          try {
+            sessionStorage.setItem('pmd_lead_name', data.full_name || data.name || '');
+            sessionStorage.setItem('pmd_lead_service', data.service || '');
+          } catch (e2) {}
+          window.location.assign('/thank-you');
+        }).catch(function () {
+          err.classList.add('enq-err');
+          btnSubmit.disabled = false; btnSubmit.textContent = 'Request My Booking';
+        });
+      });
+      show(1);
+    })();
+  </script>

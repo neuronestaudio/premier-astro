@@ -1,0 +1,9 @@
+/* Runtime-only styles. Everything visual lives in index-BzKcK88v.css; this file
+   only carries the scroll-reveal states that site.js toggles. */
+
+/* framer-motion "whileInView" containers from the old React build */
+[data-reveal].rv { opacity: 0; transform: translateY(30px); }
+[data-reveal].rv-in { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s ease; }
+
+/* Leaflet map placeholder (Serving section) */
+[data-pmd-map] > .pmd-map-box { position: absolute; inset: 0; background: #0e1626; z-index: 1; }

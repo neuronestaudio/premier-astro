@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-maintenance-melbourne.html?raw';
+const page = {
+  "title": "Ceramic Coating Maintenance Melbourne | How to Wash a Coated Car | Premier",
+  "description": "How to maintain a ceramic coating in Melbourne — correct wash technique, what to avoid, and ceramic booster top-ups to keep the gloss and hydrophobics going for years.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-maintenance-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Ceramic Coating Maintenance Melbourne | How to Wash a Coated Car | Premier",
+    "description": "How to maintain a ceramic coating in Melbourne — correct wash technique, what to avoid, and ceramic booster top-ups to keep the gloss and hydrophobics going for years.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-maintenance-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Ceramic Coating Maintenance",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-maintenance-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How often should I wash a coated car?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every 1–2 weeks is ideal. The good news is a coated car washes far faster because dirt doesn't bond to it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a car wash?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid automatic brush washes — they scratch paint and degrade coatings. Touchless or hand washing is fine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I still need to wax it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No — a coating replaces wax. If anything, use a ceramic booster spray, not a traditional wax."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

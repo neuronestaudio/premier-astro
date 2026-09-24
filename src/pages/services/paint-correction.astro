@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import html from '../../content-html/services/paint-correction.html?raw';
+const page = {
+  "title": "Mobile Paint Correction in South East Melbourne | Premier Detailing",
+  "description": "Remove swirl marks, scratches, and oxidation with our professional multi-stage paint correction services in South East Melbourne. Restore your car's mirror finish.",
+  "canonical": "https://premiermobiledetailing.com.au/services/paint-correction",
+  "robots": null,
+  "og": {
+    "title": "Mobile Paint Correction in South East Melbourne | Premier Detailing",
+    "description": "Remove swirl marks, scratches, and oxidation with our professional multi-stage paint correction services in South East Melbourne. Restore your car's mirror finish.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/5c851f0c-a086-40dd-9708-d5dd387b914b.jpg",
+    "url": "https://premiermobiledetailing.com.au/services/paint-correction"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Mobile Paint Correction in South East Melbourne | Premier Detailing",
+    "description": "Remove swirl marks, scratches, and oxidation with our professional multi-stage paint correction services in South East Melbourne. Restore your car's mirror finish.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/5c851f0c-a086-40dd-9708-d5dd387b914b.jpg"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Multi-Stage Paint Correction",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing"
+      },
+      "areaServed": "South East Melbourne",
+      "description": "Professional multi-stage paint correction to remove heavy defects, scratches, and oxidation. We restore your car's paint to a flawless, mirror finish.",
+      "offers": {
+        "@type": "Offer",
+        "price": "1200",
+        "priceCurrency": "AUD"
+      }
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": "min-h-screen bg-background text-foreground selection:bg-primary/30",
+  "header": "page",
+  "footer": "compact",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/warranties.html?raw';
+const page = {
+  "title": "Ceramic Coating Warranties — GYEON & ONYX | Premier Mobile Detailing",
+  "description": "Manufacturer-backed GYEON and ONYX ceramic coating warranties — from 12 months to 5+ years, plus an ONYX lifetime option. Officer & South-East Melbourne.",
+  "canonical": "https://premiermobiledetailing.com.au/warranties",
+  "robots": null,
+  "og": {},
+  "twitter": {},
+  "jsonld": [],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "none",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

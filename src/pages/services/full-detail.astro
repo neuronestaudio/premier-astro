@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import html from '../../content-html/services/full-detail.html?raw';
+const page = {
+  "title": "Mobile Full Car Detailing in South East Melbourne | Premier Detailing",
+  "description": "Comprehensive interior and exterior mobile car detailing. We bring the showroom shine directly to your door in South East Melbourne. Book your full detail today.",
+  "canonical": "https://premiermobiledetailing.com.au/services/full-detail",
+  "robots": null,
+  "og": {
+    "title": "Mobile Full Car Detailing in South East Melbourne | Premier Detailing",
+    "description": "Comprehensive interior and exterior mobile car detailing. We bring the showroom shine directly to your door in South East Melbourne. Book your full detail today.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/4ca7f1e4-3fe9-49e5-a091-7911f7ba38b1.png",
+    "url": "https://premiermobiledetailing.com.au/services/full-detail"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Mobile Full Car Detailing in South East Melbourne | Premier Detailing",
+    "description": "Comprehensive interior and exterior mobile car detailing. We bring the showroom shine directly to your door in South East Melbourne. Book your full detail today.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/4ca7f1e4-3fe9-49e5-a091-7911f7ba38b1.png"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Full Interior & Exterior Detail",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing"
+      },
+      "areaServed": "South East Melbourne",
+      "description": "Complete interior and exterior mobile car detailing. We thoroughly clean, decontaminate, and protect your vehicle at your home or workplace.",
+      "offers": {
+        "@type": "Offer",
+        "price": "385",
+        "priceCurrency": "AUD"
+      }
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": "min-h-screen bg-background text-foreground selection:bg-primary/30",
+  "header": "page",
+  "footer": "compact",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

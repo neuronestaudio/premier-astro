@@ -1,0 +1,111 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-tesla-melbourne.html?raw';
+const page = {
+  "title": "Tesla Ceramic Coating Melbourne | GYEON & ONYX | Premier Mobile Detailing",
+  "description": "Ceramic coating for Teslas in Melbourne — Model 3, Model Y, Model S & X. Mobile paint correction and GYEON / ONYX coating at your home or work across the South-East. Built for Tesla's soft factory paint, with manufacturer-backed warranties.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-tesla-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Tesla Ceramic Coating Melbourne | GYEON & ONYX | Premier Mobile Detailing",
+    "description": "Ceramic coating for Teslas in Melbourne — Model 3, Model Y, Model S & X. Mobile paint correction and GYEON / ONYX coating at your home or work across the South-East. Built for Tesla's soft factory paint.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-tesla-melbourne",
+    "image": "https://premiermobiledetailing.com.au/assets/images/04ee47f8-3803-43a0-b3f7-4eea55d1beca.jpg"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Tesla Ceramic Coating Melbourne | GYEON & ONYX | Premier Mobile Detailing",
+    "description": "Ceramic coating for Teslas in Melbourne — Model 3, Model Y, Model S & X. Mobile, at your door across the South-East. Built for Tesla's soft factory paint.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/04ee47f8-3803-43a0-b3f7-4eea55d1beca.jpg"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Tesla Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "description": "Professional ceramic coating for Teslas — Model 3, Model Y, Model S and Model X — applied mobile across South-East Melbourne. Paint correction plus GYEON and ONYX coatings built for Tesla's soft factory paint.",
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-tesla-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is ceramic coating worth it on a Tesla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — arguably more than most cars. Tesla's factory paint is thin and soft, so it swirls and marks easily. Correcting it and locking in that finish under a ceramic coating keeps it sharp for years and makes it far easier to keep clean."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you coat brand-new Teslas on delivery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. New Teslas often arrive with transport marks, light swirls or overspray. We correct those first, then coat — so your car is protected and flawless from day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Teslas do you coat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All of them — Model 3, Model Y, Model S and Model X. Tell us your model and colour and we'll recommend the right GYEON or ONYX package."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you coat the glass roof and wheels too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every package can add glass, wheel-face and interior coatings, matched to the durability of your paint coating. Tesla's panoramic glass roof sheds water and grime beautifully once coated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you come to me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're fully mobile across Officer, Berwick, Pakenham, Cranbourne, Clyde, Narre Warren, Frankston, Dandenong and the wider South-East Melbourne region. Coatings cure under cover, so we work in your garage or carport — where your Tesla already charges — with access to a tap and power."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Protect Your Tesla.",
+    "line2": "We Come to You.",
+    "sub": "Mobile Tesla ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/automotive-tinting-questions.html?raw';
+const page = {
+  "title": "Car Window Tinting Questions — Melbourne | Premier Mobile Detailing",
+  "description": "Automotive window tinting questions answered for Melbourne drivers — legal limits in Victoria, heat rejection, film types, cost and how long tint lasts.",
+  "canonical": "https://premiermobiledetailing.com.au/automotive-tinting-questions",
+  "robots": null,
+  "og": {
+    "title": "Car Window Tinting Questions — Melbourne | Premier Mobile Detailing",
+    "description": "Automotive window tinting questions answered for Melbourne drivers — legal limits in Victoria, heat rejection, film types, cost and how long tint lasts.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/automotive-tinting-questions"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Automotive Window Tinting",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/automotive-tinting-questions"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How dark can I legally tint in Victoria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Victoria sets a minimum VLT (visible light transmission) for front side windows, with rear windows allowed darker. We fit compliant film and advise on the darkest legal option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tint is best for heat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ceramic film offers the best heat rejection and clarity without needing to go dark. Carbon film is a great durable mid-tier option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will tint fade or go purple?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quality carbon and ceramic films won't — they hold their colour for years. Cheap dyed film is what fades and turns purple."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does tint block UV?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — quality film blocks the large majority of UV, protecting your interior from fading and you from sun exposure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does tinting cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the car and the film tier. Ceramic costs more than carbon but rejects more heat. We'll quote your specific vehicle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does tinting take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical car is done in a few hours. We fit in a clean, controlled environment for a flawless, bubble-free finish."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

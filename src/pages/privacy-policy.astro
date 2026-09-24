@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/privacy-policy.html?raw';
+const page = {
+  "title": "Privacy Policy | Premier Mobile Detailing",
+  "description": "Privacy Policy for Premier Mobile Detailing — how we collect, use, store and protect your personal information. Officer & South-East Melbourne mobile car detailing.",
+  "canonical": "https://premiermobiledetailing.com.au/privacy-policy",
+  "robots": null,
+  "og": {},
+  "twitter": {},
+  "jsonld": [],
+  "preloads": [],
+  "styles": [
+    "    body{background:#080B16;margin:0;color:#e6ebf5;font-family:'DM Sans',system-ui,-apple-system,sans-serif;line-height:1.7}\n    .pp-wrap{max-width:820px;margin:0 auto;padding:0 22px}\n    .pp-hero{padding:130px 0 40px;text-align:center;position:relative;overflow:hidden}\n    .pp-hero::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(8,11,22,.66), rgba(11,16,32,.78)), url('/assets/images/carbon-bg.jpg');background-size:cover;background-position:center}\n    .pp-eyebrow{color:#6aa0ff;font-size:13px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;margin:0 0 12px}\n    .pp-title{font-size:clamp(34px,6vw,52px);font-weight:800;letter-spacing:-.01em;color:#fff;margin:0}\n    .pp-updated{color:#9aa4b5;font-size:14px;margin-top:14px}\n    .pp-body{padding:14px 0 90px}\n    .pp-body h2{color:#fff;font-size:20px;font-weight:700;margin:38px 0 10px;letter-spacing:-.01em}\n    .pp-body h3{color:#dfe5f0;font-size:16px;font-weight:700;margin:22px 0 6px}\n    .pp-body p{color:#c3cad7;margin:0 0 14px}\n    .pp-body ul{color:#c3cad7;margin:0 0 14px;padding-left:22px}\n    .pp-body li{margin:0 0 7px}\n    .pp-body a{color:#6aa0ff;text-decoration:none}\n    .pp-body a:hover{text-decoration:underline}\n    .pp-body strong{color:#eef2f8}\n    .pp-note{background:rgba(37,99,235,.10);border:1px solid rgba(47,107,255,.28);border-radius:12px;padding:16px 18px;margin:26px 0;font-size:14px;color:#c3cad7}\n    .pp-card{background:rgba(9,13,24,.55);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px 20px;margin:22px 0}\n    nav.pp-nav{position:fixed;top:0;left:0;right:0;z-index:50;padding:14px 16px 0}\n    .pp-nav-in{max-width:1120px;margin:0 auto;height:60px;display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 24px;\n      background:rgba(11,16,28,.72);-webkit-backdrop-filter:blur(16px) saturate(150%);backdrop-filter:blur(16px) saturate(150%);\n      border:1px solid rgba(255,255,255,.12);border-radius:9999px;box-shadow:0 12px 34px rgba(0,0,0,.45)}\n    .pp-nav-in img{height:36px;width:auto}\n    .pp-nav-links{display:flex;gap:22px;align-items:center;font-size:14px;font-weight:600}\n    .pp-nav-links a{color:#e6ebf5;text-decoration:none}\n    .pp-nav-links a:hover{color:#6aa0ff}\n    .pp-cta{background:#2563eb;color:#fff !important;padding:9px 20px;border-radius:9999px;font-weight:700}\n    @media (max-width:640px){.pp-nav-links a:not(.pp-cta){display:none}}\n    footer.pp-foot{border-top:1px solid rgba(255,255,255,.08);padding:34px 0;text-align:center;color:#8b95a7;font-size:13px}\n    footer.pp-foot a{color:#9aa4b5;text-decoration:underline}\n  "
+  ],
+  "root": false,
+  "wrapper": null,
+  "header": "none",
+  "footer": "none",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

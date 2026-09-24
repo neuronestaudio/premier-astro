@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/residential-window-tinting-melbourne.html?raw';
+const page = {
+  "title": "Residential Window Tinting Melbourne | Home Window Film | Premier",
+  "description": "Residential window tinting in Melbourne — cut heat, glare and UV fading in your home while keeping the view. Solar, privacy and safety films.",
+  "canonical": "https://premiermobiledetailing.com.au/residential-window-tinting-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Residential Window Tinting Melbourne | Home Window Film | Premier",
+    "description": "Residential window tinting in Melbourne — cut heat, glare and UV fading in your home while keeping the view. Solar, privacy and safety films.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/residential-window-tinting-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Residential Window Tinting",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/residential-window-tinting-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will home window film make rooms dark?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily — modern films reject heat and UV while keeping natural light and the view. There are lighter and darker options to suit each room."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it really lower cooling costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By rejecting solar heat, film reduces the load on your air-conditioning, especially on west- and north-facing glass."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you do privacy film?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — from daytime one-way privacy to frosted films for bathrooms and street-facing windows."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

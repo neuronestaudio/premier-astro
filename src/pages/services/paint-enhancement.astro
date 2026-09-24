@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import html from '../../content-html/services/paint-enhancement.html?raw';
+const page = {
+  "title": "Mobile Paint Enhancement in South East Melbourne | Premier Detailing",
+  "description": "Restore your car's gloss with our one-stage machine paint enhancement and 1-year ceramic coating. Premium mobile service across South East Melbourne.",
+  "canonical": "https://premiermobiledetailing.com.au/services/paint-enhancement",
+  "robots": null,
+  "og": {
+    "title": "Mobile Paint Enhancement in South East Melbourne | Premier Detailing",
+    "description": "Restore your car's gloss with our one-stage machine paint enhancement and 1-year ceramic coating. Premium mobile service across South East Melbourne.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/3b539bb2-4cae-4fd3-ab49-3148dd373a20.jpg",
+    "url": "https://premiermobiledetailing.com.au/services/paint-enhancement"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Mobile Paint Enhancement in South East Melbourne | Premier Detailing",
+    "description": "Restore your car's gloss with our one-stage machine paint enhancement and 1-year ceramic coating. Premium mobile service across South East Melbourne.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/3b539bb2-4cae-4fd3-ab49-3148dd373a20.jpg"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Paint Enhancement",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing"
+      },
+      "areaServed": "South East Melbourne",
+      "description": "One-stage machine polish to remove light swirls and enhance gloss. Includes a 1-year ceramic coating for lasting protection.",
+      "offers": {
+        "@type": "Offer",
+        "price": "550",
+        "priceCurrency": "AUD"
+      }
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": "min-h-screen bg-background text-foreground selection:bg-primary/30",
+  "header": "page",
+  "footer": "compact",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/product-tds.html?raw';
+const page = {
+  "title": "Product Technical Data Sheets — GYEON & ONYX | Premier Mobile Detailing",
+  "description": "The GYEON and ONYX coatings we use, named in full with manufacturer technical data — ceramic, glass, wheel and interior. Officer & South-East Melbourne.",
+  "canonical": "https://premiermobiledetailing.com.au/product-tds",
+  "robots": null,
+  "og": {},
+  "twitter": {},
+  "jsonld": [],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "none",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import html from '../../content-html/services/ceramic-coating.html?raw';
+const page = {
+  "title": "Mobile Ceramic Coating in South East Melbourne | Premier Detailing",
+  "description": "Protect your vehicle with professional Gyeon ceramic coating. Mobile application in South East Melbourne for ultimate gloss, UV defense, and lasting paint protection.",
+  "canonical": "https://premiermobiledetailing.com.au/services/ceramic-coating",
+  "robots": null,
+  "og": {
+    "title": "Mobile Ceramic Coating in South East Melbourne | Premier Detailing",
+    "description": "Protect your vehicle with professional Gyeon ceramic coating. Mobile application in South East Melbourne for ultimate gloss, UV defense, and lasting paint protection.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/04ee47f8-3803-43a0-b3f7-4eea55d1beca.jpg",
+    "url": "https://premiermobiledetailing.com.au/services/ceramic-coating"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Mobile Ceramic Coating in South East Melbourne | Premier Detailing",
+    "description": "Protect your vehicle with professional Gyeon ceramic coating. Mobile application in South East Melbourne for ultimate gloss, UV defense, and lasting paint protection.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/04ee47f8-3803-43a0-b3f7-4eea55d1beca.jpg"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Ceramic Coating",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing"
+      },
+      "areaServed": "South East Melbourne",
+      "description": "Professional ceramic coating service for your vehicle. We come to you across South East Melbourne to protect your paint with Gyeon certified coatings.",
+      "offers": {
+        "@type": "Offer",
+        "price": "850",
+        "priceCurrency": "AUD"
+      }
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": "min-h-screen bg-background text-foreground selection:bg-primary/30 relative",
+  "header": "page",
+  "footer": "compact",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/automotive-window-tinting-melbourne.html?raw';
+const page = {
+  "title": "Automotive Window Tinting Melbourne | Premier Mobile Detailing",
+  "description": "Automotive window tinting in Melbourne — cut heat and UV, add privacy and protect your interior. Legal VLT ceramic and carbon films.",
+  "canonical": "https://premiermobiledetailing.com.au/automotive-window-tinting-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Automotive Window Tinting Melbourne | Premier Mobile Detailing",
+    "description": "Automotive window tinting in Melbourne — cut heat and UV, add privacy and protect your interior. Legal VLT ceramic and carbon films.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/automotive-window-tinting-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Automotive Window Tinting",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/automotive-window-tinting-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How dark can I legally tint in Victoria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Victoria has VLT (visible light transmission) limits — front side windows must let through a minimum amount of light. We'll advise on a compliant, great-looking option for your car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does tint really reduce heat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — quality ceramic and carbon films are rated for heat rejection and make a real difference to cabin temperature and comfort."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does tint last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quality film lasts many years without bubbling or purpling, and carries a warranty. Cheap film fades and bubbles — which is why film choice matters."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

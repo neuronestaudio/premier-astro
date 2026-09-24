@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-new-car-melbourne.html?raw';
+const page = {
+  "title": "Ceramic Coating for New Cars Melbourne | Premier Mobile Detailing",
+  "description": "Just bought a new car in Melbourne? Ceramic coating protects factory paint from day one — UV, salt, bird droppings and swirl marks. Mobile, at your door.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-new-car-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Ceramic Coating for New Cars Melbourne | Premier Mobile Detailing",
+    "description": "Just bought a new car in Melbourne? Ceramic coating protects factory paint from day one — UV, salt, bird droppings and swirl marks. Mobile, at your door.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-new-car-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-new-car-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Should I coat a brand-new car?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's the ideal time. The paint is at its best, so a light correction plus a coating gives you the maximum lifespan and gloss for the least prep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Isn't the dealer coating enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dealer \"paint protection\" is often a low-grade sealant applied over unwashed swirls. A professional GYEON or ONYX coating on a corrected surface is a different level — see our ceramic vs dealer comparison."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon after delivery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any time in the first few weeks is great. We'll come to your home or work across South-East Melbourne."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.premiermobiledetailing.com.au" }],
+      "destination": "https://premiermobiledetailing.com.au/",
+      "permanent": true
+    },
+    {
+      "source": "/:path+",
+      "has": [{ "type": "host", "value": "www.premiermobiledetailing.com.au" }],
+      "destination": "https://premiermobiledetailing.com.au/:path+",
+      "permanent": true
+    },
+    { "source": "/portfolio.html", "destination": "/", "permanent": true },
+    { "source": "/portfolio", "destination": "/", "permanent": true },
+    { "source": "/enquiry", "destination": "/booking", "permanent": false },
+    { "source": "/enquiry/:path*", "destination": "/booking", "permanent": false },
+    { "source": "/ppf-melbourne", "destination": "/ceramic-coating-melbourne", "permanent": true },
+    { "source": "/ppf-cost-melbourne", "destination": "/ceramic-coating-cost-melbourne", "permanent": true },
+    { "source": "/ppf-near-me-melbourne", "destination": "/ceramic-coating-near-me-melbourne", "permanent": true },
+    { "source": "/ppf-new-car-melbourne", "destination": "/ceramic-coating-new-car-melbourne", "permanent": true },
+    { "source": "/ppf-resale-value-melbourne", "destination": "/ceramic-coating-resale-melbourne", "permanent": true },
+    { "source": "/ppf-dark-paint-melbourne", "destination": "/ceramic-coating-paint-correction-melbourne", "permanent": true },
+    { "source": "/ppf-self-healing-melbourne", "destination": "/ceramic-coating-melbourne", "permanent": true },
+    { "source": "/ppf-stone-chip-protection-melbourne", "destination": "/ceramic-coating-melbourne", "permanent": true },
+    { "source": "/ppf-warranty-melbourne", "destination": "/warranties", "permanent": true },
+    { "source": "/ppf-questions", "destination": "/ceramic-coating-questions", "permanent": true },
+    { "source": "/partial-ppf-melbourne", "destination": "/ceramic-coating-melbourne", "permanent": true },
+    { "source": "/gloss-vs-matte-ppf-melbourne", "destination": "/ceramic-coating-matte-paint-melbourne", "permanent": true },
+    { "source": "/ceramic-ppf-melbourne", "destination": "/ceramic-coating-melbourne", "permanent": true }
+  ]
+}

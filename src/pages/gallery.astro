@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/gallery.html?raw';
+const page = {
+  "title": "Auto Detailing & Ceramic Coating Gallery | Premier Mobile Detailing",
+  "description": "View our recent mobile detailing and ceramic coating work across South East Melbourne. Real cars, real results.",
+  "canonical": "https://premiermobiledetailing.com.au/gallery",
+  "robots": null,
+  "og": {
+    "title": "Auto Detailing & Ceramic Coating Gallery | Premier Mobile Detailing",
+    "description": "View our recent mobile detailing and ceramic coating work across South East Melbourne. Real cars, real results.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/b2a844b3-7902-4adb-9d5b-47c0dc31cf00.jpg",
+    "url": "https://premiermobiledetailing.com.au/gallery"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Auto Detailing & Ceramic Coating Gallery | Premier Mobile Detailing",
+    "description": "View our recent mobile detailing and ceramic coating work across South East Melbourne. Real cars, real results.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/b2a844b3-7902-4adb-9d5b-47c0dc31cf00.jpg"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "Premier Mobile Detailing Gallery"
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": "min-h-screen bg-background text-foreground selection:bg-primary/30 relative",
+  "header": "page",
+  "footer": "compact",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

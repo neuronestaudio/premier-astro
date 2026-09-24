@@ -1,0 +1,112 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/commercial-tinting-questions.html?raw';
+const page = {
+  "title": "Commercial Window Tinting Questions — Melbourne | Premier Mobile Detailing",
+  "description": "Commercial window tinting questions answered for Melbourne businesses — energy savings, glare, safety and security film, privacy and branding film options.",
+  "canonical": "https://premiermobiledetailing.com.au/commercial-tinting-questions",
+  "robots": null,
+  "og": {
+    "title": "Commercial Window Tinting Questions — Melbourne | Premier Mobile Detailing",
+    "description": "Commercial window tinting questions answered for Melbourne businesses — energy savings, glare, safety and security film, privacy and branding film options.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/commercial-tinting-questions"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Commercial Window Tinting",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/commercial-tinting-questions"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can window film cut our energy costs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — solar-control film reduces heat gain through large facades, easing air-conditioning load and running costs, particularly on sun-facing glass."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer privacy and branding film?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frosted, privacy and cut-graphic films are available for meeting rooms, partitions and shopfront branding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is safety/security film?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A tough film that helps hold glass together on impact, improving safety and slowing forced entry — popular for shopfronts and ground-floor glazing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will it reduce glare on screens?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — it cuts glare on monitors and POS displays, improving comfort and productivity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you work around business hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We can scope the job to minimise disruption. Get in touch and we'll plan the install around your operation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do commercial films come with a warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — quality commercial films carry manufacturer warranties; terms depend on the film and application."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-paint-correction-melbourne.html?raw';
+const page = {
+  "title": "Paint Correction + Ceramic Coating Melbourne | Premier Mobile Detailing",
+  "description": "Paint correction before ceramic coating in Melbourne — machine polishing removes swirls and defects so your coating locks in a flawless, mirror finish.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-paint-correction-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Paint Correction + Ceramic Coating Melbourne | Premier Mobile Detailing",
+    "description": "Paint correction before ceramic coating in Melbourne — machine polishing removes swirls and defects so your coating locks in a flawless, mirror finish.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-paint-correction-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Paint Correction and Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-paint-correction-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do I need paint correction before a coating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almost always some level. A coating won't hide swirls — it seals them in. At minimum we recommend a one-stage enhancement first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does correction take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A one-stage enhancement is a few hours; full multi-stage correction can take up to two days depending on the paint."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you remove every scratch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most swirls and light scratches, yes. Deep scratches that have gone through the clear coat can be improved but not always fully removed."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

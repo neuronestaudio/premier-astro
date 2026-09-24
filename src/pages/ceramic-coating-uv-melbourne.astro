@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-uv-melbourne.html?raw';
+const page = {
+  "title": "Ceramic Coating UV Protection Melbourne | Premier Mobile Detailing",
+  "description": "Ceramic coating for UV protection in Melbourne. Australia's harsh sun fades and oxidises paint fast — a ceramic coating blocks UV and keeps your colour deep for years.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-uv-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Ceramic Coating UV Protection Melbourne | Premier Mobile Detailing",
+    "description": "Ceramic coating for UV protection in Melbourne. Australia's harsh sun fades and oxidises paint fast — a ceramic coating blocks UV and keeps your colour deep for years.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-uv-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-uv-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does ceramic coating stop paint fading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It dramatically slows it. A coating blocks a large share of UV, so the clear coat underneath stays protected and the colour stays deep far longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is UV protection worth it if I garage my car?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Even garaged cars get UV exposure driving in Melbourne sun. It's most valuable for daily-driven and outdoor-parked cars, but benefits every car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about faded paint — can you fix it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Light oxidation can be corrected back to gloss before coating. Heavily cracked or failed clear coat may need respray — we'll assess and tell you honestly."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

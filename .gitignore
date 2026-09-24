@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+_bake/
+_bake_log.txt
+_parity/
+.vercel/
+.DS_Store

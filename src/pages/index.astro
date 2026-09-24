@@ -1,0 +1,130 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/index.html?raw';
+const before = "<div id=\"static-hero\" style=\"display: block;\">\n<picture>\n<source media=\"(min-width: 768px)\" srcset=\"/assets/images/b1e39b01-31d2-41bb-900a-c4efec0a0615.png\"/>\n<img alt=\"Premier Mobile Detailing\" decoding=\"sync\" fetchpriority=\"high\" src=\"/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp\"/>\n</picture>\n<div class=\"hero-gradient\"></div>\n<div class=\"hero-overlay\"></div>\n</div>";
+const after = "<svg aria-hidden=\"true\" height=\"0\" id=\"pmd-star-grad-svg\" style=\"position: absolute; width: 0px; height: 0px; overflow: hidden; pointer-events: none;\" width=\"0\"><defs><lineargradient id=\"pmdStarGrad\" x1=\"0\" x2=\"0.15\" y1=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#ffffff\"></stop><stop offset=\"40%\" stop-color=\"#eaf0f8\"></stop><stop offset=\"72%\" stop-color=\"#c4cfe0\"></stop><stop offset=\"100%\" stop-color=\"#a9b7d0\"></stop></lineargradient></defs></svg>";
+const page = {
+  "title": "Premier Mobile Car Detailing & Ceramic Coatings",
+  "description": "Busy schedule, dirty car? We fix that. Premier Mobile Detailing brings expert detailing and ceramic coating to you — South East Melbourne, Victoria, and beyond.",
+  "canonical": "https://premiermobiledetailing.com.au/",
+  "robots": null,
+  "og": {
+    "title": "Premier Mobile Car Detailing & Ceramic Coatings",
+    "description": "Busy schedule, dirty car? We fix that. Premier Mobile Detailing brings expert detailing and ceramic coating to you — South East Melbourne, Victoria, and beyond.",
+    "type": "website",
+    "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+    "url": "https://premiermobiledetailing.com.au/"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Premier Mobile Car Detailing & Ceramic Coatings",
+    "description": "Busy schedule, dirty car? We fix that. Premier Mobile Detailing brings expert detailing and ceramic coating to you — South East Melbourne, Victoria, and beyond.",
+    "image": "https://premiermobiledetailing.com.au/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "name": "Premier Mobile Detailing",
+          "image": "https://premiermobiledetailing.com.au/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp",
+          "@id": "https://premiermobiledetailing.com.au/",
+          "url": "https://premiermobiledetailing.com.au/",
+          "telephone": "0411566186",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "South East Melbourne",
+            "addressRegion": "VIC",
+            "addressCountry": "AU"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -38.0667,
+            "longitude": 145.4167
+          },
+          "areaServed": [
+            "Officer",
+            "Beaconsfield",
+            "Berwick",
+            "Pakenham",
+            "Clyde",
+            "Cranbourne",
+            "Dandenong"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "55"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do you need water or power?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes we need access to a tap and a power point for all jobs. Most homes have both without any issue. Just flag it when you get a quote if access might be tricky."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need a garage for ceramic coating?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes ceramic coatings need to be applied under cover, out of direct sunlight and rain. A garage or carport works well."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does each service take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Paint enhancement typically takes 3-4 hours. A paint enhancement and ceramic coating takes a full day. Full paint correction can take two days."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is ceramic coating worth it in Australia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely — more so than almost anywhere else. Australia's intense UV, harsh sun, bird droppings, and coastal salt air are among the most damaging conditions for car paint in the world. Without protection, clear coat fades and oxidises fast. A ceramic coating repels water and contaminants, blocks UV rays, and keeps your car looking sharper for years longer. For drivers in South-East Melbourne dealing with unpredictable weather and harsh conditions daily, it's one of the best investments you can make in your vehicle."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "preloads": [
+    {
+      "as": "image",
+      "href": "/assets/images/57982f66-2a3a-44b2-8853-af37ac4c757d.webp",
+      "media": "(max-width: 767px)",
+      "fetchpriority": "high"
+    },
+    {
+      "as": "image",
+      "href": "/assets/images/b1e39b01-31d2-41bb-900a-c4efec0a0615.png",
+      "media": "(min-width: 768px)",
+      "fetchpriority": "high"
+    }
+  ],
+  "styles": [
+    "      body { background-color: #080B16; margin: 0; }\n      #static-hero {\n        position: absolute;\n        top: 0; left: 0; width: 100%; height: 90vh;\n        z-index: 0;\n        overflow: hidden;\n        background-color: #080B16;\n      }\n      #static-hero img {\n        width: 100%; height: 100%;\n        -o-object-fit: cover;\n           object-fit: cover;\n        transform: scale(1.05);\n      }\n      .hero-gradient {\n        position: absolute;\n        inset: 0;\n        pointer-events: none;\n      }\n      \n      /* Mobile styles */\n      @media (max-width: 767px) {\n        #static-hero img {\n          -o-object-position: center 8%;\n             object-position: center 8%;\n        }\n        .hero-gradient {\n          background: linear-gradient(to top, #080B16, rgba(8, 11, 22, 0.8), transparent);\n        }\n        .hero-overlay { display: none; }\n      }\n      \n      /* Desktop styles */\n      @media (min-width: 768px) {\n        #static-hero img {\n          -o-object-position: center 30%;\n             object-position: center 30%;\n        }\n        .hero-gradient {\n          background: linear-gradient(to top, #080B16, rgba(8, 11, 22, 0.4), transparent);\n        }\n        .hero-overlay {\n          position: absolute;\n          inset: 0;\n          background: rgba(0, 0, 0, 0.1);\n          pointer-events: none;\n        }\n      }\n      \n      #root {\n        position: relative;\n        z-index: 1;\n      }\n    "
+  ],
+  "root": true,
+  "wrapper": "min-h-screen text-foreground selection:bg-primary/30",
+  "header": "home",
+  "footer": "home",
+  "footerProps": null,
+  "map": true
+};
+---
+<Base {...page}>
+  <Fragment slot="before" set:html={before} />
+  <Fragment set:html={html} />
+  <Fragment slot="after" set:html={after} />
+</Base>

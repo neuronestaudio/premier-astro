@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/ceramic-coating-wheels-melbourne.html?raw';
+const page = {
+  "title": "Ceramic Wheel Coating Melbourne | Premier Mobile Detailing",
+  "description": "Ceramic coating for wheels in Melbourne — repels brake dust and road grime, makes wheels easy to clean and protects the finish from heat and corrosion.",
+  "canonical": "https://premiermobiledetailing.com.au/ceramic-coating-wheels-melbourne",
+  "robots": null,
+  "og": {
+    "title": "Ceramic Wheel Coating Melbourne | Premier Mobile Detailing",
+    "description": "Ceramic coating for wheels in Melbourne — repels brake dust and road grime, makes wheels easy to clean and protects the finish from heat and corrosion.",
+    "type": "website",
+    "url": "https://premiermobiledetailing.com.au/ceramic-coating-wheels-melbourne"
+  },
+  "twitter": {},
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Wheel Ceramic Coating",
+      "areaServed": "South-East Melbourne, VIC",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Premier Mobile Detailing",
+        "telephone": "0411566186",
+        "areaServed": "South-East Melbourne",
+        "url": "https://premiermobiledetailing.com.au/"
+      },
+      "url": "https://premiermobiledetailing.com.au/ceramic-coating-wheels-melbourne"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you coat wheels without removing them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We coat the wheel faces in place as standard. For a full barrel coat we can remove the wheels — just ask when you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does wheel coating handle brake heat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — dedicated wheel coatings are formulated for high temperatures, unlike a standard paint coating."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typically 1–2 years depending on the product and how the car is driven and washed."
+          }
+        }
+      ]
+    }
+  ],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "big",
+  "footerProps": {
+    "kicker": "Get Started",
+    "line1": "Book Your Detail.",
+    "line2": "We Come to You.",
+    "sub": "Mobile ceramic coating and detailing across Officer and South-East Melbourne. Straight quotes, no drop-off.",
+    "primary": {
+      "text": "Start Your Quote",
+      "href": "/booking"
+    },
+    "secondary": {
+      "text": "Call 0411 566 186",
+      "href": "tel:0411566186"
+    },
+    "blurb": "Premium mobile car detailing, ceramic coating and paint protection serving Officer, South-East Melbourne and Victoria-wide for larger jobs. We bring the shine to your door."
+  },
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>

@@ -1,0 +1,72 @@
+---
+// Every page renders through this layout: GTM, favicons, meta/OG/JSON-LD, the
+// compiled site CSS, header + footer variants, the mobile drawer and site.js.
+// Page bodies are HTML partials in src/content-html (see tools/generate.py).
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MobileDrawer from '../components/MobileDrawer.astro';
+
+const {
+  title, description = '', canonical, robots,
+  og = {}, twitter = {}, jsonld = [], preloads = [], styles = [],
+  root = true, wrapper = null, header = 'page', footer = 'compact', footerProps = null,
+  map = false,
+} = Astro.props;
+const GTM = 'GTM-W8HNHP9H';
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script is:inline define:vars={{ GTM }}>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer',GTM);
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Premier Mobile Detailing" />
+    <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+    <link rel="icon" type="image/png" href="/favicon-32.png?v=2" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" />
+    {preloads.map((p) => <link rel="preload" as={p.as} href={p.href} media={p.media} fetchpriority={p.fetchpriority} />)}
+    <style>body{background:#080B16;margin:0;color:#fff}</style>
+    <link rel="stylesheet" href="/assets/index-BzKcK88v.css" />
+    <link rel="stylesheet" href="/assets/site.css?v=1" />
+    {map && <link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin />}
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {robots && <meta name="robots" content={robots} />}
+    <link rel="canonical" href={canonical} />
+    {Object.entries(og).map(([k, v]) => <meta property={`og:${k}`} content={v} />)}
+    {Object.entries(twitter).map(([k, v]) => <meta name={`twitter:${k}`} content={v} />)}
+    {jsonld.map((o) => <script is:inline type="application/ld+json" set:html={JSON.stringify(o)} />)}
+    {styles.map((css) => <Fragment set:html={`<style>${css}</style>`} />)}
+  </head>
+  <body>
+    <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM}`} height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <slot name="before" />
+    {root ? (
+      <div id="root">
+        {wrapper ? (
+          <div class={wrapper}>
+            <Header variant={header} />
+            <slot />
+            {footer !== 'none' && <Footer variant={footer} props={footerProps || {}} />}
+          </div>
+        ) : (
+          <Fragment>
+            {header !== 'none' && <Header variant={header} />}
+            <slot />
+            {footer !== 'none' && <Footer variant={footer} props={footerProps || {}} />}
+          </Fragment>
+        )}
+      </div>
+    ) : (
+      <slot />
+    )}
+    <slot name="after" />
+    {root && <MobileDrawer />}
+    <script defer src="/assets/site.js?v=1"></script>
+  </body>
+</html>

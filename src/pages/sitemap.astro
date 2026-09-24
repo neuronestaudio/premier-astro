@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import html from '../content-html/sitemap.html?raw';
+const page = {
+  "title": "Sitemap | Premier Mobile Detailing",
+  "description": "Every page on premiermobiledetailing.com.au — ceramic coating, window tinting, detailing services and all South-East Melbourne service areas.",
+  "canonical": "https://premiermobiledetailing.com.au/sitemap",
+  "robots": null,
+  "og": {},
+  "twitter": {},
+  "jsonld": [],
+  "preloads": [],
+  "styles": [],
+  "root": true,
+  "wrapper": null,
+  "header": "page",
+  "footer": "none",
+  "footerProps": null,
+  "map": false
+};
+---
+<Base {...page}>
+  <Fragment set:html={html} />
+</Base>
