@@ -16,12 +16,13 @@ ROOT = Path(__file__).resolve().parent.parent
 BAKE, DIST = ROOT / "_bake", ROOT / "dist"
 CDN_RE = re.compile(r"https://vibe\.filesafe\.space/\d+/(?:attachments|assets)/")
 GOOGLE_LOGO = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+GOOGLE_G = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
 
 
 def soup_of(path, rewrite):
     html = path.read_text(encoding="utf-8")
     if rewrite:
-        html = CDN_RE.sub("/assets/images/", html).replace(GOOGLE_LOGO, "/assets/images/google-logo.svg")
+        html = CDN_RE.sub("/assets/images/", html).replace(GOOGLE_LOGO, "/assets/images/google-logo.svg").replace(GOOGLE_G, "/assets/images/google-g-logo.svg")
     return BeautifulSoup(html, "html.parser")
 
 

@@ -22,6 +22,7 @@ SRC = ROOT / "src"
 SITE = "https://premiermobiledetailing.com.au"
 CDN_RE = re.compile(r"https://vibe\.filesafe\.space/\d+/(?:attachments|assets)/")
 GOOGLE_LOGO = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+GOOGLE_G = "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
 CTA_RE = re.compile(r"^(book now|book your detail( now)?|start your quote|get a quote|get my quote|request (a )?quote|get started|enquire( now)?|get in touch)$", re.I)
 MAP_CLASS = "h-[350px]"
 SUBURB_BASE = "cranbourne"  # its name is not a substring of any other suburb's
@@ -46,7 +47,7 @@ def route_of(bake_name):
 def load(bake_name):
     html = (BAKE / f"{bake_name}.html").read_text(encoding="utf-8")
     html = CDN_RE.sub("/assets/images/", html)
-    html = html.replace(GOOGLE_LOGO, "/assets/images/google-logo.svg")
+    html = html.replace(GOOGLE_LOGO, "/assets/images/google-logo.svg").replace(GOOGLE_G, "/assets/images/google-g-logo.svg")
     return BeautifulSoup(html, "html.parser")
 
 

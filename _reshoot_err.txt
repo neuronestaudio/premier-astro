@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "D:\CLIENTS\PREMIER\premier-astro\tools\shots.py", line 114, in <module>
+    asyncio.run(main(sys.argv[1:]))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "D:\CLIENTS\PREMIER\premier-astro\tools\shots.py", line 105, in main
+    await asyncio.gather(*(shoot(ctx, r, sem, results) for r in rs))
+  File "D:\CLIENTS\PREMIER\premier-astro\tools\shots.py", line 78, in shoot
+    await page.goto(f"https://{HOST}{r}?gclid=TESTCLICK", wait_until="load")
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\async_api\_generated.py", line 9764, in goto
+    await self._impl_obj.goto(
+    ...<4 lines>...
+    )
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\dlint\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 563, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_FAILED at https://premiermobiledetailing.com.auc/Program%20Files/Git/?gclid=TESTCLICK
+Call log:
+  - navigating to "https://premiermobiledetailing.com.auc/Program%20Files/Git/?gclid=TESTCLICK", waiting until "load"
+
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
