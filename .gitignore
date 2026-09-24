@@ -6,3 +6,5 @@ _bake_log.txt
 _parity/
 .vercel/
 .DS_Store
+
+.vercel
