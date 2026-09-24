@@ -117,6 +117,7 @@
 <script>
     // Stepped booking form -> GoHighLevel / LeadConnector inbound webhook.
     var LEAD_WEBHOOK = "https://services.leadconnectorhq.com/hooks/0G5r7THzw7gjg3OextOo/webhook-trigger/dOltIjaGRmcprw0mI8y6";
+    var LEAD_RELAY = "/api/lead";  // same-origin relay (api/lead.js) -> the webhook above
     (function () {
       var form = document.getElementById('pmdEnquiry');
       var steps = [].slice.call(form.querySelectorAll('.pmd-step'));
@@ -303,13 +304,14 @@
           (data.message ? '\n\nComments / requests:\n' + data.message : '') +
           '\n\nSubmitted: ' + data.submitted_at + '\nPage: ' + data.page;
         btnSubmit.disabled = true; btnSubmit.textContent = 'Sending...';
-        // application/json (GHL's webhook allows CORS) so the workflow actually triggers.
-        fetch(LEAD_WEBHOOK, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(data)
-        }).then(function (res) {
-          if (!res.ok) throw new Error('HTTP ' + res.status);
+        // 1) same-origin relay (/api/lead -> GHL server-side; ad blockers cannot block same-origin)
+        // 2) fall back to the GHL webhook directly if the relay is unavailable
+        // 3) only then tell the visitor, with a way to reach us
+        function send(url) {
+          return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+            .then(function (res) { if (!res.ok) throw new Error('HTTP ' + res.status + ' ' + url); return res; });
+        }
+        send(LEAD_RELAY).catch(function () { return send(LEAD_WEBHOOK); }).then(function () {
           // hand name + service to the thank-you page, then redirect (clean conversion URL)
           try {
             sessionStorage.setItem('pmd_lead_name', data.full_name || data.name || '');
@@ -317,6 +319,7 @@
           } catch (e2) {}
           window.location.assign('/thank-you');
         }).catch(function () {
+          err.textContent = "Sorry — your request didn't go through. Please call or text 0411 566 186 and we'll sort it right away, or try again in a moment.";
           err.classList.add('enq-err');
           btnSubmit.disabled = false; btnSubmit.textContent = 'Request My Booking';
         });

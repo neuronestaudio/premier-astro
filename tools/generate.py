@@ -353,6 +353,9 @@ def assert_no_braces(html, what):
 
 # ================================================================== main
 def main():
+    if (SRC / "content-html").exists() and "--force" not in sys.argv:
+        raise SystemExit("src/content-html already exists: this was the one-time migration from the old mirror. "
+                         "Re-running would overwrite hand edits made since (e.g. the booking relay). Pass --force if you really mean it.")
     bakes = sorted(p.stem for p in BAKE.glob("*.html"))
     pages = {}
     for name in bakes:
