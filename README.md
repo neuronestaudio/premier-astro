@@ -56,7 +56,8 @@ its sitemap entry appear on the next build.
 - GTM `GTM-W8HNHP9H` loads from `Base.astro` on every page. All vendor tags fire from GTM.
 - `site.js` writes first-touch attribution (`gclid`, `gbraid`, `wbraid`, UTMs, `first_landing_page`)
   to `localStorage.premier_attribution`, gap-fill only. The booking form reads it.
-- `/booking` POSTs JSON to the GHL inbound webhook and only then redirects to `/thank-you`,
+- `/booking` POSTs JSON to **`/api/lead`** (`api/lead.js`, a Vercel function that forwards to the GHL inbound
+  webhook server-side so ad blockers cannot drop the lead), falls back to the webhook directly, and only then redirects to `/thank-you`,
   which pushes `dataLayer` event `generate_lead` (the Google Ads conversion trigger). `/thank-you` is `noindex`.
 - Every "Book Now / Start Your Quote / Get in Touch" CTA is a real `<a href="/booking">`.
 
