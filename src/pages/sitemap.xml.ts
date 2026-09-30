@@ -6,7 +6,7 @@ import suburbs from '../data/suburbs.json';
 import priorities from '../data/sitemap-priorities.json';
 
 const SITE = 'https://premiermobiledetailing.com.au';
-const EXCLUDE = new Set(['/thank-you', '/404', '/sitemap', '/sitemap.xml']); // /sitemap is the human-readable index page
+const EXCLUDE = new Set(['/thank-you', '/404', '/sitemap', '/sitemap.xml', '/quote']); // /sitemap is the human-readable index page
 
 function defaultPriority(route: string): number {
   if (route === '/') return 1.0;

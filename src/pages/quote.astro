@@ -1,0 +1,500 @@
+---
+// Google Ads landing page (ads only: noindex, excluded from the sitemap).
+// One screen, one job: name + mobile + suburb -> /api/lead -> /thank-you (fires generate_lead).
+// Same payload shape, relay and fallback as the /booking wizard, so GHL mapping is unchanged.
+// Headline variants follow the ad group via ?v= (mobile | interior | full | ceramic); unknown -> default.
+import Base from '../layouts/Base.astro';
+
+const page = {
+  title: 'Mobile Car Detailing, South-East Melbourne | Premier Mobile Detailing',
+  description: 'Premium mobile car detailing at your home or work across South-East Melbourne. Full detail from $385. 4.9 stars from 55 Google reviews. Get a quote in 30 seconds.',
+  canonical: 'https://premiermobiledetailing.com.au/quote',
+  robots: 'noindex, follow',
+  root: false,
+  header: 'none',
+  footer: 'none',
+  preloads: [
+    { as: 'image', href: '/assets/lp/hero-amg-van-800.webp', media: '(max-width: 899px)', fetchpriority: 'high' },
+    { as: 'image', href: '/assets/lp/hero-amg-van-1400.webp', media: '(min-width: 900px)', fetchpriority: 'high' },
+  ],
+};
+
+const PHONE = '0411 566 186';
+const TEL = 'tel:0411566186';
+
+// Real Google reviews only (the four full-name reviews at the top of the home page).
+const reviews = [
+  { name: 'Matt Morison', text: 'Had a full exterior and interior detail, paint correction and ceramic coating done by Daniel and I am amazed at the quality of the work. My car had heaps of swirl marks and the paint felt rough all over but now there are no swirl marks and the paint feels brand new.' },
+  { name: 'Sarah Fuller', text: 'We were honestly blown away. The attention to detail is incredible and my car looks better than when I bought it. Highly recommend Daniel and his team.' },
+  { name: 'Nick Buckland', text: 'Daniel did an amazing job. The ceramic coating looks incredible and washing it now is a breeze. Highly recommend!' },
+  { name: 'Rajesh Chinnachamy', text: 'Very professional service. Arrived on time and my car looks better than when I bought it from the dealership.' },
+];
+
+const gallery = [
+  { src: 'foam-wash-van-720.webp', alt: 'Foam wash beside the Premier van on a client driveway', w: 666, h: 1440 },
+  { src: 'porsche-720.webp', alt: 'White Porsche Cayenne after a mobile detail', w: 720, h: 960 },
+  { src: 'merc-interior-720.webp', alt: 'Mercedes interior after a deep clean and leather conditioning', w: 720, h: 898 },
+  { src: 'audi-rs5-720.webp', alt: 'Audi RS5 after paint enhancement', w: 720, h: 960 },
+  { src: 'camaro-720.webp', alt: 'Black Camaro with a gloss finish after detailing', w: 720, h: 960 },
+  { src: 'ranger-720.webp', alt: 'Ford Ranger exterior detail in South-East Melbourne', w: 720, h: 960 },
+];
+
+const areas = ['Officer', 'Berwick', 'Pakenham', 'Clyde North', 'Cranbourne', 'Narre Warren', 'Beaconsfield', 'Dandenong', 'Frankston', 'Carrum Downs', 'Langwarrin', 'Hallam'];
+
+const services = [
+  { val: 'Full Detail', label: 'Full detail' },
+  { val: 'Interior Detail', label: 'Interior' },
+  { val: 'Paint Enhancement', label: 'Paint & polish' },
+  { val: 'Ceramic Coating', label: 'Ceramic coating' },
+];
+---
+<Base {...page}>
+  <style is:inline>
+    :root{--bg:#080B16;--panel:#0d1322;--line:rgba(255,255,255,.12);--text:#e6ebf5;--muted:#a9b3c4;--blue:#2563eb;--blue-hi:#6aa0ff;--gold:#fbbf24}
+    *{box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.6;margin:0;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}
+    a{color:inherit}
+    .lp-wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+    .disp{font-family:'Bebas Neue',Impact,'Arial Narrow',sans-serif;font-weight:400;letter-spacing:.01em;line-height:.95}
+
+    /* top bar: logo + call. No site nav, so nothing leaks the visitor off the page. */
+    .lp-top{position:absolute;top:0;left:0;right:0;z-index:5}
+    .lp-top .lp-wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .lp-top img{height:34px;width:auto}
+    .lp-call{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:9999px;background:rgba(9,13,24,.6);
+      border:1px solid rgba(255,255,255,.22);color:#fff;text-decoration:none;font-weight:700;font-size:15px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+    .lp-call svg{width:16px;height:16px}
+
+    /* hero */
+    .lp-hero{position:relative;overflow:hidden;padding:92px 0 36px}
+    .lp-hero-bg{position:absolute;inset:0;z-index:-2}
+    .lp-hero-bg img{width:100%;height:100%;object-fit:cover;object-position:32% 100%}
+    .lp-hero::before{content:'';position:absolute;inset:0;z-index:-1;
+      background:linear-gradient(180deg,rgba(8,11,22,.62) 0%,rgba(8,11,22,.72) 45%,rgba(8,11,22,.9) 80%,var(--bg) 100%)}
+    .lp-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:26px}
+    .lp-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-hi);margin:0 0 12px}
+    .lp-h1{font-size:clamp(46px,12vw,84px);margin:0;color:#fff;text-wrap:balance}
+    .lp-h1 .metal{background:linear-gradient(90deg,#bfc2c7 0%,#fff 5%,#fafbfc 15%,#cfd2d6 30%,#fff 65%,#bfc2c7 80%,#f8f9fa 90%,#fff 95%,#bfc2c7 100%);
+      background-size:200% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:lpShine 6s ease-in-out infinite}
+    @keyframes lpShine{0%{background-position:200% 0}100%{background-position:-200% 0}}
+    @media (prefers-reduced-motion:reduce){.lp-h1 .metal{animation:none}}
+    .lp-sub{font-size:17px;color:#d3d9e4;margin:14px 0 0;max-width:34em;text-wrap:pretty}
+    .lp-rating{display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:8px 14px 8px 10px;border-radius:9999px;
+      background:rgba(9,13,24,.6);border:1px solid var(--line);font-size:14px;color:#dfe5ef;text-decoration:none}
+    .lp-rating img{width:18px;height:18px}
+    .lp-stars{color:var(--gold);letter-spacing:1px}
+    .lp-offers{list-style:none;padding:0;margin:18px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .lp-offers li{font-size:13.5px;font-weight:700;padding:7px 12px;border-radius:10px;background:rgba(37,99,235,.16);border:1px solid rgba(106,160,255,.35);color:#e3ebff}
+    .lp-offers li b{color:#fff}
+
+    /* form card */
+    .lp-card{background:linear-gradient(160deg,rgba(255,255,255,.12),rgba(255,255,255,.045));-webkit-backdrop-filter:blur(24px) saturate(150%);backdrop-filter:blur(24px) saturate(150%);
+      border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:22px 18px 20px;box-shadow:0 40px 90px -30px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.22);scroll-margin-top:16px}
+    .lp-card h2{font-size:34px;margin:0 0 2px;color:#fff}
+    .lp-card .lp-card-sub{margin:0 0 16px;color:var(--muted);font-size:14px}
+    .lp-label{display:block;font-size:13px;font-weight:700;color:#cbd2dd;margin:0 0 6px}
+    .lp-field{width:100%;background:rgba(9,13,24,.6);border:1px solid rgba(255,255,255,.18);border-radius:11px;padding:0 14px;height:52px;
+      color:#fff;font-size:16px;font-family:inherit;outline:none;transition:border-color .2s,box-shadow .2s}
+    .lp-field::placeholder{color:#7f889a}
+    .lp-field:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.3)}
+    .lp-f{margin-bottom:12px}
+    .lp-chips{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+    .lp-chip{min-height:44px;border-radius:11px;border:1.5px solid rgba(255,255,255,.16);background:rgba(9,13,24,.5);color:#e6ebf5;font:inherit;font-size:14px;font-weight:700;cursor:pointer;transition:border-color .15s,background .15s}
+    .lp-chip[aria-pressed="true"]{border-color:var(--blue);background:rgba(16,27,51,.9);box-shadow:0 0 0 3px rgba(37,99,235,.28);color:#fff}
+    .lp-btn{position:relative;overflow:hidden;width:100%;height:56px;border:0;border-radius:12px;background:var(--blue);color:#fff;font:inherit;font-size:17px;font-weight:800;cursor:pointer;
+      box-shadow:0 14px 34px -12px rgba(37,99,235,.75);transition:background .2s,transform .15s}
+    .lp-btn:hover{background:#1d4ed8}
+    .lp-btn:active{transform:translateY(1px)}
+    .lp-btn:disabled{opacity:.6;cursor:wait}
+    .lp-btn::after{content:'';position:absolute;top:0;left:-65%;width:45%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skew(-20deg);animation:lpGlint 4.6s ease-in-out infinite}
+    @keyframes lpGlint{0%{left:-65%}22%,100%{left:150%}}
+    @media (prefers-reduced-motion:reduce){.lp-btn::after{display:none}}
+    .lp-fine{font-size:12.5px;color:#8e97a8;margin:10px 0 0;text-align:center}
+    .lp-or{display:flex;align-items:center;gap:10px;margin:14px 0 0;color:#8e97a8;font-size:13px}
+    .lp-or::before,.lp-or::after{content:'';flex:1;height:1px;background:var(--line)}
+    .lp-callbig{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:12px;height:52px;border-radius:12px;border:1.5px solid rgba(255,255,255,.22);
+      color:#fff;text-decoration:none;font-weight:800;font-size:17px;background:rgba(255,255,255,.05)}
+    .lp-callbig svg{width:18px;height:18px}
+    .lp-err{display:none;margin-top:12px;padding:12px 14px;border-radius:10px;background:rgba(239,68,68,.14);border:1px solid rgba(239,68,68,.45);color:#fecaca;font-size:14px}
+    .lp-err.show{display:block}
+    .lp-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+    /* sections */
+    .lp-sec{padding:44px 0}
+    .lp-kicker{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-hi);margin:0 0 8px}
+    .lp-h2{font-size:clamp(38px,8vw,56px);margin:0 0 18px;color:#fff}
+    .lp-proof{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:26px 0 8px}
+    .lp-proof div{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}
+    .lp-proof b{display:block;font-family:'Bebas Neue',Impact,sans-serif;font-weight:400;font-size:34px;line-height:1;color:#fff}
+    .lp-proof span{font-size:13px;color:var(--muted)}
+
+    .lp-steps{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;counter-reset:s;list-style:none;padding:0;margin:0}
+    .lp-steps li{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 16px 16px 64px}
+    .lp-steps li::before{counter-increment:s;content:counter(s);position:absolute;left:16px;top:14px;width:34px;height:34px;border-radius:9999px;background:var(--blue);color:#fff;
+      display:flex;align-items:center;justify-content:center;font-weight:800}
+    .lp-steps b{display:block;color:#fff;font-size:16px}
+    .lp-steps span{font-size:14.5px;color:var(--muted)}
+
+    .lp-pkgs{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+    .lp-pkg{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .lp-pkg.hot{border-color:rgba(106,160,255,.55);box-shadow:0 0 0 1px rgba(106,160,255,.25)}
+    .lp-pkg h3{margin:0;font-size:19px;font-weight:800;color:#fff}
+    .lp-price{margin:4px 0 10px;font-size:15px;color:var(--blue-hi);font-weight:800}
+    .lp-pkg ul{margin:0;padding-left:18px;color:#c9d0dc;font-size:14.5px}
+    .lp-pkg li{margin:3px 0}
+    .lp-tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:4px 8px;border-radius:6px;background:var(--blue);color:#fff;margin-bottom:8px}
+
+    .lp-gal{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+    .lp-gal img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;background:var(--panel)}
+
+    .lp-revs{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+    .lp-rev{background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:16px;padding:18px;margin:0}
+    .lp-rev p{margin:6px 0 10px;color:#dfe5ef;font-size:15px}
+    .lp-rev cite{font-style:normal;font-weight:700;font-size:14px;color:#fff}
+    .lp-rev small{display:block;color:#8e97a8;font-size:12.5px}
+
+    .lp-areas{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+    .lp-areas li{padding:7px 12px;border-radius:9999px;border:1px solid var(--line);background:var(--panel);font-size:14px}
+
+    .lp-faq details{border-bottom:1px solid var(--line);padding:14px 0}
+    .lp-faq summary{cursor:pointer;font-weight:700;color:#fff;font-size:16px;list-style:none;display:flex;justify-content:space-between;gap:12px}
+    .lp-faq summary::-webkit-details-marker{display:none}
+    .lp-faq summary::after{content:'+';color:var(--blue-hi);font-size:22px;line-height:1}
+    .lp-faq details[open] summary::after{content:'\2212'}
+    .lp-faq p{margin:8px 0 0;color:var(--muted);font-size:15px}
+
+    .lp-final{text-align:center;padding:48px 0 120px}
+    .lp-final .lp-btn{max-width:420px;display:block;margin:0 auto}
+    .lp-foot{border-top:1px solid var(--line);padding:18px 0 110px;font-size:12.5px;color:#7f889a;text-align:center}
+    .lp-foot a{color:#a9b3c4}
+
+    /* sticky mobile action bar */
+    .lp-bar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:grid;grid-template-columns:1fr 1.4fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+      background:rgba(8,11,22,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s ease}
+    .lp-bar.on{transform:none}
+    .lp-bar a{display:flex;align-items:center;justify-content:center;gap:8px;height:50px;border-radius:12px;font-weight:800;font-size:16px;text-decoration:none}
+    .lp-bar .b-call{border:1.5px solid rgba(255,255,255,.25);color:#fff}
+    .lp-bar .b-quote{background:var(--blue);color:#fff}
+    .lp-bar svg{width:17px;height:17px}
+
+    @media (min-width:640px){
+      .lp-proof{grid-template-columns:repeat(4,minmax(0,1fr))}
+      .lp-gal{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .lp-revs{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .lp-steps{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .lp-pkgs{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .lp-card{padding:26px 24px 22px}
+    }
+    @media (min-width:900px){
+      .lp-hero{padding:120px 0 64px;min-height:640px}
+      .lp-hero-bg img{object-position:center 62%}
+      .lp-hero::before{background:linear-gradient(90deg,rgba(8,11,22,.94) 0%,rgba(8,11,22,.8) 45%,rgba(8,11,22,.45) 100%),linear-gradient(180deg,transparent 70%,var(--bg) 100%)}
+      .lp-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:48px}
+      .lp-top img{height:40px}
+      .lp-pkgs{grid-template-columns:repeat(4,minmax(0,1fr))}
+      .lp-bar{display:none}
+      .lp-final{padding-bottom:64px}
+      .lp-foot{padding-bottom:24px}
+    }
+  </style>
+
+  <header class="lp-top">
+    <div class="lp-wrap">
+      <img src="/assets/images/45ead650-192d-44cb-8c3f-0ae51ecbbc4b.webp" alt="Premier Mobile Detailing" width="200" height="82" />
+      <a class="lp-call" href={TEL} data-lp-call>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+        {PHONE}
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="lp-hero">
+      <picture class="lp-hero-bg">
+        <source media="(min-width: 900px)" srcset="/assets/lp/hero-amg-van-1400.webp" />
+        <img src="/assets/lp/hero-amg-van-800.webp" alt="" width="800" height="1067" fetchpriority="high" />
+      </picture>
+      <div class="lp-wrap lp-grid">
+        <div>
+          <p class="lp-eyebrow" id="lpEyebrow">Mobile detailing · South-East Melbourne</p>
+          <h1 class="lp-h1 disp" id="lpH1">Mobile Car Detailing. <span class="metal">We Come To You.</span></h1>
+          <p class="lp-sub" id="lpSub">A full interior and exterior detail in your driveway or work car park. No drop-off, no waiting room. Daniel and the team bring everything.</p>
+          <a class="lp-rating" href="#reviews">
+            <img src="/assets/images/google-g-logo.svg" alt="" width="18" height="18" />
+            <span><span class="lp-stars" aria-hidden="true">★★★★★</span> <b>4.9</b> from 55 Google reviews</span>
+          </a>
+          <ul class="lp-offers">
+            <li>Full detail from <b>$385</b></li>
+            <li><b>$0</b> callout fee this spring</li>
+            <li><b>$200 off</b> ceramic coating</li>
+          </ul>
+        </div>
+
+        <form class="lp-card" id="quote" novalidate>
+          <h2 class="disp">Get your quote</h2>
+          <p class="lp-card-sub">Takes 30 seconds. Daniel calls you back with an exact price.</p>
+
+          <div class="lp-f">
+            <label class="lp-label" for="lpName">Your name</label>
+            <input class="lp-field" id="lpName" name="name" autocomplete="name" required placeholder="First and last name" />
+          </div>
+          <div class="lp-f">
+            <label class="lp-label" for="lpMobile">Mobile</label>
+            <input class="lp-field" id="lpMobile" name="mobile" type="tel" inputmode="tel" autocomplete="tel" required placeholder="04xx xxx xxx" />
+          </div>
+          <div class="lp-f">
+            <label class="lp-label" for="lpSuburb">Suburb</label>
+            <input class="lp-field" id="lpSuburb" name="suburb" autocomplete="address-level2" required placeholder="e.g. Berwick" />
+          </div>
+
+          <span class="lp-label" id="lpSvcLbl">What do you need? <span style="font-weight:500;color:#8e97a8">(optional)</span></span>
+          <div class="lp-chips" role="group" aria-labelledby="lpSvcLbl">
+            {services.map((s) => <button type="button" class="lp-chip" data-val={s.val} aria-pressed="false">{s.label}</button>)}
+          </div>
+          <input type="hidden" name="service" id="lpService" value="" />
+          <div class="lp-hp" aria-hidden="true"><label>Leave empty<input name="botcheck" tabindex="-1" autocomplete="off" /></label></div>
+
+          <button class="lp-btn" id="lpSubmit" type="submit">Get My Free Quote</button>
+          <p class="lp-fine">No obligation. We only use your number to call you about this quote.</p>
+          <div class="lp-err" id="lpErr" role="alert"></div>
+          <p class="lp-or">or talk to Daniel now</p>
+          <a class="lp-callbig" href={TEL} data-lp-call>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+            Call {PHONE}
+          </a>
+        </form>
+      </div>
+    </section>
+
+    <div class="lp-wrap">
+      <div class="lp-proof">
+        <div><b>4.9★</b><span>55 Google reviews</span></div>
+        <div><b>1,500+</b><span>cars detailed</span></div>
+        <div><b>30+ yrs</b><span>combined experience</span></div>
+        <div><b>Gyeon · Onyx</b><span>certified coatings</span></div>
+      </div>
+    </div>
+
+    <section class="lp-sec">
+      <div class="lp-wrap">
+        <p class="lp-kicker">How it works</p>
+        <h2 class="lp-h2 disp">Three steps. Zero drop-off.</h2>
+        <ol class="lp-steps">
+          <li><b>Send your details</b><span>Name, number, suburb. That's all we need to start.</span></li>
+          <li><b>Get a price on the phone</b><span>Daniel asks about your car and gives you an exact quote. No surprises on the day.</span></li>
+          <li><b>We come to you</b><span>Home or work. Hand over the keys and get on with your day.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="lp-sec" style="padding-top:8px">
+      <div class="lp-wrap">
+        <p class="lp-kicker">What we do</p>
+        <h2 class="lp-h2 disp">Pick your level of clean.</h2>
+        <div class="lp-pkgs">
+          <article class="lp-pkg hot">
+            <span class="lp-tag">Most booked</span>
+            <h3>Full Detail</h3>
+            <p class="lp-price">From $385</p>
+            <ul>
+              <li>Steam clean and extraction: seats, carpets, mats</li>
+              <li>Leather cleaned and conditioned</li>
+              <li>Foam wash, decontamination, hand polish</li>
+              <li>Wheels, tyres and arches deep cleaned</li>
+            </ul>
+          </article>
+          <article class="lp-pkg">
+            <h3>Interior Detail</h3>
+            <p class="lp-price">Quoted on the call</p>
+            <ul>
+              <li>Full vacuum, seats, carpets and boot</li>
+              <li>Plastics and trim cleaned and dressed</li>
+              <li>Spills, dog hair and odours handled</li>
+            </ul>
+          </article>
+          <article class="lp-pkg">
+            <h3>Paint Enhancement</h3>
+            <p class="lp-price">Quoted on the call</p>
+            <ul>
+              <li>Machine polish removes light swirls and haze</li>
+              <li>Brings back deep gloss</li>
+              <li>Sealed for protection</li>
+            </ul>
+          </article>
+          <article class="lp-pkg">
+            <h3>Ceramic Coating</h3>
+            <p class="lp-price">$200 off this spring</p>
+            <ul>
+              <li>Gyeon and Onyx systems</li>
+              <li>3, 5 and 10-year options</li>
+              <li>Paint prepped properly before it goes on</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-sec" style="padding-top:8px">
+      <div class="lp-wrap">
+        <p class="lp-kicker">Recent work</p>
+        <h2 class="lp-h2 disp">Done on our clients' driveways.</h2>
+        <div class="lp-gal">
+          {gallery.map((g) => <img src={`/assets/lp/${g.src}`} alt={g.alt} width={g.w} height={g.h} loading="lazy" decoding="async" />)}
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-sec" id="reviews" style="padding-top:8px">
+      <div class="lp-wrap">
+        <p class="lp-kicker">Google reviews</p>
+        <h2 class="lp-h2 disp">4.9 stars from 55 reviews.</h2>
+        <div class="lp-revs">
+          {reviews.map((r) => (
+            <figure class="lp-rev">
+              <span class="lp-stars" aria-label="5 stars">★★★★★</span>
+              <p>“{r.text}”</p>
+              <figcaption><cite>{r.name}</cite><small>Google review</small></figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-sec" style="padding-top:8px">
+      <div class="lp-wrap">
+        <p class="lp-kicker">Where we go</p>
+        <h2 class="lp-h2 disp">South-East Melbourne.</h2>
+        <ul class="lp-areas">{areas.map((a) => <li>{a}</li>)}</ul>
+        <p style="color:var(--muted);font-size:14.5px;margin:14px 0 0">Not on the list? Send your suburb anyway and we'll tell you straight away if we can get to you.</p>
+      </div>
+    </section>
+
+    <section class="lp-sec lp-faq" style="padding-top:8px">
+      <div class="lp-wrap" style="max-width:760px">
+        <p class="lp-kicker">Questions</p>
+        <h2 class="lp-h2 disp">Before you book.</h2>
+        <details><summary>Do I need to be home?</summary><p>No. We can detail the car at your work while you're inside, as long as we can get to it. Just let Daniel know where it will be.</p></details>
+        <details><summary>How long does a full detail take?</summary><p>A full detail with paint enhancement typically takes 6 to 8 hours. A wash and hand polish is quicker. Daniel will give you a time on the call.</p></details>
+        <details><summary>Why no fixed price for everything?</summary><p>A family SUV with kids' crumbs and a garaged sports car are different jobs. A quick call means your quote is exact, not a guess that changes on the day.</p></details>
+        <details><summary>Can I bring the car to you instead?</summary><p>Yes. As well as the mobile service we have a studio you can drop the car to. Just say which you'd prefer when Daniel calls.</p></details>
+      </div>
+    </section>
+
+    <section class="lp-final">
+      <div class="lp-wrap">
+        <h2 class="lp-h2 disp">Ready for a car you want to drive again?</h2>
+        <a class="lp-btn" href="#quote" style="display:flex;align-items:center;justify-content:center;text-decoration:none">Get My Free Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="lp-foot">
+    <div class="lp-wrap">© Premier Mobile Detailing · Officer, VIC · <a href={TEL}>{PHONE}</a> · <a href="/privacy-policy">Privacy</a></div>
+  </footer>
+
+  <nav class="lp-bar" id="lpBar" aria-label="Quick actions">
+    <a class="b-call" href={TEL} data-lp-call>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+      Call
+    </a>
+    <a class="b-quote" href="#quote">Get My Free Quote</a>
+  </nav>
+
+  <script is:inline>
+    (function () {
+      var LEAD_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/0G5r7THzw7gjg3OextOo/webhook-trigger/dOltIjaGRmcprw0mI8y6';
+      var LEAD_RELAY = '/api/lead';
+
+      // Headline follows the ad group: final URL /quote?v=interior etc. Whitelisted, textContent only.
+      var V = {
+        interior: { eye: 'Interior detailing · South-East Melbourne', h: 'Interior Car Detailing.', m: 'At Your Door.', sub: 'Steam cleaning, extraction and leather care in your driveway or work car park. Spills, dog hair, kids’ crumbs: handled.', svc: 'Interior Detail' },
+        full: { eye: 'Full detail · South-East Melbourne', h: 'Full Car Detail From $385.', m: 'We Come To You.', sub: 'Inside and out in one visit, at your home or work. Steam clean, decon wash and hand polish. No drop-off.', svc: 'Full Detail' },
+        ceramic: { eye: 'Ceramic coating · South-East Melbourne', h: 'Ceramic Coating.', m: '$200 Off This Spring.', sub: 'Gyeon and Onyx coatings with 3, 5 and 10-year options, applied after proper paint prep. Mobile, or at our studio.', svc: 'Ceramic Coating' },
+        mobile: null
+      };
+      var chips = [].slice.call(document.querySelectorAll('.lp-chip'));
+      var svcInput = document.getElementById('lpService');
+      function pick(val) {
+        svcInput.value = val || '';
+        chips.forEach(function (c) { c.setAttribute('aria-pressed', c.getAttribute('data-val') === val ? 'true' : 'false'); });
+      }
+      chips.forEach(function (c) {
+        c.addEventListener('click', function () { pick(c.getAttribute('aria-pressed') === 'true' ? '' : c.getAttribute('data-val')); });
+      });
+      try {
+        var v = new URLSearchParams(location.search).get('v');
+        var cfg = v && Object.prototype.hasOwnProperty.call(V, v) ? V[v] : null;
+        if (cfg) {
+          document.getElementById('lpEyebrow').textContent = cfg.eye;
+          var h1 = document.getElementById('lpH1');
+          h1.textContent = cfg.h + ' ';
+          var s = document.createElement('span'); s.className = 'metal'; s.textContent = cfg.m; h1.appendChild(s);
+          document.getElementById('lpSub').textContent = cfg.sub;
+          pick(cfg.svc);
+        }
+      } catch (eV) {}
+
+      // Sticky bar appears once the form has scrolled out of view.
+      var bar = document.getElementById('lpBar'), card = document.getElementById('quote');
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) { bar.classList.toggle('on', !es[0].isIntersecting && es[0].boundingClientRect.top < 0); }).observe(card);
+      }
+
+      // Call taps -> dataLayer (GTM can map this to a conversion later).
+      [].forEach.call(document.querySelectorAll('[data-lp-call]'), function (a) {
+        a.addEventListener('click', function () { try { (window.dataLayer = window.dataLayer || []).push({ event: 'lp_call_click', lp_page: '/quote' }); } catch (e) {} });
+      });
+
+      var form = card, btn = document.getElementById('lpSubmit'), err = document.getElementById('lpErr');
+      function fail(msg, el) { err.textContent = msg; err.classList.add('show'); if (el) el.focus(); }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        err.classList.remove('show');
+        var fd = new FormData(form);
+        if (fd.get('botcheck')) return;
+        var name = String(fd.get('name') || '').trim();
+        var mobile = String(fd.get('mobile') || '').trim();
+        var suburb = String(fd.get('suburb') || '').trim();
+        if (!name) return fail('Please add your name.', document.getElementById('lpName'));
+        if (mobile.replace(/\D/g, '').length < 8) return fail('Please add a mobile number we can call you on.', document.getElementById('lpMobile'));
+        if (!suburb) return fail('Please add your suburb so we can confirm we come to you.', document.getElementById('lpSuburb'));
+
+        var data = { name: name, mobile: mobile, suburb: suburb, service: fd.get('service') || 'Not sure yet' };
+        var parts = name.split(/\s+/);
+        data.first_name = parts.shift() || '';
+        data.last_name = parts.join(' ');
+        data.full_name = name;
+        data.phone = mobile;
+        data.service_location = 'Mobile (we come to you)';
+        data.lead_source = 'Website – Ads Landing Page';
+        data.page = location.href;
+        data.submitted_at = new Date().toISOString();
+        var ATTR = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid','fbclid','msclkid','first_landing_page'];
+        var attr = {};
+        try { attr = JSON.parse(localStorage.getItem('premier_attribution') || '{}') || {}; } catch (eA) {}
+        ATTR.forEach(function (k) { data[k] = typeof attr[k] === 'string' ? attr[k] : ''; });
+        try { data.submission_id = crypto.randomUUID(); } catch (eS) { data.submission_id = 'sub-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10); }
+        data.notes =
+          'New quote request (ads landing page)\n' +
+          'Name: ' + name + '\nMobile: ' + mobile + '\nSuburb: ' + suburb +
+          '\nService: ' + data.service +
+          ((data.utm_source || data.gclid || data.gbraid) ? '\nSource: ' + (data.utm_source || 'google') + (data.utm_medium ? ' / ' + data.utm_medium : '') + (data.utm_campaign ? ' / ' + data.utm_campaign : '') : '') +
+          '\n\nSubmitted: ' + data.submitted_at + '\nPage: ' + data.page;
+
+        btn.disabled = true; btn.textContent = 'Sending…';
+        function send(url) {
+          return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r; });
+        }
+        send(LEAD_RELAY).catch(function () { return send(LEAD_WEBHOOK); }).then(function () {
+          try { sessionStorage.setItem('pmd_lead_name', name); sessionStorage.setItem('pmd_lead_service', data.service); } catch (e2) {}
+          location.assign('/thank-you');
+        }).catch(function () {
+          fail('Sorry, that didn’t go through. Please call or text 0411 566 186 and we’ll sort it straight away.');
+          btn.disabled = false; btn.textContent = 'Get My Free Quote';
+        });
+      });
+    })();
+  </script>
+</Base>
