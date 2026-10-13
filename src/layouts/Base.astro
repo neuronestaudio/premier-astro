@@ -32,8 +32,8 @@ const GTM = 'GTM-W8HNHP9H';
     {preloads.map((p) => <link rel="preload" as={p.as} href={p.href} media={p.media} fetchpriority={p.fetchpriority} />)}
     <style>body{background:#080B16;margin:0;color:#fff}</style>
     <link rel="stylesheet" href="/assets/index-BzKcK88v.css" />
-    <link rel="stylesheet" href="/assets/site.css?v=1" />
-    {map && <link rel="preconnect" href="https://a.basemaps.cartocdn.com" crossorigin />}
+    <link rel="stylesheet" href="/assets/site.css?v=2" />
+    {map && <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin />}
     <title>{title}</title>
     <meta name="description" content={description} />
     {robots && <meta name="robots" content={robots} />}
@@ -67,6 +67,6 @@ const GTM = 'GTM-W8HNHP9H';
     )}
     <slot name="after" />
     {root && <MobileDrawer />}
-    <script defer src="/assets/site.js?v=1"></script>
+    <script defer src="/assets/site.js?v=2"></script>
   </body>
 </html>

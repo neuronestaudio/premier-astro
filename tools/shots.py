@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DIST, BAKE, OUT = ROOT / "dist", ROOT / "_bake", ROOT / "_parity"
 HOST = "premiermobiledetailing.com.au"
 VIEWPORT = {"width": 1440, "height": 900}
-ALLOW_HOSTS = {HOST, "a.basemaps.cartocdn.com", "b.basemaps.cartocdn.com", "c.basemaps.cartocdn.com", "d.basemaps.cartocdn.com"}
+ALLOW_HOSTS = {HOST, "tile.openstreetmap.org"}
 
 
 def routes():

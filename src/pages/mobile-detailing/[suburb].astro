@@ -11,7 +11,8 @@ const { s } = Astro.props;
 const nearby = s.nearby.map(([href, text]) => linkTpl.replace('@@HREF@@', href).replace('@@TEXT@@', text)).join('');
 const html = template
   .replaceAll('@@INTRO@@', s.intro).replaceAll('@@FOCUS@@', s.focus).replaceAll('@@NEARBY@@', nearby)
-  .replaceAll('@@NAME@@', s.name).replaceAll('@@SLUG@@', s.slug);
+  .replaceAll('@@NAME@@', s.name).replaceAll('@@SLUG@@', s.slug)
+  .replaceAll('@@LAT@@', String(s.lat)).replaceAll('@@LNG@@', String(s.lng));
 const page = {
   title: s.title, description: s.description, canonical: `https://premiermobiledetailing.com.au/mobile-detailing/${s.slug}`,
   og: s.og, twitter: s.twitter, jsonld: s.jsonld,

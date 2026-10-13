@@ -6,24 +6,24 @@
     "focus": "Full decontamination and detail for vehicles near industrial areas.",
     "nearby": [
       [
-        "/mobile-detailing/bayswater-north",
-        "Bayswater North"
-      ],
-      [
         "/mobile-detailing/boronia",
         "Boronia"
       ],
       [
-        "/mobile-detailing/wantirna",
-        "Wantirna"
+        "/mobile-detailing/ferntree-gully",
+        "Ferntree Gully"
       ],
       [
-        "/mobile-detailing/croydon-south",
-        "Croydon South"
+        "/mobile-detailing/knoxfield",
+        "Knoxfield"
       ],
       [
-        "/mobile-detailing/heathmont",
-        "Heathmont"
+        "/mobile-detailing/scoresby",
+        "Scoresby"
+      ],
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
       ]
     ],
     "title": "Mobile Car Detailing Bayswater | Premier Mobile Detailing",
@@ -57,7 +57,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.84174,
+    "lng": 145.26812,
+    "region": "Knox"
   },
   {
     "slug": "beaconsfield",
@@ -78,12 +81,12 @@
         "Harkaway"
       ],
       [
-        "/mobile-detailing/guys-hill",
-        "Guys Hill"
-      ],
-      [
         "/mobile-detailing/pakenham",
         "Pakenham"
+      ],
+      [
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
       ]
     ],
     "title": "Mobile Car Detailing Beaconsfield | Premier Mobile Detailing",
@@ -117,7 +120,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.05103,
+    "lng": 145.36634,
+    "region": "City of Casey"
   },
   {
     "slug": "berwick",
@@ -177,7 +183,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.03983,
+    "lng": 145.34511,
+    "region": "City of Casey"
   },
   {
     "slug": "boronia",
@@ -198,12 +207,12 @@
         "Knoxfield"
       ],
       [
-        "/mobile-detailing/the-basin",
-        "The Basin"
+        "/mobile-detailing/scoresby",
+        "Scoresby"
       ],
       [
-        "/mobile-detailing/wantirna-south",
-        "Wantirna South"
+        "/mobile-detailing/rowville",
+        "Rowville"
       ]
     ],
     "title": "Mobile Car Detailing Boronia | Premier Mobile Detailing",
@@ -237,7 +246,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.86066,
+    "lng": 145.28484,
+    "region": "Knox"
   },
   {
     "slug": "botanic-ridge",
@@ -245,14 +257,6 @@
     "intro": "Botanic Ridge is a newer estate area, so most of the vehicles we see here are relatively young — making it a good time to get ceramic coating done before daily driving and nearby construction dust take hold.",
     "focus": "Ceramic coating on newer vehicles in a growing estate area.",
     "nearby": [
-      [
-        "/mobile-detailing/cranbourne-south",
-        "Cranbourne South"
-      ],
-      [
-        "/mobile-detailing/junction-village",
-        "Junction Village"
-      ],
       [
         "/mobile-detailing/cranbourne",
         "Cranbourne"
@@ -264,6 +268,14 @@
       [
         "/mobile-detailing/pearcedale",
         "Pearcedale"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
+      ],
+      [
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
       ]
     ],
     "title": "Mobile Car Detailing Botanic Ridge | Premier Mobile Detailing",
@@ -297,7 +309,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.14138,
+    "lng": 145.25662,
+    "region": "City of Casey"
   },
   {
     "slug": "cardinia",
@@ -305,10 +320,6 @@
     "intro": "Cardinia’s semi-rural setting means we regularly deal with dust, dirt and tree sap that’s had time to bond to paintwork — especially on vehicles that spend a lot of time parked outdoors rather than garaged. A thorough decontamination step is standard here before any machine work starts.",
     "focus": "Paint correction for long-term dust and sap buildup on outdoor-parked vehicles.",
     "nearby": [
-      [
-        "/mobile-detailing/officer-south",
-        "Officer South"
-      ],
       [
         "/mobile-detailing/pakenham",
         "Pakenham"
@@ -322,8 +333,12 @@
         "Clyde"
       ],
       [
-        "/mobile-detailing/rythdale",
-        "Rythdale"
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
+      ],
+      [
+        "/mobile-detailing/tooradin",
+        "Tooradin"
       ]
     ],
     "title": "Mobile Car Detailing Cardinia | Ceramic Coating & Full Detail",
@@ -357,7 +372,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.14364,
+    "lng": 145.41782,
+    "region": "Cardinia Shire"
   },
   {
     "slug": "carrum-downs",
@@ -374,16 +392,16 @@
         "Skye"
       ],
       [
-        "/mobile-detailing/frankston-north",
-        "Frankston North"
-      ],
-      [
         "/mobile-detailing/patterson-lakes",
         "Patterson Lakes"
       ],
       [
         "/mobile-detailing/sandhurst",
         "Sandhurst"
+      ],
+      [
+        "/mobile-detailing/lyndhurst",
+        "Lyndhurst"
       ]
     ],
     "title": "Mobile Car Detailing Carrum Downs | Premier Mobile Detailing",
@@ -417,7 +435,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.10033,
+    "lng": 145.17887,
+    "region": "Frankston"
   },
   {
     "slug": "clayton",
@@ -426,24 +447,24 @@
     "focus": "Full details and ceramic coating across a wide range of vehicle types.",
     "nearby": [
       [
-        "/mobile-detailing/clayton-south",
-        "Clayton South"
-      ],
-      [
-        "/mobile-detailing/notting-hill",
-        "Notting Hill"
-      ],
-      [
         "/mobile-detailing/mulgrave",
         "Mulgrave"
       ],
       [
-        "/mobile-detailing/oakleigh-south",
-        "Oakleigh South"
-      ],
-      [
         "/mobile-detailing/springvale",
         "Springvale"
+      ],
+      [
+        "/mobile-detailing/oakleigh",
+        "Oakleigh"
+      ],
+      [
+        "/mobile-detailing/mount-waverley",
+        "Mount Waverley"
+      ],
+      [
+        "/mobile-detailing/glen-waverley",
+        "Glen Waverley"
       ]
     ],
     "title": "Mobile Car Detailing Clayton | Ceramic Coating at Your Door",
@@ -477,7 +498,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.9158,
+    "lng": 145.13139,
+    "region": "Monash"
   },
   {
     "slug": "clyde",
@@ -494,16 +518,16 @@
         "Cranbourne"
       ],
       [
-        "/mobile-detailing/cranbourne-east",
-        "Cranbourne East"
-      ],
-      [
-        "/mobile-detailing/officer-south",
-        "Officer South"
-      ],
-      [
         "/mobile-detailing/devon-meadows",
         "Devon Meadows"
+      ],
+      [
+        "/mobile-detailing/cardinia",
+        "Cardinia"
+      ],
+      [
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
       ]
     ],
     "title": "Mobile Car Detailing Clyde | Premier Mobile Detailing",
@@ -537,7 +561,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.13264,
+    "lng": 145.33809,
+    "region": "City of Casey"
   },
   {
     "slug": "clyde-north",
@@ -554,16 +581,16 @@
         "Berwick"
       ],
       [
-        "/mobile-detailing/cranbourne-north",
-        "Cranbourne North"
-      ],
-      [
         "/mobile-detailing/officer",
         "Officer"
       ],
       [
         "/mobile-detailing/narre-warren-south",
         "Narre Warren South"
+      ],
+      [
+        "/mobile-detailing/beaconsfield",
+        "Beaconsfield"
       ]
     ],
     "title": "Mobile Car Detailing Clyde North | Premier Mobile Detailing",
@@ -597,7 +624,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.09494,
+    "lng": 145.36283,
+    "region": "City of Casey"
   },
   {
     "slug": "cranbourne",
@@ -606,24 +636,24 @@
     "focus": "Full details for family vehicles, ceramic coating for tradies wanting easier weekly cleanups.",
     "nearby": [
       [
-        "/mobile-detailing/cranbourne-east",
-        "Cranbourne East"
-      ],
-      [
-        "/mobile-detailing/cranbourne-west",
-        "Cranbourne West"
-      ],
-      [
-        "/mobile-detailing/cranbourne-north",
-        "Cranbourne North"
-      ],
-      [
         "/mobile-detailing/clyde",
         "Clyde"
       ],
       [
         "/mobile-detailing/skye",
         "Skye"
+      ],
+      [
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
+      ],
+      [
+        "/mobile-detailing/narre-warren-south",
+        "Narre Warren South"
+      ],
+      [
+        "/mobile-detailing/lynbrook",
+        "Lynbrook"
       ]
     ],
     "title": "Mobile Car Detailing Cranbourne | Premier Mobile Detailing",
@@ -657,7 +687,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.09973,
+    "lng": 145.28073,
+    "region": "City of Casey"
   },
   {
     "slug": "dandenong",
@@ -670,10 +703,6 @@
         "Dandenong South"
       ],
       [
-        "/mobile-detailing/dandenong-north",
-        "Dandenong North"
-      ],
-      [
         "/mobile-detailing/keysborough",
         "Keysborough"
       ],
@@ -682,8 +711,12 @@
         "Noble Park"
       ],
       [
-        "/mobile-detailing/doveton",
-        "Doveton"
+        "/mobile-detailing/endeavour-hills",
+        "Endeavour Hills"
+      ],
+      [
+        "/mobile-detailing/hallam",
+        "Hallam"
       ]
     ],
     "title": "Mobile Car Detailing Dandenong | Ceramic Coating & Full Detail",
@@ -717,7 +750,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.99012,
+    "lng": 145.20984,
+    "region": "Greater Dandenong"
   },
   {
     "slug": "dandenong-south",
@@ -742,8 +778,8 @@
         "Lyndhurst"
       ],
       [
-        "/mobile-detailing/bangholme",
-        "Bangholme"
+        "/mobile-detailing/hampton-park",
+        "Hampton Park"
       ]
     ],
     "title": "Mobile Car Detailing Dandenong South | Truck & Fleet Detailing Available",
@@ -777,7 +813,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.02799,
+    "lng": 145.22092,
+    "region": "Greater Dandenong"
   },
   {
     "slug": "devon-meadows",
@@ -790,20 +829,20 @@
         "Clyde"
       ],
       [
-        "/mobile-detailing/cranbourne-south",
-        "Cranbourne South"
-      ],
-      [
         "/mobile-detailing/pearcedale",
         "Pearcedale"
       ],
       [
-        "/mobile-detailing/junction-village",
-        "Junction Village"
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
       ],
       [
-        "/mobile-detailing/blind-bight",
-        "Blind Bight"
+        "/mobile-detailing/cranbourne",
+        "Cranbourne"
+      ],
+      [
+        "/mobile-detailing/tooradin",
+        "Tooradin"
       ]
     ],
     "title": "Mobile Car Detailing Devon Meadows | Ceramic Coating & Full Detail",
@@ -837,7 +876,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.16202,
+    "lng": 145.30249,
+    "region": "City of Casey"
   },
   {
     "slug": "dingley-village",
@@ -850,20 +892,20 @@
         "Keysborough"
       ],
       [
-        "/mobile-detailing/springvale-south",
-        "Springvale South"
+        "/mobile-detailing/springvale",
+        "Springvale"
       ],
       [
-        "/mobile-detailing/braeside",
-        "Braeside"
+        "/mobile-detailing/noble-park",
+        "Noble Park"
       ],
       [
-        "/mobile-detailing/waterways",
-        "Waterways"
+        "/mobile-detailing/clayton",
+        "Clayton"
       ],
       [
-        "/mobile-detailing/moorabbin-airport",
-        "Moorabbin Airport"
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
       ]
     ],
     "title": "Mobile Car Detailing Dingley Village | Full Detail & Ceramic Coating",
@@ -897,7 +939,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.97558,
+    "lng": 145.12565,
+    "region": "Kingston"
   },
   {
     "slug": "drouin",
@@ -910,20 +955,20 @@
         "Warragul"
       ],
       [
-        "/mobile-detailing/longwarry",
-        "Longwarry"
+        "/mobile-detailing/koo-wee-rup",
+        "Koo Wee Rup"
       ],
       [
-        "/mobile-detailing/ripplebrook",
-        "Ripplebrook"
+        "/mobile-detailing/pakenham",
+        "Pakenham"
       ],
       [
-        "/mobile-detailing/jindivick",
-        "Jindivick"
+        "/mobile-detailing/cardinia",
+        "Cardinia"
       ],
       [
-        "/mobile-detailing/neerim-south",
-        "Neerim South"
+        "/mobile-detailing/officer",
+        "Officer"
       ]
     ],
     "title": "Mobile Car Detailing Drouin | Ceramic Coating at Your Door",
@@ -957,14 +1002,38 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.13617,
+    "lng": 145.85643,
+    "region": "Baw Baw"
   },
   {
     "slug": "emerald",
     "name": "Emerald",
     "intro": "Ceramic coating, paint enhancement and full detailing. We bring our premium mobile car detailing service directly to your door in Emerald.",
     "focus": "Full details and ceramic coating for vehicles in the area.",
-    "nearby": [],
+    "nearby": [
+      [
+        "/mobile-detailing/harkaway",
+        "Harkaway"
+      ],
+      [
+        "/mobile-detailing/lysterfield",
+        "Lysterfield"
+      ],
+      [
+        "/mobile-detailing/narre-warren-north",
+        "Narre Warren North"
+      ],
+      [
+        "/mobile-detailing/ferntree-gully",
+        "Ferntree Gully"
+      ],
+      [
+        "/mobile-detailing/berwick",
+        "Berwick"
+      ]
+    ],
     "title": "Mobile Car Detailing & Ceramic Coating in Emerald | Premier Detailing",
     "description": "Looking for the best mobile car detailing in Emerald? We offer full details, paint correction, and ceramic coatings right at your door.",
     "og": {
@@ -996,7 +1065,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.93213,
+    "lng": 145.44073,
+    "region": "Cardinia Shire"
   },
   {
     "slug": "endeavour-hills",
@@ -1009,10 +1081,6 @@
         "Lysterfield"
       ],
       [
-        "/mobile-detailing/doveton",
-        "Doveton"
-      ],
-      [
         "/mobile-detailing/hallam",
         "Hallam"
       ],
@@ -1023,6 +1091,10 @@
       [
         "/mobile-detailing/narre-warren-north",
         "Narre Warren North"
+      ],
+      [
+        "/mobile-detailing/dandenong",
+        "Dandenong"
       ]
     ],
     "title": "Mobile Car Detailing Endeavour Hills | Premier Mobile Detailing",
@@ -1056,7 +1128,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.97027,
+    "lng": 145.25634,
+    "region": "City of Casey"
   },
   {
     "slug": "ferntree-gully",
@@ -1064,10 +1139,6 @@
     "intro": "Ferntree Gully sits right up against the Dandenong Ranges, so tree sap, leaf litter and general foliage debris are some of the most common contaminants we deal with here. A thorough decontamination wash is essential before any polishing starts.",
     "focus": "Decontamination and paint correction for foliage and sap buildup.",
     "nearby": [
-      [
-        "/mobile-detailing/upper-ferntree-gully",
-        "Upper Ferntree Gully"
-      ],
       [
         "/mobile-detailing/boronia",
         "Boronia"
@@ -1081,8 +1152,12 @@
         "Lysterfield"
       ],
       [
-        "/mobile-detailing/tremont",
-        "Tremont"
+        "/mobile-detailing/bayswater",
+        "Bayswater"
+      ],
+      [
+        "/mobile-detailing/rowville",
+        "Rowville"
       ]
     ],
     "title": "Mobile Car Detailing Ferntree Gully | Premier Mobile Detailing",
@@ -1116,7 +1191,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.88158,
+    "lng": 145.29515,
+    "region": "Knox"
   },
   {
     "slug": "frankston",
@@ -1124,14 +1202,6 @@
     "intro": "Being right on the coast, Frankston cars deal with salt air exposure that accelerates paint breakdown and clear coat oxidation faster than inland suburbs. Ceramic coating is especially valuable here — it’s one of the most effective ways to slow that damage down, and it’s the service we recommend most in this area.",
     "focus": "Ceramic coating specifically for salt air and coastal paint protection.",
     "nearby": [
-      [
-        "/mobile-detailing/frankston-south",
-        "Frankston South"
-      ],
-      [
-        "/mobile-detailing/frankston-north",
-        "Frankston North"
-      ],
       [
         "/mobile-detailing/seaford",
         "Seaford"
@@ -1143,6 +1213,14 @@
       [
         "/mobile-detailing/mount-eliza",
         "Mount Eliza"
+      ],
+      [
+        "/mobile-detailing/carrum-downs",
+        "Carrum Downs"
+      ],
+      [
+        "/mobile-detailing/patterson-lakes",
+        "Patterson Lakes"
       ]
     ],
     "title": "Mobile Car Detailing Frankston | Ceramic Coating & Salt Air Protection",
@@ -1176,7 +1254,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.14571,
+    "lng": 145.12637,
+    "region": "Frankston"
   },
   {
     "slug": "glen-waverley",
@@ -1193,16 +1274,16 @@
         "Wheelers Hill"
       ],
       [
-        "/mobile-detailing/burwood-east",
-        "Burwood East"
-      ],
-      [
-        "/mobile-detailing/notting-hill",
-        "Notting Hill"
-      ],
-      [
         "/mobile-detailing/mulgrave",
         "Mulgrave"
+      ],
+      [
+        "/mobile-detailing/clayton",
+        "Clayton"
+      ],
+      [
+        "/mobile-detailing/scoresby",
+        "Scoresby"
       ]
     ],
     "title": "Mobile Car Detailing Glen Waverley | Premier Mobile Detailing",
@@ -1236,7 +1317,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.87967,
+    "lng": 145.16292,
+    "region": "Monash"
   },
   {
     "slug": "hallam",
@@ -1253,16 +1337,16 @@
         "Hampton Park"
       ],
       [
-        "/mobile-detailing/doveton",
-        "Doveton"
-      ],
-      [
         "/mobile-detailing/endeavour-hills",
         "Endeavour Hills"
       ],
       [
         "/mobile-detailing/dandenong-south",
         "Dandenong South"
+      ],
+      [
+        "/mobile-detailing/lynbrook",
+        "Lynbrook"
       ]
     ],
     "title": "Mobile Car Detailing Hallam | Premier Mobile Detailing",
@@ -1296,7 +1380,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.01796,
+    "lng": 145.27031,
+    "region": "City of Casey"
   },
   {
     "slug": "hampton-park",
@@ -1321,8 +1408,8 @@
         "Dandenong South"
       ],
       [
-        "/mobile-detailing/cranbourne-north",
-        "Cranbourne North"
+        "/mobile-detailing/narre-warren",
+        "Narre Warren"
       ]
     ],
     "title": "Mobile Car Detailing Hampton Park | Premier Mobile Detailing",
@@ -1356,7 +1443,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.03674,
+    "lng": 145.25903,
+    "region": "City of Casey"
   },
   {
     "slug": "harkaway",
@@ -1381,8 +1471,8 @@
         "Lysterfield"
       ],
       [
-        "/mobile-detailing/guys-hill",
-        "Guys Hill"
+        "/mobile-detailing/narre-warren",
+        "Narre Warren"
       ]
     ],
     "title": "Mobile Car Detailing Harkaway | Ceramic Coating at Your Door",
@@ -1416,7 +1506,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.00027,
+    "lng": 145.34169,
+    "region": "City of Casey"
   },
   {
     "slug": "keysborough",
@@ -1437,12 +1530,12 @@
         "Dandenong"
       ],
       [
-        "/mobile-detailing/waterways",
-        "Waterways"
-      ],
-      [
         "/mobile-detailing/dingley-village",
         "Dingley Village"
+      ],
+      [
+        "/mobile-detailing/dandenong-south",
+        "Dandenong South"
       ]
     ],
     "title": "Mobile Car Detailing Keysborough | Premier Mobile Detailing",
@@ -1476,7 +1569,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.00536,
+    "lng": 145.16741,
+    "region": "Greater Dandenong"
   },
   {
     "slug": "knoxfield",
@@ -1489,10 +1585,6 @@
         "Scoresby"
       ],
       [
-        "/mobile-detailing/wantirna-south",
-        "Wantirna South"
-      ],
-      [
         "/mobile-detailing/ferntree-gully",
         "Ferntree Gully"
       ],
@@ -1503,6 +1595,10 @@
       [
         "/mobile-detailing/rowville",
         "Rowville"
+      ],
+      [
+        "/mobile-detailing/bayswater",
+        "Bayswater"
       ]
     ],
     "title": "Mobile Car Detailing Knoxfield | Premier Mobile Detailing",
@@ -1536,7 +1632,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.88977,
+    "lng": 145.24963,
+    "region": "Knox"
   },
   {
     "slug": "koo-wee-rup",
@@ -1557,12 +1656,12 @@
         "Pakenham"
       ],
       [
-        "/mobile-detailing/bayles",
-        "Bayles"
+        "/mobile-detailing/clyde",
+        "Clyde"
       ],
       [
-        "/mobile-detailing/lang-lang",
-        "Lang Lang"
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
       ]
     ],
     "title": "Mobile Car Detailing Koo Wee Rup | Ceramic Coating at Your Door",
@@ -1596,7 +1695,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.19906,
+    "lng": 145.49285,
+    "region": "Cardinia Shire"
   },
   {
     "slug": "langwarrin",
@@ -1617,12 +1719,12 @@
         "Pearcedale"
       ],
       [
-        "/mobile-detailing/cranbourne-south",
-        "Cranbourne South"
-      ],
-      [
         "/mobile-detailing/skye",
         "Skye"
+      ],
+      [
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
       ]
     ],
     "title": "Mobile Car Detailing Langwarrin | Full Detail & Ceramic Coating",
@@ -1656,7 +1758,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.15458,
+    "lng": 145.19739,
+    "region": "Frankston"
   },
   {
     "slug": "lynbrook",
@@ -1673,16 +1778,16 @@
         "Hampton Park"
       ],
       [
-        "/mobile-detailing/cranbourne-north",
-        "Cranbourne North"
-      ],
-      [
         "/mobile-detailing/dandenong-south",
         "Dandenong South"
       ],
       [
         "/mobile-detailing/skye",
         "Skye"
+      ],
+      [
+        "/mobile-detailing/narre-warren-south",
+        "Narre Warren South"
       ]
     ],
     "title": "Mobile Car Detailing Lynbrook | Ceramic Coating at Your Door",
@@ -1716,7 +1821,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.05716,
+    "lng": 145.24931,
+    "region": "City of Casey"
   },
   {
     "slug": "lyndhurst",
@@ -1729,10 +1837,6 @@
         "Lynbrook"
       ],
       [
-        "/mobile-detailing/cranbourne-west",
-        "Cranbourne West"
-      ],
-      [
         "/mobile-detailing/dandenong-south",
         "Dandenong South"
       ],
@@ -1743,6 +1847,10 @@
       [
         "/mobile-detailing/skye",
         "Skye"
+      ],
+      [
+        "/mobile-detailing/sandhurst",
+        "Sandhurst"
       ]
     ],
     "title": "Mobile Car Detailing Lyndhurst | Full Detail & Paint Correction",
@@ -1776,7 +1884,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.06854,
+    "lng": 145.23075,
+    "region": "City of Casey"
   },
   {
     "slug": "lysterfield",
@@ -1801,8 +1912,8 @@
         "Endeavour Hills"
       ],
       [
-        "/mobile-detailing/upwey",
-        "Upwey"
+        "/mobile-detailing/knoxfield",
+        "Knoxfield"
       ]
     ],
     "title": "Mobile Car Detailing Lysterfield | Premier Mobile Detailing",
@@ -1836,7 +1947,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.93488,
+    "lng": 145.30176,
+    "region": "Knox"
   },
   {
     "slug": "mornington",
@@ -1849,20 +1963,20 @@
         "Mount Eliza"
       ],
       [
-        "/mobile-detailing/mount-martha",
-        "Mount Martha"
+        "/mobile-detailing/frankston",
+        "Frankston"
       ],
       [
-        "/mobile-detailing/moorooduc",
-        "Moorooduc"
+        "/mobile-detailing/somerville",
+        "Somerville"
       ],
       [
-        "/mobile-detailing/tuerong",
-        "Tuerong"
+        "/mobile-detailing/seaford",
+        "Seaford"
       ],
       [
-        "/mobile-detailing/frankston-south",
-        "Frankston South"
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
       ]
     ],
     "title": "Mobile Car Detailing Mornington | Ceramic Coating & Paint Correction",
@@ -1896,7 +2010,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.22022,
+    "lng": 145.04111,
+    "region": "Mornington Peninsula"
   },
   {
     "slug": "mount-eliza",
@@ -1909,20 +2026,20 @@
         "Mornington"
       ],
       [
-        "/mobile-detailing/frankston-south",
-        "Frankston South"
-      ],
-      [
         "/mobile-detailing/frankston",
         "Frankston"
       ],
       [
-        "/mobile-detailing/moorooduc",
-        "Moorooduc"
+        "/mobile-detailing/somerville",
+        "Somerville"
       ],
       [
-        "/mobile-detailing/mount-martha",
-        "Mount Martha"
+        "/mobile-detailing/seaford",
+        "Seaford"
+      ],
+      [
+        "/mobile-detailing/langwarrin",
+        "Langwarrin"
       ]
     ],
     "title": "Mobile Car Detailing Mount Eliza | Premier Mobile Detailing",
@@ -1956,7 +2073,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.18379,
+    "lng": 145.08929,
+    "region": "Mornington Peninsula"
   },
   {
     "slug": "mount-waverley",
@@ -1969,20 +2089,20 @@
         "Glen Waverley"
       ],
       [
-        "/mobile-detailing/ashwood",
-        "Ashwood"
-      ],
-      [
-        "/mobile-detailing/chadstone",
-        "Chadstone"
-      ],
-      [
         "/mobile-detailing/oakleigh",
         "Oakleigh"
       ],
       [
-        "/mobile-detailing/burwood",
-        "Burwood"
+        "/mobile-detailing/clayton",
+        "Clayton"
+      ],
+      [
+        "/mobile-detailing/wheelers-hill",
+        "Wheelers Hill"
+      ],
+      [
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
       ]
     ],
     "title": "Mobile Car Detailing Mount Waverley | Premier Mobile Detailing",
@@ -2016,7 +2136,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.87526,
+    "lng": 145.12813,
+    "region": "Monash"
   },
   {
     "slug": "mulgrave",
@@ -2037,12 +2160,12 @@
         "Glen Waverley"
       ],
       [
-        "/mobile-detailing/notting-hill",
-        "Notting Hill"
+        "/mobile-detailing/clayton",
+        "Clayton"
       ],
       [
-        "/mobile-detailing/noble-park-north",
-        "Noble Park North"
+        "/mobile-detailing/noble-park",
+        "Noble Park"
       ]
     ],
     "title": "Mobile Car Detailing Mulgrave | Premier Mobile Detailing",
@@ -2076,7 +2199,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.92617,
+    "lng": 145.17231,
+    "region": "Monash"
   },
   {
     "slug": "narre-warren",
@@ -2136,7 +2262,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.02752,
+    "lng": 145.30374,
+    "region": "City of Casey"
   },
   {
     "slug": "narre-warren-north",
@@ -2196,7 +2325,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.98134,
+    "lng": 145.3129,
+    "region": "City of Casey"
   },
   {
     "slug": "narre-warren-south",
@@ -2209,10 +2341,6 @@
         "Narre Warren"
       ],
       [
-        "/mobile-detailing/cranbourne-north",
-        "Cranbourne North"
-      ],
-      [
         "/mobile-detailing/berwick",
         "Berwick"
       ],
@@ -2223,6 +2351,10 @@
       [
         "/mobile-detailing/lynbrook",
         "Lynbrook"
+      ],
+      [
+        "/mobile-detailing/hallam",
+        "Hallam"
       ]
     ],
     "title": "Mobile Car Detailing Narre Warren South | Full Detail & Ceramic Coating",
@@ -2256,7 +2388,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.05439,
+    "lng": 145.30285,
+    "region": "City of Casey"
   },
   {
     "slug": "noble-park",
@@ -2264,10 +2399,6 @@
     "intro": "Noble Park’s older housing stock often comes with established trees lining the streets, which means sap and bird droppings are one of the more common issues we treat before polishing. It’s exactly the kind of bonded contamination a proper decontamination wash is designed to lift.",
     "focus": "Decontamination and paint correction for cars parked under established street trees.",
     "nearby": [
-      [
-        "/mobile-detailing/noble-park-north",
-        "Noble Park North"
-      ],
       [
         "/mobile-detailing/springvale",
         "Springvale"
@@ -2281,8 +2412,12 @@
         "Dandenong"
       ],
       [
-        "/mobile-detailing/yarraman",
-        "Yarraman"
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
+      ],
+      [
+        "/mobile-detailing/dingley-village",
+        "Dingley Village"
       ]
     ],
     "title": "Mobile Car Detailing Noble Park | Ceramic Coating at Your Door",
@@ -2316,7 +2451,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.96646,
+    "lng": 145.17611,
+    "region": "Greater Dandenong"
   },
   {
     "slug": "oakleigh",
@@ -2325,24 +2463,24 @@
     "focus": "Full details with extended decontamination for kerbside-parked vehicles.",
     "nearby": [
       [
-        "/mobile-detailing/oakleigh-south",
-        "Oakleigh South"
+        "/mobile-detailing/clayton",
+        "Clayton"
       ],
       [
-        "/mobile-detailing/oakleigh-east",
-        "Oakleigh East"
+        "/mobile-detailing/mount-waverley",
+        "Mount Waverley"
       ],
       [
-        "/mobile-detailing/huntingdale",
-        "Huntingdale"
+        "/mobile-detailing/glen-waverley",
+        "Glen Waverley"
       ],
       [
-        "/mobile-detailing/chadstone",
-        "Chadstone"
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
       ],
       [
-        "/mobile-detailing/hughesdale",
-        "Hughesdale"
+        "/mobile-detailing/springvale",
+        "Springvale"
       ]
     ],
     "title": "Mobile Car Detailing Oakleigh | Premier Mobile Detailing",
@@ -2376,7 +2514,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.90063,
+    "lng": 145.08864,
+    "region": "Monash"
   },
   {
     "slug": "officer",
@@ -2436,7 +2577,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.06629,
+    "lng": 145.4117,
+    "region": "Cardinia Shire"
   },
   {
     "slug": "pakenham",
@@ -2453,16 +2597,16 @@
         "Cardinia"
       ],
       [
-        "/mobile-detailing/nar-nar-goon",
-        "Nar Nar Goon"
-      ],
-      [
         "/mobile-detailing/beaconsfield",
         "Beaconsfield"
       ],
       [
         "/mobile-detailing/koo-wee-rup",
         "Koo Wee Rup"
+      ],
+      [
+        "/mobile-detailing/clyde-north",
+        "Clyde North"
       ]
     ],
     "title": "Mobile Car Detailing Pakenham | Premier Mobile Detailing",
@@ -2496,7 +2640,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.08063,
+    "lng": 145.48632,
+    "region": "Cardinia Shire"
   },
   {
     "slug": "patterson-lakes",
@@ -2504,10 +2651,6 @@
     "intro": "Patterson Lakes’ waterway-side location means humidity and salt air both play a role in paint condition here, similar to nearby coastal suburbs. Ceramic coating holds up well against that combination, which is why it’s a regular request in this area.",
     "focus": "Ceramic coating for humidity and salt air protection near the waterways.",
     "nearby": [
-      [
-        "/mobile-detailing/carrum",
-        "Carrum"
-      ],
       [
         "/mobile-detailing/seaford",
         "Seaford"
@@ -2517,12 +2660,16 @@
         "Sandhurst"
       ],
       [
-        "/mobile-detailing/chelsea-heights",
-        "Chelsea Heights"
+        "/mobile-detailing/carrum-downs",
+        "Carrum Downs"
       ],
       [
-        "/mobile-detailing/bonbeach",
-        "Bonbeach"
+        "/mobile-detailing/keysborough",
+        "Keysborough"
+      ],
+      [
+        "/mobile-detailing/skye",
+        "Skye"
       ]
     ],
     "title": "Mobile Car Detailing Patterson Lakes | Premier Mobile Detailing",
@@ -2556,7 +2703,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.06945,
+    "lng": 145.14323,
+    "region": "Kingston"
   },
   {
     "slug": "pearcedale",
@@ -2573,16 +2723,16 @@
         "Langwarrin"
       ],
       [
-        "/mobile-detailing/cranbourne-south",
-        "Cranbourne South"
-      ],
-      [
         "/mobile-detailing/tooradin",
         "Tooradin"
       ],
       [
-        "/mobile-detailing/cannons-creek",
-        "Cannons Creek"
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
+      ],
+      [
+        "/mobile-detailing/devon-meadows",
+        "Devon Meadows"
       ]
     ],
     "title": "Mobile Car Detailing Pearcedale | Premier Mobile Detailing",
@@ -2616,7 +2766,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.20158,
+    "lng": 145.2422,
+    "region": "City of Casey"
   },
   {
     "slug": "rowville",
@@ -2676,7 +2829,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.92393,
+    "lng": 145.24477,
+    "region": "Knox"
   },
   {
     "slug": "sandhurst",
@@ -2736,7 +2892,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.08435,
+    "lng": 145.20118,
+    "region": "Frankston"
   },
   {
     "slug": "scoresby",
@@ -2749,10 +2908,6 @@
         "Knoxfield"
       ],
       [
-        "/mobile-detailing/wantirna-south",
-        "Wantirna South"
-      ],
-      [
         "/mobile-detailing/rowville",
         "Rowville"
       ],
@@ -2763,6 +2918,10 @@
       [
         "/mobile-detailing/glen-waverley",
         "Glen Waverley"
+      ],
+      [
+        "/mobile-detailing/mulgrave",
+        "Mulgrave"
       ]
     ],
     "title": "Mobile Car Detailing Scoresby | Ceramic Coating & Paint Correction",
@@ -2796,7 +2955,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.90258,
+    "lng": 145.21831,
+    "region": "Knox"
   },
   {
     "slug": "seaford",
@@ -2817,12 +2979,12 @@
         "Patterson Lakes"
       ],
       [
-        "/mobile-detailing/frankston-north",
-        "Frankston North"
+        "/mobile-detailing/sandhurst",
+        "Sandhurst"
       ],
       [
-        "/mobile-detailing/kananook",
-        "Kananook"
+        "/mobile-detailing/skye",
+        "Skye"
       ]
     ],
     "title": "Mobile Car Detailing Seaford | Premier Mobile Detailing",
@@ -2856,7 +3018,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.10401,
+    "lng": 145.12823,
+    "region": "Frankston"
   },
   {
     "slug": "skye",
@@ -2869,10 +3034,6 @@
         "Carrum Downs"
       ],
       [
-        "/mobile-detailing/cranbourne-west",
-        "Cranbourne West"
-      ],
-      [
         "/mobile-detailing/sandhurst",
         "Sandhurst"
       ],
@@ -2881,8 +3042,12 @@
         "Langwarrin"
       ],
       [
-        "/mobile-detailing/frankston-north",
-        "Frankston North"
+        "/mobile-detailing/lyndhurst",
+        "Lyndhurst"
+      ],
+      [
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
       ]
     ],
     "title": "Mobile Car Detailing Skye | Premier Mobile Detailing",
@@ -2916,7 +3081,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.10513,
+    "lng": 145.21623,
+    "region": "Frankston"
   },
   {
     "slug": "somerville",
@@ -2929,20 +3097,20 @@
         "Langwarrin"
       ],
       [
-        "/mobile-detailing/tyabb",
-        "Tyabb"
-      ],
-      [
         "/mobile-detailing/pearcedale",
         "Pearcedale"
       ],
       [
-        "/mobile-detailing/moorooduc",
-        "Moorooduc"
+        "/mobile-detailing/mount-eliza",
+        "Mount Eliza"
       ],
       [
-        "/mobile-detailing/baxter",
-        "Baxter"
+        "/mobile-detailing/frankston",
+        "Frankston"
+      ],
+      [
+        "/mobile-detailing/botanic-ridge",
+        "Botanic Ridge"
       ]
     ],
     "title": "Mobile Car Detailing Somerville | Premier Mobile Detailing",
@@ -2976,7 +3144,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.22542,
+    "lng": 145.17633,
+    "region": "Mornington Peninsula"
   },
   {
     "slug": "springvale",
@@ -2984,10 +3155,6 @@
     "intro": "Springvale’s busy streets and dense residential areas mean parking is often kerbside rather than garaged, so cars here pick up more airborne grime and bird droppings than average. We factor extra decontamination time into jobs in areas like this as standard.",
     "focus": "Full details with extended decontamination for kerbside-parked vehicles.",
     "nearby": [
-      [
-        "/mobile-detailing/springvale-south",
-        "Springvale South"
-      ],
       [
         "/mobile-detailing/noble-park",
         "Noble Park"
@@ -3003,6 +3170,10 @@
       [
         "/mobile-detailing/keysborough",
         "Keysborough"
+      ],
+      [
+        "/mobile-detailing/dingley-village",
+        "Dingley Village"
       ]
     ],
     "title": "Mobile Car Detailing Springvale | Premier Mobile Detailing",
@@ -3036,7 +3207,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.94959,
+    "lng": 145.15378,
+    "region": "Greater Dandenong"
   },
   {
     "slug": "tooradin",
@@ -3053,16 +3227,16 @@
         "Koo Wee Rup"
       ],
       [
-        "/mobile-detailing/blind-bight",
-        "Blind Bight"
+        "/mobile-detailing/cardinia",
+        "Cardinia"
       ],
       [
-        "/mobile-detailing/warneet",
-        "Warneet"
+        "/mobile-detailing/devon-meadows",
+        "Devon Meadows"
       ],
       [
-        "/mobile-detailing/cannons-creek",
-        "Cannons Creek"
+        "/mobile-detailing/clyde",
+        "Clyde"
       ]
     ],
     "title": "Mobile Car Detailing Tooradin | Premier Mobile Detailing",
@@ -3096,7 +3270,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.21383,
+    "lng": 145.38168,
+    "region": "City of Casey"
   },
   {
     "slug": "warragul",
@@ -3109,20 +3286,20 @@
         "Drouin"
       ],
       [
-        "/mobile-detailing/nilma",
-        "Nilma"
+        "/mobile-detailing/koo-wee-rup",
+        "Koo Wee Rup"
       ],
       [
-        "/mobile-detailing/bona-vista",
-        "Bona Vista"
+        "/mobile-detailing/pakenham",
+        "Pakenham"
       ],
       [
-        "/mobile-detailing/buln-buln",
-        "Buln Buln"
+        "/mobile-detailing/cardinia",
+        "Cardinia"
       ],
       [
-        "/mobile-detailing/ellinbank",
-        "Ellinbank"
+        "/mobile-detailing/officer",
+        "Officer"
       ]
     ],
     "title": "Mobile Car Detailing Warragul | Premier Mobile Detailing",
@@ -3156,7 +3333,10 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -38.15887,
+    "lng": 145.93363,
+    "region": "Baw Baw"
   },
   {
     "slug": "wheelers-hill",
@@ -3181,8 +3361,8 @@
         "Scoresby"
       ],
       [
-        "/mobile-detailing/notting-hill",
-        "Notting Hill"
+        "/mobile-detailing/clayton",
+        "Clayton"
       ]
     ],
     "title": "Mobile Car Detailing Wheelers Hill | Premier Mobile Detailing",
@@ -3216,6 +3396,9 @@
           "reviewCount": "55"
         }
       }
-    ]
+    ],
+    "lat": -37.91033,
+    "lng": 145.18952,
+    "region": "Monash"
   }
 ]

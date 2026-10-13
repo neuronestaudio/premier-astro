@@ -193,7 +193,7 @@
     })(performance.now());
   }
 
-  // ---- Serving-area map: Leaflet + CARTO dark tiles, loaded only when scrolled near ----
+  // ---- Serving-area map: Leaflet + OSM tiles, loaded only when scrolled near ----
   ready(function () {
     var boxes = document.querySelectorAll('[data-pmd-map]'); if (!boxes.length) return;
     var CENTER = [-38.0582578, 145.4357306];
@@ -218,12 +218,30 @@
         var box = document.createElement('div'); box.className = 'pmd-map-box';
         el.insertBefore(box, el.firstChild);
         L.Icon.Default.imagePath = '/assets/vendor/images/';
-        var m = L.map(box, { center: CENTER, zoom: 14, scrollWheelZoom: false });
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-          subdomains: 'abcd', maxZoom: 19
+        // [name, slug, lat, lng] per suburb page (homepage + hub); the suburb page passes its own point as data-focus
+        var areas = [];
+        try { var src = el.getAttribute('data-areas'); var n = src && document.querySelector(src); areas = n ? JSON.parse(n.textContent) : []; } catch (_) { areas = []; }
+        var focus = (el.getAttribute('data-focus') || '').split(',');
+        var m = L.map(box, { center: CENTER, zoom: 13, scrollWheelZoom: false });
+        // OSM raster tiles darkened in CSS (CARTO's basemaps now need an API key)
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', maxZoom: 19
         }).addTo(m);
-        L.marker(CENTER).addTo(m).bindPopup(POPUP, { minWidth: 220 }).openPopup();
+        var home = L.marker(CENTER).addTo(m).bindPopup(POPUP, { minWidth: 220 });
+        var pts = [CENTER], accent = '#3b82f6';
+        areas.forEach(function (a) {
+          var c = L.circleMarker([a[2], a[3]], { radius: 5, color: accent, weight: 2, fillColor: accent, fillOpacity: .55 }).addTo(m);
+          c.bindTooltip(a[0], { className: 'pmd-area-tip', direction: 'top', offset: [0, -6] });
+          c.on('click', function () { window.location.href = '/mobile-detailing/' + a[1]; });
+          pts.push([a[2], a[3]]);
+        });
+        if (focus.length >= 3 && !isNaN(parseFloat(focus[0]))) {
+          var f = [parseFloat(focus[0]), parseFloat(focus[1])];
+          L.circleMarker(f, { radius: 9, color: accent, weight: 3, fillColor: accent, fillOpacity: .35 }).addTo(m)
+            .bindTooltip('We service ' + focus.slice(2).join(','), { className: 'pmd-area-tip pmd-area-tip-focus', direction: 'top', permanent: true, offset: [0, -10] });
+          pts.push(f);
+        }
+        if (pts.length > 1) m.fitBounds(L.latLngBounds(pts), { padding: [28, 28], maxZoom: 12 }); else home.openPopup();
       });
     }
     if (!('IntersectionObserver' in window)) { boxes.forEach(mount); return; }
@@ -231,5 +249,76 @@
       es.forEach(function (en) { if (en.isIntersecting) { io.unobserve(en.target); mount(en.target); } });
     }, { rootMargin: '400px 0px' });
     boxes.forEach(function (b) { io.observe(b); });
+  });
+
+  // ---- Hero video: fade the reel in at 50% once it is really playing; keep the still for reduced-motion / data-saver ----
+  ready(function () {
+    var hero = document.getElementById('static-hero'); if (!hero) return;
+    var v = hero.querySelector('video.pmd-hero-video'); if (!v) return;
+    var rm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var save = navigator.connection && navigator.connection.saveData;
+    if (rm || save) { try { v.pause(); } catch (_) {} v.removeAttribute('autoplay'); v.preload = 'none'; return; }
+    v.muted = true; v.defaultMuted = true; v.playsInline = true;
+    v.addEventListener('playing', function () { hero.classList.add('pmd-hero-live'); });
+    var p = v.play(); if (p && p.catch) p.catch(function () {});
+  });
+
+  // ---- Gallery strip: three copies of the card set so the drift never hits a scroll clamp; drag to browse ----
+  ready(function () {
+    var rm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('[data-pmd-strip] .pmd-strip-row').forEach(function (row) {
+      var track = row.querySelector('.pmd-strip-track'); if (!track) return;
+      var cards = Array.prototype.slice.call(track.children); if (cards.length < 2) return;
+      for (var pass = 0; pass < 2; pass++) cards.forEach(function (c) {
+        var k = c.cloneNode(true); k.setAttribute('aria-hidden', 'true');
+        k.querySelectorAll('img').forEach(function (im) { im.alt = ''; });
+        track.appendChild(k);
+      });
+      var dir = parseInt(row.getAttribute('data-dir'), 10) || 1, speed = 0.9;
+      var seg = 0, seeded = false, dragging = false, startX = 0, startScroll = 0, moved = 0, visible = true;
+      function measure() { seg = track.scrollWidth / 3; }
+      measure();
+      track.querySelectorAll('img').forEach(function (im) { im.addEventListener('load', measure); });
+      window.addEventListener('resize', measure);
+      if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }).observe(row);
+      function wrap() { if (seg <= 0) return; if (row.scrollLeft >= 2 * seg) row.scrollLeft -= seg; else if (row.scrollLeft < seg) row.scrollLeft += seg; }
+      (function frame() {
+        if (seg > 0 && !seeded) { row.scrollLeft = seg; seeded = true; }
+        if (visible && !dragging && !rm && seg > 0) { row.scrollLeft += speed * dir; wrap(); }
+        requestAnimationFrame(frame);
+      })();
+      row.addEventListener('pointerdown', function (e) {
+        dragging = true; moved = 0; startX = e.clientX; startScroll = row.scrollLeft;
+        row.classList.add('dragging'); try { row.setPointerCapture(e.pointerId); } catch (_) {}
+      });
+      row.addEventListener('pointermove', function (e) {
+        if (!dragging) return; var dx = e.clientX - startX; moved = Math.max(moved, Math.abs(dx));
+        row.scrollLeft = startScroll - dx; wrap();
+      });
+      function end(e) { if (!dragging) return; dragging = false; row.classList.remove('dragging'); try { row.releasePointerCapture(e.pointerId); } catch (_) {} }
+      row.addEventListener('pointerup', end); row.addEventListener('pointercancel', end);
+      row.addEventListener('click', function (e) { if (moved > 6) e.preventDefault(); });
+    });
+  });
+
+  // ---- Before/after sliders: pointer drag, keyboard arrows, Home/End ----
+  ready(function () {
+    document.querySelectorAll('[data-pmd-ba] .pmd-ba-frame').forEach(function (frame) {
+      var pos = 50;
+      function set(p) { pos = Math.max(0, Math.min(100, p)); frame.style.setProperty('--pos', pos + '%'); frame.setAttribute('aria-valuenow', Math.round(pos)); }
+      function fromEvent(e) { var r = frame.getBoundingClientRect(); set(((e.clientX - r.left) / r.width) * 100); }
+      var down = false;
+      frame.addEventListener('pointerdown', function (e) { down = true; try { frame.setPointerCapture(e.pointerId); } catch (_) {} fromEvent(e); e.preventDefault(); });
+      frame.addEventListener('pointermove', function (e) { if (down) fromEvent(e); });
+      function up(e) { down = false; try { frame.releasePointerCapture(e.pointerId); } catch (_) {} }
+      frame.addEventListener('pointerup', up); frame.addEventListener('pointercancel', up);
+      frame.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowLeft') { set(pos - 4); e.preventDefault(); }
+        else if (e.key === 'ArrowRight') { set(pos + 4); e.preventDefault(); }
+        else if (e.key === 'Home') { set(0); e.preventDefault(); }
+        else if (e.key === 'End') { set(100); e.preventDefault(); }
+      });
+      set(50);
+    });
   });
 })();

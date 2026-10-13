@@ -71,3 +71,27 @@ URLs), converted CTA buttons to links, and wrote this source tree; it verifies
 every suburb page rebuilds from the template. `parity.py` proves each built page
 carries the same text, links, images, meta and JSON-LD as its bake. `shots.py`
 screenshots the build and scores it against the bake's screenshots.
+
+## Homepage features added 13 Oct 2026 (hero video, gallery strip, before/after, map, hub)
+
+All hand-written CSS/JS lives in `public/assets/site.css` + `site.js` (bump `?v=` in `Base.astro` when they change).
+
+- **Hero video** (`src/pages/index.astro`, the `before` string): `public/assets/video/hero-reel.{webm,mp4}` is the
+  BYD ceramic reel (instagram.com/reel/DR6n1PIEdgO, 720x1280, 18 s, muted, loop). The still `<picture>` stays as first
+  paint; `site.js` fades the still out and the video in at **50 %** only once the `playing` event fires, and leaves the
+  still alone for `prefers-reduced-motion` / `saveData`.
+- **Gallery strip** (`#gallery`, homepage + every suburb page): 12 diagonal cards from `public/assets/work/*.webp`
+  (720x960, cut from the originals in `assets/images`). `site.js` clones the set twice so the drift loops seamlessly;
+  drag to browse; pauses off-screen and under reduced motion. The markup is generated once by a one-off script, so edit
+  both partials (`index.html` and `mobile-detailing/_template.html`) together.
+- **Before / after** (`#results`): 4 real Premier pairs (`assets/work/ba-*-{before,after}.webp`, 900x900) cut from the
+  composites in the shared drive `08. Asset Library/Before-After`. Pointer drag + arrow keys, `role="slider"`.
+- **Service-area map**: Leaflet + OSM raster tiles darkened in CSS (CARTO basemaps now require an API key).
+  `[data-pmd-map][data-areas="#pmd-areas-data"]` draws every suburb in the inline JSON as a clickable dot (homepage +
+  hub); `[data-focus="lat,lng,Name"]` marks the current suburb (suburb pages, from `@@LAT@@/@@LNG@@`).
+- **`/mobile-detailing` hub** (`src/pages/mobile-detailing/index.astro` + `content-html/mobile-detailing/_hub.html`):
+  map, directory of all 54 pages grouped by council, BreadcrumbList + ItemList + LocalBusiness(areaServed) JSON-LD.
+  Linked from the header "Areas", the drawer, all footers and the homepage directory.
+- `src/data/suburbs.json` now carries `lat`, `lng`, `region` (Nominatim, 13 Oct 2026). The `nearby` links were
+  re-pointed to pages that exist: 96 of the 265 used to 404 (bayswater-north, cranbourne-east, ...). If a suburb is
+  added, give it coordinates and a region or the hub/map will skip it.
