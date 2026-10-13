@@ -24,7 +24,7 @@ src/components/Footer.astro     footer: "home" | "suburb" | "compact" | "big" (b
 src/components/MobileDrawer.astro
 src/pages/<route>.astro         one file per URL: metadata in frontmatter, body from a partial
 src/content-html/<route>.html   the page body (HTML). Edit this to change a page's content.
-src/pages/mobile-detailing/[suburb].astro   the 54 suburb pages, from one template + data
+src/pages/mobile-detailing/[suburb].astro   the 114 suburb pages, from one template + data
 src/content-html/mobile-detailing/_template.html   suburb body with @@NAME@@ / @@INTRO@@ / @@FOCUS@@ / @@NEARBY@@
 src/data/suburbs.json           per-suburb name, intro, focus line, nearby links, meta + JSON-LD
 src/pages/sitemap.xml.ts        builds sitemap.xml from the pages that exist (priorities in src/data)
@@ -92,6 +92,8 @@ All hand-written CSS/JS lives in `public/assets/site.css` + `site.js` (bump `?v=
 - **`/mobile-detailing` hub** (`src/pages/mobile-detailing/index.astro` + `content-html/mobile-detailing/_hub.html`):
   map, directory of all 54 pages grouped by council, BreadcrumbList + ItemList + LocalBusiness(areaServed) JSON-LD.
   Linked from the header "Areas", the drawer, all footers and the homepage directory.
-- `src/data/suburbs.json` now carries `lat`, `lng`, `region` (Nominatim, 13 Oct 2026). The `nearby` links were
-  re-pointed to pages that exist: 96 of the 265 used to 404 (bayswater-north, cranbourne-east, ...). If a suburb is
-  added, give it coordinates and a region or the hub/map will skip it.
+- `src/data/suburbs.json` carries `lat`, `lng`, `region` (Nominatim, 13 Oct 2026). **114 suburbs** since 13 Oct: the
+  60 that the old site's `nearby` links pointed at without a page were written (unique intro + focus line each) and
+  added, so every nearby link now resolves. `nearby` = the original curated links first, topped up to 5 by distance.
+  If a suburb is added, give it coordinates and a region (one of the 11 in the hub) or the hub/map will skip it, and
+  regenerate the homepage + hub directory blocks (`pmd-areas-groups`) and the `#pmd-areas-data` JSON from the data.
