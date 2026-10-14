@@ -301,24 +301,62 @@
     });
   });
 
-  // ---- Before/after sliders: pointer drag, keyboard arrows, Home/End ----
+  // ---- Before/after sliders ----
+  // First view: sweep from all-"before" to mostly-"after" (staggered per card), settle at 50%, then breathe gently
+  // and pulse the knob until someone touches it. Desktop: the divider follows the mouse on hover; everyone: drag,
+  // arrow keys, Home/End. Reduced motion: no sweep or breathing, just the controls.
   ready(function () {
-    document.querySelectorAll('[data-pmd-ba] .pmd-ba-frame').forEach(function (frame) {
-      var pos = 50;
+    var rm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var frames = document.querySelectorAll('[data-pmd-ba] .pmd-ba-frame'); if (!frames.length) return;
+    function ease(t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+    frames.forEach(function (frame, idx) {
+      var REST = 50, pos = rm ? REST : 100, anim = null, idle0 = 0;
+      var touched = false, down = false, hover = false, inView = false, revealed = false;
       function set(p) { pos = Math.max(0, Math.min(100, p)); frame.style.setProperty('--pos', pos + '%'); frame.setAttribute('aria-valuenow', Math.round(pos)); }
+      function stop() { if (anim) { cancelAnimationFrame(anim); anim = null; } }
+      function tween(to, dur, done) {
+        var from = pos, t0 = performance.now(); stop();
+        (function step(ts) {
+          var k = Math.min((ts - t0) / dur, 1); set(from + (to - from) * ease(k));
+          if (k < 1) anim = requestAnimationFrame(step); else { anim = null; if (done) done(); }
+        })(t0);
+      }
+      function breathe(ts) {
+        if (touched || !inView || hover || down) { anim = null; return; }
+        if (!idle0) idle0 = ts;
+        set(REST + Math.sin((ts - idle0) / 1300) * 5);
+        anim = requestAnimationFrame(breathe);
+      }
+      function startBreathing() { if (rm || touched || anim) return; idle0 = 0; anim = requestAnimationFrame(breathe); }
+      function touch() { if (touched) return; touched = true; frame.classList.add('pmd-ba-touched'); stop(); }
+      function reveal() {
+        if (revealed) return; revealed = true;
+        if (rm) return;
+        setTimeout(function () { if (touched || !inView) { if (!touched) set(REST); return; } tween(34, 1500, function () { tween(REST, 900, startBreathing); }); }, 200 * idx);
+      }
+      set(pos);
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (es) {
+          es.forEach(function (e) {
+            inView = e.isIntersecting;
+            if (inView) { if (!revealed) reveal(); else startBreathing(); }
+            else if (!down) { stop(); if (revealed && !touched) set(REST); }
+          });
+        }, { threshold: .35 }).observe(frame);
+      } else { inView = true; reveal(); }
       function fromEvent(e) { var r = frame.getBoundingClientRect(); set(((e.clientX - r.left) / r.width) * 100); }
-      var down = false;
-      frame.addEventListener('pointerdown', function (e) { down = true; try { frame.setPointerCapture(e.pointerId); } catch (_) {} fromEvent(e); e.preventDefault(); });
-      frame.addEventListener('pointermove', function (e) { if (down) fromEvent(e); });
+      frame.addEventListener('pointerdown', function (e) { touch(); down = true; try { frame.setPointerCapture(e.pointerId); } catch (_) {} fromEvent(e); e.preventDefault(); });
+      frame.addEventListener('pointermove', function (e) {
+        if (down) { fromEvent(e); return; }
+        if (e.pointerType === 'mouse') { hover = true; touch(); fromEvent(e); }
+      });
       function up(e) { down = false; try { frame.releasePointerCapture(e.pointerId); } catch (_) {} }
       frame.addEventListener('pointerup', up); frame.addEventListener('pointercancel', up);
+      frame.addEventListener('pointerleave', function (e) { if (e.pointerType === 'mouse' && !down) { hover = false; tween(REST, 700); } });
       frame.addEventListener('keydown', function (e) {
-        if (e.key === 'ArrowLeft') { set(pos - 4); e.preventDefault(); }
-        else if (e.key === 'ArrowRight') { set(pos + 4); e.preventDefault(); }
-        else if (e.key === 'Home') { set(0); e.preventDefault(); }
-        else if (e.key === 'End') { set(100); e.preventDefault(); }
+        var k = e.key; if (k !== 'ArrowLeft' && k !== 'ArrowRight' && k !== 'Home' && k !== 'End') return;
+        touch(); set(k === 'ArrowLeft' ? pos - 4 : k === 'ArrowRight' ? pos + 4 : k === 'Home' ? 0 : 100); e.preventDefault();
       });
-      set(50);
     });
   });
 })();

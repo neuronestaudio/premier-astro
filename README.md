@@ -85,7 +85,10 @@ All hand-written CSS/JS lives in `public/assets/site.css` + `site.js` (bump `?v=
   drag to browse; pauses off-screen and under reduced motion. The markup is generated once by a one-off script, so edit
   both partials (`index.html` and `mobile-detailing/_template.html`) together.
 - **Before / after** (`#results`): 4 real Premier pairs (`assets/work/ba-*-{before,after}.webp`, 900x900) cut from the
-  composites in the shared drive `08. Asset Library/Before-After`. Pointer drag + arrow keys, `role="slider"`.
+  composites in the shared drive `08. Asset Library/Before-After`. Pointer drag + arrow keys, `role="slider"`. **Motion (14 Oct):** on first view each card sweeps from all-before to
+  mostly-after (staggered 200 ms per card), settles at 50 % and breathes ±5 % with a pulsing knob ring and a
+  "Drag to compare" pill until someone touches it; on desktop the divider follows the mouse on hover and eases back
+  on leave. `prefers-reduced-motion` gets the plain controls only.
 - **Service-area map**: Leaflet + OSM raster tiles darkened in CSS (CARTO basemaps now require an API key).
   `[data-pmd-map][data-areas="#pmd-areas-data"]` draws every suburb in the inline JSON as a clickable dot (homepage +
   hub); `[data-focus="lat,lng,Name"]` marks the current suburb (suburb pages, from `@@LAT@@/@@LNG@@`).
