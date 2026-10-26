@@ -1,10 +1,11 @@
 ---
 // Every page renders through this layout: GTM, favicons, meta/OG/JSON-LD, the
-// compiled site CSS, header + footer variants, the mobile drawer and site.js.
+// compiled site CSS, header + footer variants, the mobile drawer + sticky bar and site.js.
 // Page bodies are HTML partials in src/content-html (see tools/generate.py).
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import MobileDrawer from '../components/MobileDrawer.astro';
+import MobileBar from '../components/MobileBar.astro';
 
 const {
   title, description = '', canonical, robots,
@@ -32,7 +33,7 @@ const GTM = 'GTM-W8HNHP9H';
     {preloads.map((p) => <link rel="preload" as={p.as} href={p.href} media={p.media} fetchpriority={p.fetchpriority} />)}
     <style>body{background:#080B16;margin:0;color:#fff}</style>
     <link rel="stylesheet" href="/assets/index-BzKcK88v.css" />
-    <link rel="stylesheet" href="/assets/site.css?v=4" />
+    <link rel="stylesheet" href="/assets/site.css?v=5" />
     {map && <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin />}
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -67,6 +68,7 @@ const GTM = 'GTM-W8HNHP9H';
     )}
     <slot name="after" />
     {root && <MobileDrawer />}
+    {root && <MobileBar />}
     <script defer src="/assets/site.js?v=3"></script>
   </body>
 </html>
